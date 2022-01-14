@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50b21678.chunk.css",
+    "main.js": "/static/js/main.efb2f532.chunk.js",
+    "main.js.map": "/static/js/main.efb2f532.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.400f043a.chunk.css": "/static/css/2.400f043a.chunk.css",
+    "static/js/2.84fb3d0d.chunk.js": "/static/js/2.84fb3d0d.chunk.js",
+    "static/js/2.84fb3d0d.chunk.js.map": "/static/js/2.84fb3d0d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7f7bedadb4e4e2b9e36c2a56f773aa0c.js": "/precache-manifest.7f7bedadb4e4e2b9e36c2a56f773aa0c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.400f043a.chunk.css.map": "/static/css/2.400f043a.chunk.css.map",
+    "static/css/main.50b21678.chunk.css.map": "/static/css/main.50b21678.chunk.css.map",
+    "static/media/academicons.min.css": "/static/media/academicons.ea3755c3.eot",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
