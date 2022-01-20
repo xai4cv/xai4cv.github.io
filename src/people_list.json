@@ -1,58 +1,46 @@
 {
     "people": [
         {
-            "img_url": "assets/images/abhishek_kadian.jpg", 
-            "name": "Abhishek Kadian", 
+            "img_url": "assets/images/filip_radenovic.jpeg", 
+            "name": "Filip Radenovic", 
             "organization": "FAIR",
-            "website": "https://abhiskk.github.io/"
+            "website": "https://filipradenovic.github.io"
         },
         {
             "img_url": "assets/images/abhishek_kadian.jpg", 
             "name": "Abhishek Kadian", 
             "organization": "FAIR",
-            "website": "https://abhiskk.github.io/"
+            "website": "https://abhiskk.github.io"
         },
         {
-            "img_url": "assets/images/abhishek_kadian.jpg", 
-            "name": "Abhishek Kadian", 
+            "img_url": "assets/images/deepti_ghadiyaram.png", 
+            "name": "Deepti Ghadiyaram", 
             "organization": "FAIR",
-            "website": "https://abhiskk.github.io/"
+            "website": "https://deeptigp.github.io"
         },
         {
-            "img_url": "assets/images/abhishek_kadian.jpg", 
-            "name": "Abhishek Kadian", 
+            "img_url": "assets/images/dhruv_mahajan.jpeg", 
+            "name": "Dhruv Mahajan", 
             "organization": "FAIR",
-            "website": "https://abhiskk.github.io/"
+            "website": "https://ai.facebook.com/people/dhruv-mahajan"
         },
         {
-            "img_url": "assets/images/abhishek_kadian.jpg", 
-            "name": "Abhishek Kadian", 
+            "img_url": "assets/images/devi_parikh.jpeg", 
+            "name": "Devi Parikh", 
             "organization": "FAIR",
-            "website": "https://abhiskk.github.io/"
+            "website": "https://faculty.cc.gatech.edu/~parikh"
         },
         {
-            "img_url": "assets/images/abhishek_kadian.jpg", 
-            "name": "Abhishek Kadian", 
+            "img_url": "assets/images/vignesh_ramanathan.jpeg", 
+            "name": "Vignesh Ramanathan", 
             "organization": "FAIR",
-            "website": "https://abhiskk.github.io/"
+            "website": "https://ai.facebook.com/people/vignesh-ramanathan"
         },
         {
-            "img_url": "assets/images/abhishek_kadian.jpg", 
-            "name": "Abhishek Kadian", 
+            "img_url": "assets/images/jun_xie.jpeg", 
+            "name": "Jun Xie", 
             "organization": "FAIR",
-            "website": "https://abhiskk.github.io/"
-        },
-        {
-            "img_url": "assets/images/abhishek_kadian.jpg", 
-            "name": "Abhishek Kadian", 
-            "organization": "FAIR",
-            "website": "https://abhiskk.github.io/"
-        },
-        {
-            "img_url": "assets/images/abhishek_kadian.jpg", 
-            "name": "Abhishek Kadian", 
-            "organization": "FAIR",
-            "website": "https://abhiskk.github.io/"
+            "website": "https://www.linkedin.com/in/junxie19"
         }
     ]
 }

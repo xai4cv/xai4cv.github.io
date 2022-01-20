@@ -19,7 +19,7 @@ const styles = (theme) => ({
 
 const People = (props) => {
     let selectedPeople = []
-    let lgSize = 2;
+    let lgSize = 3;
     if (props.people) {
         selectedPeople = props.people;
     } else {
@@ -33,7 +33,7 @@ const People = (props) => {
     const peopleJSX = selectedPeople.map((person) => {
         const key = Math.random();
         return (
-            <Grid item key={key} xs={12} sm={6} md={3} lg={lgSize}>
+            <Grid item key={key} xs={12} sm={8} md={6} lg={lgSize}>
                 <Link target="_blank" rel="noopener" href={person.website}>
                     <Avatar className={props.classes.avatar} src={person.img_url}/>
                 </Link>
