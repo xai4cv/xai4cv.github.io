@@ -80,7 +80,7 @@ class Header extends React.Component {
                             <Link
                                 underline="none"
                                 className={[classes.buttonLink, classes.buttonsSide].join(' ')}
-                                href="mailto:abhishekkadiyan@gmail.com"
+                                href="mailto:filipradenovic@fb.com"
                             >
                                 <Button disableRipple={true} disableFocusRipple={true} color="default">
                                     <i className="fa fa-envelope fa-lg"></i>
@@ -101,7 +101,7 @@ class Header extends React.Component {
                             <Link
                                 underline="none"
                                 className={[classes.buttonLink, classes.buttonsSide].join(' ')}
-                                href="mailto:abhishekkadiyan@gmail.com  "
+                                href="mailto:filipradenovic@fb.com  "
                             >
                                 <Button disableRipple={true} disableFocusRipple={true} color="inherit">
                                     <i className="fa fa-envelope fa-lg"></i>

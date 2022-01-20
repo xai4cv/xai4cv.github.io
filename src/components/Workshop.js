@@ -74,12 +74,41 @@ class Workshop extends React.Component {
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography
                                             className={classes.sectionHeader}
+                                            variant="subtitle1"
+                                            align="left"
+                                        >
+                                            <b>Date:</b> Monday, June 20, 2022 <br></br>
+                                            <b>Venue:</b> New Orleans, Louisiana<br></br><br></br>
+                                            <b>Motivation:</b> Provide a common forum for both computer vision practitioners in the industry and academia to initiate discussions and propose best ways to build explainable models that can benefit the global community. 
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="h5"
+                                            align="left"
+                                            >
+                                            Abstract
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
                                             variant="body2"
                                             align="left"
                                         >
-                                            With socio-political implications of AI in mind, this workshop aims to motivate proactive adaptation of explainability in computer vision systems. Specifically, our aim is to spark healthy conversations that address building top- performing explainable computer vision systems that not only identify "what" and "where" different visual entities occur in an image, but also provide a human-like reasoning of "why" the model made those predictions. Further- more, such systems should allow a user to provide feedback and thereby correct potentially harmful mispredictions with minimal effort.
+                                            Computer vision (CV) models are often used to improve applications and products and are very successful. 
+                                            However, these models are usually black-box in nature and do not provide explanations for their predictions, which sometimes leads to confusing behaviour. 
+                                            The current lack of transparency in CV models is one of the biggest barriers in building trust among consumers, often resulting in severe backlash when models make embarrassing mistakes.
+                                            Trust in the models can be improved by making them fair, easily understandable for everyone, and correctable if necessary. 
+                                            The need for trustworthiness has prompted recent clauses in GDPR regulations that require models to also explain their results in a way a naive consumer can understand. 
+                                            <br></br><br></br>
+                                            With socio-political implications of AI in mind, this workshop aims to motivate proactive adaptation of explainability in computer vision systems. 
+                                            Specifically, our aim is to spark healthy conversations that address building top-performing explainable computer vision systems that not only identify "what" and "where" different visual entities occur in an image, but also provide a human-like reasoning of "why" the model made those predictions. 
+                                            Furthermore, such systems should allow a user to provide feedback and thereby correct potentially harmful mispredictions with minimal effort.
                                         </Typography>
-
                                     </Grid>
 
                                     <Grid item xs={12} className={classes.gridItem}>
