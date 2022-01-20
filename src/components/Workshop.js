@@ -63,13 +63,16 @@ class Workshop extends React.Component {
                                     <Grid item xs={12} md={12} lg={12} className={classes.gridItem}>
                                         <Typography
                                             className={classes.sectionHeader}
-                                            variant="h5"
+                                            variant="h3"
                                             gutterBottom
                                             align="center"
                                             >
                                             Wokshop on Explainable Artificial Intelligence for Computer Vision (XAI4CV) at CVPR 2022
                                         </Typography>
                                     </Grid>
+
+                                    <div className={classes.container}/>
+                                    <div className={classes.container}/>
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography
@@ -82,6 +85,10 @@ class Workshop extends React.Component {
                                             <b>Motivation:</b> Provide a common forum for both computer vision practitioners in the industry and academia to initiate discussions and propose best ways to build explainable models that can benefit the global community. 
                                         </Typography>
                                     </Grid>
+
+
+                                    <div className={classes.container}/>
+
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography
@@ -110,6 +117,9 @@ class Workshop extends React.Component {
                                             Furthermore, such systems should allow a user to provide feedback and thereby correct potentially harmful mispredictions with minimal effort.
                                         </Typography>
                                     </Grid>
+
+
+                                    <div className={classes.container}/>
 
 
                                     <Grid item xs={12} className={classes.gridItem}>
@@ -424,6 +434,7 @@ class Workshop extends React.Component {
                                         </Grid>
                                     </Grid>
 
+
                                     <div className={classes.container}/>
 
 
@@ -439,7 +450,9 @@ class Workshop extends React.Component {
 
                                     <People/>
 
+
                                     <div className={classes.container}/>
+                                    
 
                                 </Grid>
                             </Grid>
