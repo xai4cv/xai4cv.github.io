@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import People from './People';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 
@@ -76,12 +77,144 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                            Coming soon
+                                            With socio-political implications of AI in mind, this workshop aims to motivate proactive adaptation of explainability in computer vision systems. Specifically, our aim is to spark healthy conversations that address building top- performing explainable computer vision systems that not only identify "what" and "where" different visual entities occur in an image, but also provide a human-like reasoning of "why" the model made those predictions. Further- more, such systems should allow a user to provide feedback and thereby correct potentially harmful mispredictions with minimal effort.
                                         </Typography>
 
                                     </Grid>
 
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="h5"
+                                            align="left"
+                                            >
+                                            Timeline
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
+                                                <b>Event name</b>
+                                            </Typography>
+                                            <Typography className={classes.SectionHeader} variant="body2" gutterBottom align="left">
+                                                Event description.
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
+                                                <b>Event name</b>
+                                            </Typography>
+                                            <Typography className={classes.SectionHeader} variant="body2" gutterBottom align="left">
+                                                Event description.
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
+                                                <b>Event name</b>
+                                            </Typography>
+                                            <Typography className={classes.SectionHeader} variant="body2" gutterBottom align="left">
+                                                Event description.
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
+                                                <b>Event name</b>
+                                            </Typography>
+                                            <Typography className={classes.SectionHeader} variant="body2" gutterBottom align="left">
+                                                Event description.
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="h5"
+                                            align="left"
+                                            >
+                                            Speakers
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={10} md={8} lg={3} className={classes.gridItem}>
+                                            <img srcSet="assets/images/abhishek_kadian.jpg" alt="Habitat" width="100%" />
+                                        </Grid>
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
+                                                <b>Speaker name</b>
+                                            </Typography>
+                                            <Typography className={classes.SectionHeader} variant="body2" gutterBottom align="left">
+                                                Speaker description.
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={10} md={8} lg={3} className={classes.gridItem}>
+                                            <img srcSet="assets/images/abhishek_kadian.jpg" alt="Habitat" width="100%" />
+                                        </Grid>
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
+                                                <b>Speaker name</b>
+                                            </Typography>
+                                            <Typography className={classes.SectionHeader} variant="body2" gutterBottom align="left">
+                                                Speaker description.
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={10} md={8} lg={3} className={classes.gridItem}>
+                                            <img srcSet="assets/images/abhishek_kadian.jpg" alt="Habitat" width="100%" />
+                                        </Grid>
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
+                                                <b>Speaker name</b>
+                                            </Typography>
+                                            <Typography className={classes.SectionHeader} variant="body2" gutterBottom align="left">
+                                                Speaker description.
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={10} md={8} lg={3} className={classes.gridItem}>
+                                            <img srcSet="assets/images/abhishek_kadian.jpg" alt="Habitat" width="100%" />
+                                        </Grid>
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
+                                                <b>Speaker name</b>
+                                            </Typography>
+                                            <Typography className={classes.SectionHeader} variant="body2" gutterBottom align="left">
+                                                Speaker description.
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
                                     <div className={classes.container}/>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="h5"
+                                            align="left"
+                                            >
+                                            Organizers
+                                        </Typography>
+                                    </Grid>
+
+                                    <People/>
                                 </Grid>
                             </Grid>
                         </Grid>

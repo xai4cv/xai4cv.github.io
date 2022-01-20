@@ -2,57 +2,57 @@
     "people": [
         {
             "img_url": "assets/images/abhishek_kadian.jpg", 
-            "name": "Abhishek Kadian*", 
+            "name": "Abhishek Kadian", 
             "organization": "FAIR",
             "website": "https://abhiskk.github.io/"
         },
         {
-            "img_url": "assets/images/joanne_truong.jpg", 
-            "name": "Joanne Truong*", 
-            "organization": "Georgia Tech",
-            "website": "http://joannetruong.github.io/"
-        },
-        {
-            "img_url": "assets/images/aaron_goksalan.jpg", 
-            "name": "Aaron Gokaslan", 
+            "img_url": "assets/images/abhishek_kadian.jpg", 
+            "name": "Abhishek Kadian", 
             "organization": "FAIR",
-            "website": "https://skylion007.github.io/"
+            "website": "https://abhiskk.github.io/"
         },
         {
-            "img_url": "assets/images/alexander_clegg.jpg", 
-            "name": "Alexander Clegg", 
+            "img_url": "assets/images/abhishek_kadian.jpg", 
+            "name": "Abhishek Kadian", 
             "organization": "FAIR",
-            "website": "https://github.com/aclegg3"
+            "website": "https://abhiskk.github.io/"
         },
         {
-            "img_url": "assets/images/eriik_wijmans.jpg", 
-            "name": "Erik Wijmans", 
-            "organization": "FAIR, Georgia Tech",
-            "website": "https://wijmans.xyz/"
+            "img_url": "assets/images/abhishek_kadian.jpg", 
+            "name": "Abhishek Kadian", 
+            "organization": "FAIR",
+            "website": "https://abhiskk.github.io/"
         },
         {
-            "img_url": "assets/images/stefan_lee.jpg", 
-            "name": "Stefan Lee", 
-            "organization": "Oregon State University",
-            "website": "http://web.engr.oregonstate.edu/~leestef/"
+            "img_url": "assets/images/abhishek_kadian.jpg", 
+            "name": "Abhishek Kadian", 
+            "organization": "FAIR",
+            "website": "https://abhiskk.github.io/"
         },
         {
-            "img_url": "assets/images/manolis_savva.jpg", 
-            "name": "Manolis Savva", 
-            "organization": "FAIR, Simon Fraser University",
-            "website": "https://msavva.github.io/"
+            "img_url": "assets/images/abhishek_kadian.jpg", 
+            "name": "Abhishek Kadian", 
+            "organization": "FAIR",
+            "website": "https://abhiskk.github.io/"
         },
         {
-            "img_url": "assets/images/sonia_chernova.png", 
-            "name": "Sonia Chernova", 
-            "organization": "FAIR, Georgia Tech",
-            "website": "https://www.cc.gatech.edu/~chernova/"
+            "img_url": "assets/images/abhishek_kadian.jpg", 
+            "name": "Abhishek Kadian", 
+            "organization": "FAIR",
+            "website": "https://abhiskk.github.io/"
         },
         {
-            "img_url": "assets/images/dhruv_batra.jpg", 
-            "name": "Dhruv Batra", 
-            "organization": "FAIR, Georgia Tech",
-            "website": "https://www.cc.gatech.edu/~dbatra/"
+            "img_url": "assets/images/abhishek_kadian.jpg", 
+            "name": "Abhishek Kadian", 
+            "organization": "FAIR",
+            "website": "https://abhiskk.github.io/"
+        },
+        {
+            "img_url": "assets/images/abhishek_kadian.jpg", 
+            "name": "Abhishek Kadian", 
+            "organization": "FAIR",
+            "website": "https://abhiskk.github.io/"
         }
     ]
 }
