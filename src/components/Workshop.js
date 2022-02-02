@@ -142,7 +142,9 @@ class Workshop extends React.Component {
                                         We welcome 2 page (including references) extended abstract submissions that showcase successful application of XAI methods on popular computer vision tasks, 
                                         helping users better understand the results of a model.
                                         Moreover, we also welcome the submission of novel XAI for CV techniques, visualizations, and practical libraries. 
-                                        Finally, we encourage submitting extended abstracts on already published work, <i>e.g.</i>, papers accepted in the CVPR 2022 main program.
+                                        <br /> <br />
+                                        Finally, we encourage submitting papers accepted in the CVPR 2022 main program, in which case authors do not need to prepare extended abstract, 
+                                        but simply submit the camera-ready version of the accepted CVPR 2022 paper.
                                         <br /> <br />
                                         Note that, accepted extended abstracts will not be published in conjunction with the CVPR 2022 proceedings.
                                         </Typography>
@@ -163,7 +165,7 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                        CMT portal opens on <b>Feb 7, 2022</b>. <br/>
+                                        CMT portal opens on <b>Feb 2, 2022</b>. <br/>
                                         Rolling acceptances until <b>May 20, 2022</b>.
                                         </Typography>
                                     </Grid>
@@ -183,9 +185,11 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                        All submissions should be in the anonymized CVPR 2022 format, and submissions will be subjected to the double-blind review process. 
+                                        <b>Extended Abstracts: </b> All submissions should be in the anonymized CVPR 2022 format, and submissions will be subjected to the double-blind review process. 
                                         Submitted extended abstracts will be reviewed by 1-2 reviewers, with the organizing team serving as a program committee.
-                                        Papers accepted in the CVPR 2022 main program are encouraged to submit extended abstract and present their work at our workshop.
+                                        <br /><br />
+                                        <b>CVPR 2022 Papers: </b> Authors of papers accepted in the CVPR 2022 main program are encouraged to submit the camera-ready version and present their work at our workshop.
+                                        Organizing team will review the relevance of submitted papers to the XAI4CV workshop.
                                         <br /><br />
                                         Accepted submissions  will be invited to participate in a poster session at our workshop. 
                                         Additionally, we will pick the best 6 papers from among the submissions to be presented as spotlights.
@@ -557,7 +561,7 @@ class Workshop extends React.Component {
 
 
                                     <div className={classes.container}/>
-                                    
+
 
                                 </Grid>
                             </Grid>
