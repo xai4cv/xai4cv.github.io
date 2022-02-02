@@ -128,6 +128,111 @@ class Workshop extends React.Component {
                                             variant="h5"
                                             align="left"
                                             >
+                                            Call for Papers
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="body2"
+                                            align="left"
+                                        >
+                                        We welcome 2 page (including references) extended abstract submissions that showcase successful application of XAI methods on popular computer vision tasks, 
+                                        helping users better understand the results of a model.
+                                        Moreover, we also welcome the submission of novel XAI for CV techniques, visualizations, and practical libraries. 
+                                        Finally, we encourage submitting extended abstracts on already published work, <i>e.g.</i>, papers accepted in the CVPR 2022 main program.
+                                        <br /> <br />
+                                        Note that, accepted extended abstracts will not be published in conjunction with the CVPR 2022 proceedings.
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="subtitle1"
+                                            align="left"
+                                            >
+                                            <b>Timeline</b>
+                                        </Typography>
+                                        <br/>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="body2"
+                                            align="left"
+                                        >
+                                        CMT portal opens on <b>Feb 7, 2022</b>. <br/>
+                                        Rolling acceptances until <b>May 20, 2022</b>.
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="subtitle1"
+                                            align="left"
+                                            >
+                                            <b>Submission instructions</b>
+                                        </Typography>
+                                        <br/>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="body2"
+                                            align="left"
+                                        >
+                                        All submissions should be in the anonymized CVPR 2022 format, and submissions will be subjected to the double-blind review process. 
+                                        Submitted extended abstracts will be reviewed by 1-2 reviewers, with the organizing team serving as a program committee.
+                                        Papers accepted in the CVPR 2022 main program are encouraged to submit extended abstract and present their work at our workshop.
+                                        <br /><br />
+                                        Accepted submissions  will be invited to participate in a poster session at our workshop. 
+                                        Additionally, we will pick the best 6 papers from among the submissions to be presented as spotlights.
+                                        <br /><br />
+                                        Submissions can be done at <Link target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2022"><b>https://cmt3.research.microsoft.com/XAI4CV2022</b></Link>.
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="subtitle1"
+                                            align="left"
+                                            >
+                                            <b>Topics</b>
+                                        </Typography>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="body2"
+                                            align="left"
+                                        >
+                                        <ul>
+                                            <li> Building inherently interpretable CV models,</li>
+                                            <li> Black-box CV model explanations visualized on test images and / or presented in a human interpretable language,</li>
+                                            <li> Object classification / detection / segmentation model explanations,</li>
+                                            <li> Action detection model explanations,</li>
+                                            <li> VQA model explanations,</li>
+                                            <li> Medical imaging model explanations,</li>
+                                            <li> Human intervention and correctability in computer vision,</li>
+                                            <li> Machine teaching via explanations,</li>
+                                            <li> Constructing datasets for benchmarking explainability,</li>
+                                            <li> Offline and online evaluation methods for explanations,</li>
+                                            <li> Building practical libraries for explainable computer vision, and their integration with popular CV libraries.</li>
+                                        </ul>
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <div className={classes.container}/>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="h5"
+                                            align="left"
+                                            >
                                             Invited Speakers
                                         </Typography>
                                     </Grid>
