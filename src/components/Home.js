@@ -54,25 +54,47 @@ class Home extends React.Component {
                             <Grid item xs={12} lg={12}>
                                 <Grid container justify="flex-start">
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={6} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography
                                                 className={classes.sectionHeader}
-                                                variant="h3"
+                                                variant="h4"
                                                 gutterBottom
                                                 align="left"
                                                 >
-                                                XAI4CV
+                                                Explainable Artificial Intelligence for Computer Vision (XAI4CV)
                                             </Typography>
                                             <Typography
                                                 className={classes.SectionHeader}
-                                                variant="body2"
+                                                variant="h6"
                                                 gutterBottom
                                                 align="left"
                                             >
-                                                Facebook AI Research (FAIR)
+                                                Meta AI
                                             </Typography>
                                         </Grid>
                                     </Grid>
+
+                                    <div className={classes.container}/>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="h5"
+                                            align="left"
+                                            >
+                                            Workshops
+                                        </Typography>
+                                    </Grid>
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <Link href="https://xai4cv.github.io/workshop"><b>XAI4CV at CVPR 2022</b></Link>
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <div className={classes.container}/>
+
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography
                                             className={classes.sectionHeader}
@@ -88,8 +110,6 @@ class Home extends React.Component {
                                                 Email: <Link href="mailto:abhishekkadiyan@gmail.com">abhishekkadiyan@gmail.com</Link>
                                             </Typography>
                                         </Grid>
-                                    </Grid>
-                                    <Grid item xs={12} md={12} lg={12} className={classes.gridItem}>
                                     </Grid>
                                 </Grid>
                             </Grid>
