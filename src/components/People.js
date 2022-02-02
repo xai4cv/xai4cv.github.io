@@ -37,9 +37,11 @@ const People = (props) => {
                 <Link target="_blank" rel="noopener" href={person.website}>
                     <Avatar className={props.classes.avatar} src={person.img_url}/>
                 </Link>
-                <Typography variant="subtitle1">
-                    {person.name}
-                </Typography>
+                <Link target="_blank" rel="noopener" href={person.website}>
+                    <Typography variant="subtitle1">
+                        <b>{person.name}</b>
+                    </Typography>
+                </Link>
                 <Typography variant="caption">
                     {person.organization}
                 </Typography>
