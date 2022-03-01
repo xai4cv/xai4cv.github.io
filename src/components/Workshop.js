@@ -68,7 +68,18 @@ class Workshop extends React.Component {
                                             gutterBottom
                                             align="center"
                                             >
-                                            Wokshop on Explainable Artificial Intelligence for Computer Vision (XAI4CV) at CVPR 2022
+                                            XAI4CV: Explainable Artificial Intelligence for Computer Vision
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid item xs={12} md={12} lg={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="h5"
+                                            gutterBottom
+                                            align="center"
+                                            >
+                                            Wokshop at CVPR 2022
                                         </Typography>
                                     </Grid>
 
