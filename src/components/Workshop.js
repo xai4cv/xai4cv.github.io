@@ -64,7 +64,7 @@ class Workshop extends React.Component {
                                     <Grid item xs={12} md={12} lg={12} className={classes.gridItem}>
                                         <Typography
                                             className={classes.sectionHeader}
-                                            variant="h3"
+                                            variant="h4"
                                             gutterBottom
                                             align="center"
                                             >
