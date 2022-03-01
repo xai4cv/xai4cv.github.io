@@ -325,7 +325,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>01:40 PM - 02:00 PM: </b> Invited Talk - Cynthia Rudin
+                                                <b>01:40 PM - 02:00 PM: </b> Invited Talk - Hima Lakkaraju
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -349,7 +349,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>03:10 PM - 03:30 PM: </b> Invited Talk - Hima Lakkaraju
+                                                <b>03:10 PM - 03:30 PM: </b> Invited Talk - TBA
                                             </Typography>
                                         </Grid>
                                     </Grid>
