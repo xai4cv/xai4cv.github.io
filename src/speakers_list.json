@@ -31,6 +31,12 @@
             "website": "https://people.eecs.berkeley.edu/~trevor"
         },
         {
+            "img_url": "assets/images/pradeep_ravikumar.jpeg", 
+            "name": "Pradeep Ravikumar", 
+            "organization": "Carnegie Mellon University",
+            "website": "https://www.cs.cmu.edu/~pradeepr"
+        },
+        {
             "img_url": "assets/images/serena_yeung.jpeg", 
             "name": "Serena Yeung", 
             "organization": "Stanford",

@@ -97,6 +97,14 @@ class Header extends React.Component {
             <div className={classes.root}>
                 <AppBar position="static" color="primary">
                     <Toolbar>
+                        <Link
+                            underline="none"
+                            align="left"
+                            className={[classes.buttonLink, classes.grow].join(' ')}
+                            href={'.'}
+                        >
+                            <b>XAI4CV</b>
+                        </Link>
                         <div className={classes.sectionDesktop}>
                             <Link
                                 underline="none"
@@ -107,7 +115,6 @@ class Header extends React.Component {
                                     <i className="fa fa-envelope fa-lg"></i>
                                 </Button>
                             </Link>
-
                         </div>
                         <div className={classes.sectionMobile}>
                             <IconButton aria-haspopup="true" onClick={this.handleMobileMenuOpen} color="inherit">

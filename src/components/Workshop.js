@@ -139,6 +139,7 @@ class Workshop extends React.Component {
                                             className={classes.sectionHeader}
                                             variant="h5"
                                             align="left"
+                                            id="call_for_papers"
                                             >
                                             Call for Papers
                                         </Typography>
@@ -155,8 +156,8 @@ class Workshop extends React.Component {
                                         helping users better understand the results of a model.
                                         Moreover, we also welcome the submission of novel XAI for CV techniques, visualizations, and practical libraries. 
                                         <br /> <br />
-                                        Finally, we encourage submitting papers accepted in the CVPR 2022 main program, in which case authors do not need to prepare extended abstract, 
-                                        but simply submit the camera-ready version of the accepted CVPR 2022 paper.
+                                        Finally, we encourage submitting papers accepted in the CVPR 2022 main program, or in a relevant 2022 conference, in which case authors do not need to prepare extended abstract, 
+                                        but simply submit the camera-ready version of the accepted paper.
                                         <br /> <br />
                                         Note that, accepted extended abstracts will not be published in conjunction with the CVPR 2022 proceedings.
                                         </Typography>
@@ -200,7 +201,7 @@ class Workshop extends React.Component {
                                         <b>Extended Abstracts: </b> All submissions should be in the anonymized CVPR 2022 format, and submissions will be subjected to the double-blind review process. 
                                         Submitted extended abstracts will be reviewed by 1-2 reviewers, with the organizing team serving as a program committee.
                                         <br /><br />
-                                        <b>CVPR 2022 Papers: </b> Authors of papers accepted in the CVPR 2022 main program are encouraged to submit the camera-ready version and present their work at our workshop.
+                                        <b>Papers accepted in a relevant 2022 conference: </b> Authors of papers accepted in the CVPR 2022 main program, or in a relevant 2022 conference, are encouraged to submit the camera-ready version and present their work at our workshop.
                                         Organizing team will review the relevance of submitted papers to the XAI4CV workshop.
                                         <br /><br />
                                         Accepted submissions  will be invited to participate in a poster session at our workshop. 
@@ -265,133 +266,133 @@ class Workshop extends React.Component {
                                             variant="h5"
                                             align="left"
                                             >
-                                            Schedule
+                                            Tentative Schedule
                                         </Typography>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>09:00 AM - 09:20 AM: </b> Opening Remarks
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>09:00 AM - 09:10 AM: </b> Opening Remarks
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>09:20 AM - 10:00 AM: </b> Spotlight Session 1
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>09:10 AM - 09:50 AM: </b> Spotlight Session 1
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>10:00 AM - 10:50 AM: </b> Coffee Break + Poster Session 1
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>09:50 AM - 10:30 AM: </b> Coffee Break + Poster Session 1
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>10:50 AM - 11:10 AM: </b> Invited Talk - Antonio Torralba
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>10:30 AM - 11:00 AM: </b> Invited Talk - Antonio Torralba
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>11:10 AM - 11:30 AM: </b> Invited Talk - Been Kim
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>11:00 AM - 11:30 AM: </b> Invited Talk - Been Kim
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>11:30 AM - 11:50 AM: </b> Invited Talk - Rich Caruana
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>11:30 AM - 12:00 AM: </b> Invited Talk - Rich Caruana
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>11:50 AM - 01:00 PM: </b> Lunch Break
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>12:00 AM - 12:50 PM: </b> Lunch Break
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>01:00 PM - 01:40 PM: </b> Spotlight Session 2
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>12:50 PM - 01:30 PM: </b> Spotlight Session 2
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>01:40 PM - 02:00 PM: </b> Invited Talk - Hima Lakkaraju
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk - Hima Lakkaraju
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>02:00 PM - 02:20 PM: </b> Invited Talk - Trevor Darrell
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk - Trevor Darrell
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>02:20 PM - 03:10 PM: </b> Coffee Break + Poster Session 2
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>02:30 PM - 03:10 PM: </b> Coffee Break + Poster Session 2
                                             </Typography>
                                         </Grid>
                                     </Grid>
                                     
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>03:10 PM - 03:30 PM: </b> Invited Talk - TBA
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>03:10 PM - 03:40 PM: </b> Invited Talk - Pradeep Ravikumar
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>03:30 PM - 03:50 PM: </b> Invited Talk - Serena Yeung
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>03:40 PM - 04:10 PM: </b> Invited Talk - Serena Yeung
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>03:50 PM - 04:10 PM: </b> Invited Talk - Yixin Wang
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>04:10 PM - 04:40 PM: </b> Invited Talk - Yixin Wang
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>04:10 PM - 04:50 PM: </b> Breakout Session per Topic
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <b>04:40 PM - 04:50 PM: </b> Break
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>04:50 PM - 05:50 PM: </b> Panel Discussion
                                             </Typography>
                                         </Grid>
@@ -399,7 +400,7 @@ class Workshop extends React.Component {
                                     
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>05:50 PM - 06:00 PM: </b> Closing Remarks
                                             </Typography>
                                         </Grid>
