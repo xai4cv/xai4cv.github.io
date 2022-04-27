@@ -179,7 +179,9 @@ class Workshop extends React.Component {
                                             align="left"
                                         >
                                         CMT portal opens on <b>Feb 2, 2022</b>. <br/>
-                                        Rolling acceptances until <b>May 20, 2022</b>.
+                                        Submissions until <b>May 18, 2022</b>. <br/>
+                                        Rolling acceptances from <b>May 1, 2022</b> until <b>May 20, 2022</b>. <br/>
+                                        Spotlight / Poster decisions on <b>May 23, 2022</b>.
                                         </Typography>
                                     </Grid>
 
@@ -204,10 +206,32 @@ class Workshop extends React.Component {
                                         <b>Papers accepted in a relevant 2022 conference: </b> Authors of papers accepted in the CVPR 2022 main program, or in a relevant 2022 conference, are encouraged to submit the camera-ready version and present their work at our workshop.
                                         Organizing team will review the relevance of submitted papers to the XAI4CV workshop.
                                         <br /><br />
-                                        Accepted submissions  will be invited to participate in a poster session at our workshop. 
-                                        Additionally, we will pick the best 6 papers from among the submissions to be presented as spotlights.
+                                        <b>Submissions</b> can be done at <Link target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2022"><b>https://cmt3.research.microsoft.com/XAI4CV2022</b></Link>.
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="subtitle1"
+                                            align="left"
+                                            >
+                                            <b>Attendance</b>
+                                        </Typography>
+                                        <br/>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="body2"
+                                            align="left"
+                                        >
+                                        <b>Posters: </b> All accepted submissions will be invited to participate in an <b>in-person</b> poster session at our workshop.
+                                        Additionally, the authors will be asked to upload their posters which will be hosted on our webpage.
                                         <br /><br />
-                                        Submissions can be done at <Link target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2022"><b>https://cmt3.research.microsoft.com/XAI4CV2022</b></Link>.
+                                        <b>Spotlights: </b> We will pick the best 6 papers from among the submissions / main conference to be presented as spotlights.
+                                        Presentations can either be <b>in-person</b> or <b>pre-recorded</b>.
+                                        <br /><br />
+                                        Abiding by the <Link target="_blank" rel="noopener" href="https://cvpr2022.thecvf.com/registration"><b>CVPR guidelines</b></Link>, all accepted papers <b>must be presented by one of the authors</b>.
                                         </Typography>
                                     </Grid>
 
