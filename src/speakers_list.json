@@ -7,10 +7,10 @@
             "website": "http://web.mit.edu/torralba/www"
         },
         {
-            "img_url": "assets/images/been_kim.jpeg", 
-            "name": "Been Kim", 
-            "organization": "Google Brain",
-            "website": "https://beenkim.github.io"
+            "img_url": "assets/images/yixin_wang.jpeg", 
+            "name": "Yixin Wang", 
+            "organization": "University of Michigan",
+            "website": "https://yixinwang.github.io"
         },
         {
             "img_url": "assets/images/rich_caruana.jpeg", 
@@ -43,10 +43,10 @@
             "website": "https://ai.stanford.edu/~syyeung"
         },
         {
-            "img_url": "assets/images/yixin_wang.jpeg", 
-            "name": "Yixin Wang", 
-            "organization": "University of Michigan",
-            "website": "https://yixinwang.github.io"
+            "img_url": "assets/images/been_kim.jpeg", 
+            "name": "Been Kim", 
+            "organization": "Google Brain",
+            "website": "https://beenkim.github.io"
         }
     ]
 }
