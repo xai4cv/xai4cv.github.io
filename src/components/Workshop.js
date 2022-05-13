@@ -79,7 +79,7 @@ class Workshop extends React.Component {
                                             gutterBottom
                                             align="center"
                                             >
-                                            Wokshop at CVPR 2022
+                                            Workshop at CVPR 2022
                                         </Typography>
                                     </Grid>
 
