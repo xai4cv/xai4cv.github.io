@@ -7,7 +7,8 @@ import theme from './styles';
 
 import Header from './components/Header';
 import Home from './components/Home';
-import Sim2Real from './components/Workshop';
+import Workshop from './components/Workshop';
+import WorkshopSchedule from './components/WorkshopSchedule';
 
 class App extends React.Component {
   render() {
@@ -21,7 +22,8 @@ class App extends React.Component {
 
             <div>
               <Route path="/" exact component={Home} />
-              <Route path="/workshop" component={Sim2Real} />
+              <Route path="/workshop" component={Workshop} />
+              <Route path="/workshop-schedule" component={WorkshopSchedule} />
             </div>
 
           </div>

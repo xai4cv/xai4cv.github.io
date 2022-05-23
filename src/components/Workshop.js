@@ -290,12 +290,22 @@ class Workshop extends React.Component {
                                             variant="h5"
                                             align="left"
                                             >
-                                            Tentative Schedule
+                                            Schedule
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="body1"
+                                            align="left"
+                                            >
+                                            Detailed schedule available at <Link target="_blank" rel="noopener" href="./workshop-schedule"><b>xai4cv.github.io/workshop-schedule</b></Link>.
                                         </Typography>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>09:00 AM - 09:10 AM: </b> Opening Remarks
                                             </Typography>
@@ -303,7 +313,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>09:10 AM - 09:50 AM: </b> Spotlight Session 1
                                             </Typography>
@@ -311,7 +321,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>09:50 AM - 10:30 AM: </b> Coffee Break + Poster Session 1
                                             </Typography>
@@ -319,7 +329,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>10:30 AM - 11:00 AM: </b> Invited Talk - Antonio Torralba
                                             </Typography>
@@ -327,7 +337,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>11:00 AM - 11:30 AM: </b> Invited Talk - Yixin Wang
                                             </Typography>
@@ -335,7 +345,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>11:30 AM - 12:00 AM: </b> Invited Talk - Rich Caruana
                                             </Typography>
@@ -343,7 +353,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>12:00 AM - 12:50 PM: </b> Lunch Break
                                             </Typography>
@@ -351,7 +361,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>12:50 PM - 01:30 PM: </b> Spotlight Session 2
                                             </Typography>
@@ -359,7 +369,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>01:30 PM - 02:00 PM: </b> Invited Talk - Hima Lakkaraju
                                             </Typography>
@@ -367,7 +377,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>02:00 PM - 02:30 PM: </b> Invited Talk - Trevor Darrell
                                             </Typography>
@@ -375,7 +385,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>02:30 PM - 03:10 PM: </b> Coffee Break + Poster Session 2
                                             </Typography>
@@ -383,7 +393,7 @@ class Workshop extends React.Component {
                                     </Grid>
                                     
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>03:10 PM - 03:40 PM: </b> Invited Talk - Pradeep Ravikumar
                                             </Typography>
@@ -391,7 +401,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>03:40 PM - 04:10 PM: </b> Invited Talk - Serena Yeung
                                             </Typography>
@@ -399,7 +409,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>04:10 PM - 04:40 PM: </b> Invited Talk - Been Kim
                                             </Typography>
@@ -407,7 +417,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>04:40 PM - 04:50 PM: </b> Break
                                             </Typography>
@@ -415,7 +425,7 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>04:50 PM - 05:50 PM: </b> Panel Discussion
                                             </Typography>
@@ -423,7 +433,7 @@ class Workshop extends React.Component {
                                     </Grid>
                                     
                                     <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <b>05:50 PM - 06:00 PM: </b> Closing Remarks
                                             </Typography>
