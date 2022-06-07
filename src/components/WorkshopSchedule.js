@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import Speakers from './Speakers';
 
 
 const styles = theme => ({
@@ -160,7 +161,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>10:30 AM - 11:00 AM: </b> Invited Talk - Antonio Torralba
+                                                <b>10:30 AM - 11:00 AM: </b> Invited Talk - <b>Antonio Torralba</b>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -168,7 +169,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>11:00 AM - 11:30 AM: </b> Invited Talk - Yixin Wang
+                                                <b>11:00 AM - 11:30 AM: </b> Invited Talk - <b>Yixin Wang</b>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -176,7 +177,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>11:30 AM - 12:00 AM: </b> Invited Talk - Rich Caruana
+                                                <b>11:30 AM - 12:00 AM: </b> Invited Talk - <b>Rich Caruana</b>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -208,7 +209,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk - Hima Lakkaraju
+                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk - <b>Been Kim</b>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -216,7 +217,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk - Trevor Darrell
+                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk - <b>Trevor Darrell</b>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -235,9 +236,9 @@ class WorkshopSchedule extends React.Component {
                                                     <li>ID 34: <b>Exploring Concept Contribution Spatially: Hidden Layer Interpretation with Spatial Activation Concept Vector.</b>	Andong Wang, W.N. Lee.</li>
                                                     <li>ID 35: <b>OccAM's Laser: Occlusion-based Attribution Maps for 3D Object Detectors on LiDAR Data.</b> David Schinagl, Georg Krispel, Horst Possegger, Peter M. Roth, Horst Bischof.</li>
                                                     <li>ID 36: <b>Pose Tutor: An Explainable System for Correction in the Wild.</b>	Bhat Dittakavi, Bharathi Callepalli, Sai Vikas Desai, Divyagna Bavikadi, Soumi Chakraborty, Nishant S Reddy, Ayon Sharma, Vineeth N Balasubramanian.</li>
-                                                    <li>ID 39: <b>CheXplaining in Style: Counterfactual Explanations for Chest X-rays.</b> Matan Atad, Vitalii Dmytrenko, Yitong Li, Xinyue Zhang, Matthias Keicher, Ashkan Khakzar, Nassir Navab.</li>
+                                                    <li>ID 39: <b>CheXplaining in Style: Counterfactual Explanations for Chest X-rays.</b> Matan Atad, Vitalii Dmytrenko, Yitong Li, Xinyue Zhang, Matthias Keicher, Jan S. Kirschke, Bene Wiestler, Ashkan Khakzar, Nassir Navab.</li>
                                                     <li>ID 42: <b>Auditing Privacy Protection in Split Computing via Data-Free Model Inversion.</b>	Xin Dong, Hongxu Yin, Jose M. Alvarez, Jan Kautz, Pavlo Molchanov.</li>
-                                                    <li>ID 44: <b>Towards ML Methods for Biodiversity: A Novel Wild Bee Dataset and Evaluations of XAI Methods for ML-Assisted Rare Species Annotations.</b>	Teodor Chiaburu.</li>
+                                                    <li>ID 44: <b>Towards ML Methods for Biodiversity: A Novel Wild Bee Dataset and Evaluations of XAI Methods for ML-Assisted Rare Species Annotations.</b> Teodor Chiaburu, Felix Bießmann, Frank Haußer.</li>
                                                     <li>ID 46: <b>Spatial-temporal Concept based Explanation of 3D ConvNets.</b> Ying Ji, Yu Wang, Kensaku Mori, Jien Kato.</li>
                                                     <li>ID 49: <b>Visual correspondence-based explanations improve human-AI team accuracy.</b> Anh Nguyen, GIANG NGUYEN, Mohammad Reza Taesiri.</li>
                                                     <li>ID 50: <b>Improving Visual Grounding by Encouraging Consistent Gradient-based Explanations.</b>	Ziyan Yang, Kushal Kafle, Franck Dernoncourt, Vicente Ordonez.</li>
@@ -251,7 +252,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>03:10 PM - 03:40 PM: </b> Invited Talk - Pradeep Ravikumar
+                                                <b>03:10 PM - 03:40 PM: </b> Invited Talk - <b>Pradeep Ravikumar</b>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -259,7 +260,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>03:40 PM - 04:10 PM: </b> Invited Talk - Serena Yeung
+                                                <b>03:40 PM - 04:10 PM: </b> Invited Talk - <b>Serena Yeung</b>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -267,7 +268,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>04:10 PM - 04:40 PM: </b> Invited Talk - Been Kim
+                                                <b>04:10 PM - 04:40 PM: </b> Invited Talk - <b>Hima Lakkaraju</b>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -296,6 +297,21 @@ class WorkshopSchedule extends React.Component {
                                         </Grid>
                                     </Grid>
 
+
+                                    <div className={classes.container}/>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="h5"
+                                            align="left"
+                                            >
+                                            Invited Speakers
+                                        </Typography>
+                                    </Grid>
+
+                                    <Speakers/>
 
                                     <div className={classes.container}/>
 

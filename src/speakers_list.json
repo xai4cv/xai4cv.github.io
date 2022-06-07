@@ -19,10 +19,10 @@
             "website": "https://www.microsoft.com/en-us/research/people/rcaruana"
         },
         {
-            "img_url": "assets/images/hima_lakkaraju.jpeg", 
-            "name": "Hima Lakkaraju", 
-            "organization": "Harvard University",
-            "website": "https://himalakkaraju.github.io"
+            "img_url": "assets/images/been_kim.jpeg", 
+            "name": "Been Kim", 
+            "organization": "Google Brain",
+            "website": "https://beenkim.github.io"
         },
         {
             "img_url": "assets/images/trevor_darrell.jpeg", 
@@ -43,10 +43,10 @@
             "website": "https://ai.stanford.edu/~syyeung"
         },
         {
-            "img_url": "assets/images/been_kim.jpeg", 
-            "name": "Been Kim", 
-            "organization": "Google Brain",
-            "website": "https://beenkim.github.io"
+            "img_url": "assets/images/hima_lakkaraju.jpeg", 
+            "name": "Hima Lakkaraju", 
+            "organization": "Harvard University",
+            "website": "https://himalakkaraju.github.io"
         }
     ]
 }
