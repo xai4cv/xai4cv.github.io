@@ -112,7 +112,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>09:00 AM - 09:10 AM: </b> Opening Remarks
+                                                <b>09:00 AM - 09:10 AM: </b> Opening Remarks - <b>Filip Radenovic</b> (Meta AI)
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -163,7 +163,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>10:30 AM - 11:00 AM: </b> Invited Talk - <b>Antonio Torralba</b>
+                                                <b>10:30 AM - 11:00 AM: </b> Invited Talk - <b>Antonio Torralba</b> (MIT)
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -171,7 +171,27 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>11:00 AM - 11:30 AM: </b> Invited Talk - <b>Yixin Wang</b>
+                                                <b>11:00 AM - 11:30 AM: </b> Invited Talk - <b>Yixin Wang</b> (University of Michigan)
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b>Title: </b> Representation Learning: A Causal Perspective
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b>Abstract: </b> Representation learning constructs low-dimensional representations to summarize essential features of high-dimensional data like images and text. Ideally, such a representation should capture non-spurious features of the data in an efficient way. It shall also be disentangled so that we can freely manipulate each of its dimensions. However, these desiderata are often intuitively defined and challenging to quantify or enforce.
+                                                    In this work, we take on a causal perspective of representation learning. We show how desiderata of representation learning can be formalized using counterfactual notions, which then enables algorithms that target efficient, non-spurious, and disentangled representations of data. We discuss the theoretical underpinnings of the algorithm and illustrate its empirical performance in both supervised and unsupervised representation learning.
+                                                    This is joint work with Michael Jordan.
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://urldefense.com/v3/__https://yixinwang.github.io/papers/causal-rep-slides-public.pdf__;!!Bt8RZUm9aw!6HJjmzJvZjCXXLimgLDCFBHljTR3Q-GueFSoaY4aeHdW_S6ycHUDg8LnXUR9wiDHuFrVuvHNIlrzPALHSG8$"><b><PDFIcon fontSize="inherit"/> Presentation</b></Link>
+                                                </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -179,7 +199,19 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>11:30 AM - 12:00 AM: </b> Invited Talk - <b>Rich Caruana</b>
+                                                <b>11:30 AM - 12:00 AM: </b> Invited Talk - <b>Rich Caruana</b> (MSR)
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b>Title: </b> Glassbox Deep Learning with Neural Additive Models (NAMs)
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b>Abstract: </b> Most interpretable machine learning methods depend on models trained with linear regression, decision lists, rules, or trees.  However it is possible to train interpretable models with DNNs by restricting the architecture to learn components that have reduced complexity and thus are easy to explain.  In this presentation I’ll review NAMs --- Neural Additive Models --- where deep learning us used to train neural nets that are inherently interpretable yet high accuracy on tabular data.  Although these glassbox models are not designed for vision, I’ll briefly discuss how they might be used to improve the intelligibility of some vision systems.
+                                                </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -211,7 +243,19 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk - <b>Been Kim</b>
+                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk - <b>Been Kim</b> (Google Brain)
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b>Title: </b> Bridging the representation gap between humans and machines: unique challenges in vision
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b>Abstract: </b> Machines and humans are likely to understand the world differently. They may share some of their representational spaces, but not all. Bridging the gap between the two representational spaces is the key for the future ML in both developing and understanding them. While there have been many advances in bridging this gap in vision, there are unique challenges that we should keep in mind as we go forward. On the other hand, vision may offer unique (perhaps the only) ways for us to understand machine concepts. I will discuss some of our recent work that will help us discuss these topics.
+                                                </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -219,7 +263,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk - <b>Trevor Darrell</b>
+                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk - <b>Trevor Darrell</b> (UC Berkeley)
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -254,7 +298,19 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>03:10 PM - 03:40 PM: </b> Invited Talk - <b>Pradeep Ravikumar</b>
+                                                <b>03:10 PM - 03:40 PM: </b> Invited Talk - <b>Pradeep Ravikumar</b> (Carnegie Mellon University)
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b>Title: </b> Objective criteria for explanations of machine learning models
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b>Abstract: </b> Objective criteria to evaluate explanations of machine learning models are a critical ingredient in bringing greater rigor to the field of explainable artificial intelligence. We discuss three such criteria that each target different classes of explanations. In the first, targeted at real-valued feature importance explanations, we define a class of “infidelity” measures that capture how well the explanations match the ML models. We show that instances of such infidelity minimizing explanations correspond to many popular recently proposed explanations and, moreover, can be shown to satisfy well-known game-theoretic axiomatic properties. In the second, targeted to feature set explanations, we define a robustness analysis-based criterion and show that deriving explainable feature sets based on the robustness criterion yields more qualitatively impressive explanations. Lastly, for sample explanations, we provide a decomposition-based representer criterion that allows us to provide very scalable and compelling classes of sample-based explanations. Joint with Chih-Kuan Yeh.
+                                                </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -262,7 +318,13 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>03:40 PM - 04:10 PM: </b> Invited Talk - <b>Serena Yeung</b>
+                                                <b>03:40 PM - 04:10 PM: </b> Invited Talk - <b>Serena Yeung</b> (Stanford)
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b>Title: </b> Multimodal vision-language models towards explainable medical computer vision
+                                                </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -270,7 +332,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>04:10 PM - 04:40 PM: </b> Invited Talk - <b>Hima Lakkaraju</b>
+                                                <b>04:10 PM - 04:40 PM: </b> Invited Talk - <b>Hima Lakkaraju</b> (Harvard University)
                                             </Typography>
                                         </Grid>
                                     </Grid>
