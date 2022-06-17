@@ -102,7 +102,8 @@ class WorkshopSchedule extends React.Component {
                                             align="left"
                                         >
                                             <b>Date:</b> Monday, June 20, 2022 <br />
-                                            <b>Venue:</b> New Orleans, Louisiana <br />
+                                            <b>Venue:</b> New Orleans Ernest N. Morial Convention Center, New Orleans, Louisiana <br />
+                                            <b>Location:</b> 208-210 <br />
                                         </Typography>
                                     </Grid>
 
