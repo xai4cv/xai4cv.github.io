@@ -200,7 +200,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>11:30 AM - 12:00 AM: </b> Invited Talk - <b>Rich Caruana</b> (MSR)
+                                                <b>11:30 AM - 12:00 PM: </b> Invited Talk - <b>Rich Caruana</b> (MSR)
                                             </Typography>
 
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
@@ -220,7 +220,7 @@ class WorkshopSchedule extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>12:00 AM - 12:50 PM: </b> Lunch Break
+                                                <b>12:00 PM - 12:50 PM: </b> Lunch Break
                                             </Typography>
                                         </Grid>
                                     </Grid>
