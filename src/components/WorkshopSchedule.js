@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import Speakers from './Speakers';
 import Link from '@material-ui/core/Link';
 import PDFIcon from '@material-ui/icons/PictureAsPdf';
+import People from './People';
 
 
 const styles = theme => ({
@@ -177,15 +178,15 @@ class WorkshopSchedule extends React.Component {
 
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <b>Title: </b> Representation Learning: A Causal Perspective
+                                                    <b><i>Representation Learning: A Causal Perspective</i></b>
                                                 </ul>
                                             </Typography>
 
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <b>Abstract: </b> Representation learning constructs low-dimensional representations to summarize essential features of high-dimensional data like images and text. Ideally, such a representation should capture non-spurious features of the data in an efficient way. It shall also be disentangled so that we can freely manipulate each of its dimensions. However, these desiderata are often intuitively defined and challenging to quantify or enforce.
+                                                    <i>Representation learning constructs low-dimensional representations to summarize essential features of high-dimensional data like images and text. Ideally, such a representation should capture non-spurious features of the data in an efficient way. It shall also be disentangled so that we can freely manipulate each of its dimensions. However, these desiderata are often intuitively defined and challenging to quantify or enforce.
                                                     In this work, we take on a causal perspective of representation learning. We show how desiderata of representation learning can be formalized using counterfactual notions, which then enables algorithms that target efficient, non-spurious, and disentangled representations of data. We discuss the theoretical underpinnings of the algorithm and illustrate its empirical performance in both supervised and unsupervised representation learning.
-                                                    This is joint work with Michael Jordan.
+                                                    This is joint work with Michael Jordan.</i>
                                                 </ul>
                                             </Typography>
 
@@ -205,13 +206,13 @@ class WorkshopSchedule extends React.Component {
 
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <b>Title: </b> Glassbox Deep Learning with Neural Additive Models (NAMs)
+                                                    <b><i>Glassbox Deep Learning with Neural Additive Models (NAMs)</i></b>
                                                 </ul>
                                             </Typography>
 
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <b>Abstract: </b> Most interpretable machine learning methods depend on models trained with linear regression, decision lists, rules, or trees.  However it is possible to train interpretable models with DNNs by restricting the architecture to learn components that have reduced complexity and thus are easy to explain.  In this presentation I’ll review NAMs --- Neural Additive Models --- where deep learning us used to train neural nets that are inherently interpretable yet high accuracy on tabular data.  Although these glassbox models are not designed for vision, I’ll briefly discuss how they might be used to improve the intelligibility of some vision systems.
+                                                    <i>Most interpretable machine learning methods depend on models trained with linear regression, decision lists, rules, or trees.  However it is possible to train interpretable models with DNNs by restricting the architecture to learn components that have reduced complexity and thus are easy to explain.  In this presentation I’ll review NAMs --- Neural Additive Models --- where deep learning us used to train neural nets that are inherently interpretable yet high accuracy on tabular data.  Although these glassbox models are not designed for vision, I’ll briefly discuss how they might be used to improve the intelligibility of some vision systems.</i>
                                                 </ul>
                                             </Typography>
                                         </Grid>
@@ -249,13 +250,13 @@ class WorkshopSchedule extends React.Component {
 
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <b>Title: </b> Bridging the representation gap between humans and machines: unique challenges in vision
+                                                    <b><i>Bridging the representation gap between humans and machines: unique challenges in vision</i></b>
                                                 </ul>
                                             </Typography>
 
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <b>Abstract: </b> Machines and humans are likely to understand the world differently. They may share some of their representational spaces, but not all. Bridging the gap between the two representational spaces is the key for the future ML in both developing and understanding them. While there have been many advances in bridging this gap in vision, there are unique challenges that we should keep in mind as we go forward. On the other hand, vision may offer unique (perhaps the only) ways for us to understand machine concepts. I will discuss some of our recent work that will help us discuss these topics.
+                                                    <i>Machines and humans are likely to understand the world differently. They may share some of their representational spaces, but not all. Bridging the gap between the two representational spaces is the key for the future ML in both developing and understanding them. While there have been many advances in bridging this gap in vision, there are unique challenges that we should keep in mind as we go forward. On the other hand, vision may offer unique (perhaps the only) ways for us to understand machine concepts. I will discuss some of our recent work that will help us discuss these topics.</i>
                                                 </ul>
                                             </Typography>
                                         </Grid>
@@ -304,13 +305,13 @@ class WorkshopSchedule extends React.Component {
 
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <b>Title: </b> Objective criteria for explanations of machine learning models
+                                                    <b><i>Objective criteria for explanations of machine learning models</i></b>
                                                 </ul>
                                             </Typography>
 
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <b>Abstract: </b> Objective criteria to evaluate explanations of machine learning models are a critical ingredient in bringing greater rigor to the field of explainable artificial intelligence. We discuss three such criteria that each target different classes of explanations. In the first, targeted at real-valued feature importance explanations, we define a class of “infidelity” measures that capture how well the explanations match the ML models. We show that instances of such infidelity minimizing explanations correspond to many popular recently proposed explanations and, moreover, can be shown to satisfy well-known game-theoretic axiomatic properties. In the second, targeted to feature set explanations, we define a robustness analysis-based criterion and show that deriving explainable feature sets based on the robustness criterion yields more qualitatively impressive explanations. Lastly, for sample explanations, we provide a decomposition-based representer criterion that allows us to provide very scalable and compelling classes of sample-based explanations. Joint with Chih-Kuan Yeh.
+                                                    <i>Objective criteria to evaluate explanations of machine learning models are a critical ingredient in bringing greater rigor to the field of explainable artificial intelligence. We discuss three such criteria that each target different classes of explanations. In the first, targeted at real-valued feature importance explanations, we define a class of “infidelity” measures that capture how well the explanations match the ML models. We show that instances of such infidelity minimizing explanations correspond to many popular recently proposed explanations and, moreover, can be shown to satisfy well-known game-theoretic axiomatic properties. In the second, targeted to feature set explanations, we define a robustness analysis-based criterion and show that deriving explainable feature sets based on the robustness criterion yields more qualitatively impressive explanations. Lastly, for sample explanations, we provide a decomposition-based representer criterion that allows us to provide very scalable and compelling classes of sample-based explanations. Joint with Chih-Kuan Yeh.</i>
                                                 </ul>
                                             </Typography>
                                         </Grid>
@@ -324,7 +325,7 @@ class WorkshopSchedule extends React.Component {
 
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <b>Title: </b> Multimodal vision-language models towards explainable medical computer vision
+                                                    <b><i>Multimodal vision-language models towards explainable medical computer vision</i></b>
                                                 </ul>
                                             </Typography>
                                         </Grid>
@@ -351,13 +352,31 @@ class WorkshopSchedule extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
                                                 <b>04:50 PM - 05:50 PM: </b> Panel Discussion
                                             </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <i>We would like to initiate discussions across industry and academia that work on building interpretable and trustworthy systems useful to the broader vision community.</i>
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <i><b>Panelists: </b> Antonio Torralba, Yixin Wang, Rich Caruana, Pradeep Ravikumar, Hima Lakkaraju.</i>
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <i><b>Discussion lead by: </b> Filip Radenovic, Deepti Ghardiyaram, Devi Parikh.</i>
+                                                </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
                                     
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <b>05:50 PM - 06:00 PM: </b> Closing Remarks
+                                                <b>05:50 PM - 06:00 PM: </b> Closing Remarks - <b>Filip Radenovic</b> (Meta AI)
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -377,6 +396,22 @@ class WorkshopSchedule extends React.Component {
                                     </Grid>
 
                                     <Speakers/>
+
+                                    <div className={classes.container}/>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="h5"
+                                            align="left"
+                                            >
+                                            Organizers
+                                        </Typography>
+                                    </Grid>
+
+                                    <People/>
+
 
                                     <div className={classes.container}/>
 
