@@ -101,7 +101,7 @@ class Header extends React.Component {
                             underline="none"
                             align="left"
                             className={[classes.buttonLink, classes.grow].join(' ')}
-                            href={'./workshop'}
+                            href={'https://xai4cv.github.io/workshop'}
                         >
                             <b>XAI4CV</b>
                         </Link>

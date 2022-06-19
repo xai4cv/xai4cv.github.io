@@ -300,7 +300,7 @@ class Workshop extends React.Component {
                                             variant="body1"
                                             align="left"
                                             >
-                                            Detailed schedule available at <Link target="_blank" rel="noopener" href="./workshop-schedule"><b>xai4cv.github.io/workshop-schedule</b></Link>.
+                                            Detailed schedule available at <Link target="_blank" rel="noopener" href="https://xai4cv.github.io/workshop-schedule"><b>xai4cv.github.io/workshop-schedule</b></Link>.
                                         </Typography>
                                     </Grid>
 
