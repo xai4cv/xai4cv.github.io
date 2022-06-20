@@ -346,6 +346,12 @@ class WorkshopSchedule extends React.Component {
                                                     <b><i>Multimodal vision-language models towards explainable medical computer vision</i></b>
                                                 </ul>
                                             </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <i>The COVID-19 pandemic and needs that arose were a test for real-world application of computer vision models in healthcare. In this talk I will first discuss how computer vision models that were developed during the pandemic fared, including with respect to explainability. I will then discuss learning cross-modal representation spaces towards explainability, in the context of medical imaging. Finally I will discuss work on more generally investigating the structure of cross-modal representation spaces, in particular the phenomenon of modality gap, and its implications.</i>
+                                                </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
