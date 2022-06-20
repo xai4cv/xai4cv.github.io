@@ -88,7 +88,7 @@ class Home extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <Link href="https://xai4cv.github.io/workshop"><b>XAI4CV at CVPR 2022</b></Link>
+                                                <Link href="./workshop"><b>XAI4CV at CVPR 2022</b></Link>
                                             </Typography>
                                         </Grid>
                                     </Grid>

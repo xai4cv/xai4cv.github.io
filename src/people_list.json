@@ -1,43 +1,43 @@
 {
     "people": [
         {
-            "img_url": "https://xai4cv.github.io/assets/images/filip_radenovic.jpeg", 
+            "img_url": "assets/images/filip_radenovic.jpeg", 
             "name": "Filip Radenovic", 
             "organization": "Meta AI",
             "website": "https://filipradenovic.github.io"
         },
         {
-            "img_url": "https://xai4cv.github.io/assets/images/abhishek_kadian.jpg", 
+            "img_url": "assets/images/abhishek_kadian.jpg", 
             "name": "Abhishek Kadian", 
             "organization": "Meta AI",
             "website": "https://abhiskk.github.io"
         },
         {
-            "img_url": "https://xai4cv.github.io/assets/images/deepti_ghadiyaram.png", 
+            "img_url": "assets/images/deepti_ghadiyaram.png", 
             "name": "Deepti Ghadiyaram", 
             "organization": "Meta AI",
             "website": "https://deeptigp.github.io"
         },
         {
-            "img_url": "https://xai4cv.github.io/assets/images/dhruv_mahajan.jpeg", 
+            "img_url": "assets/images/dhruv_mahajan.jpeg", 
             "name": "Dhruv Mahajan", 
             "organization": "Meta AI",
             "website": "https://ai.facebook.com/people/dhruv-mahajan"
         },
         {
-            "img_url": "https://xai4cv.github.io/assets/images/devi_parikh.jpeg", 
+            "img_url": "assets/images/devi_parikh.jpeg", 
             "name": "Devi Parikh", 
             "organization": "Meta AI",
             "website": "https://faculty.cc.gatech.edu/~parikh"
         },
         {
-            "img_url": "https://xai4cv.github.io/assets/images/vignesh_ramanathan.jpeg", 
+            "img_url": "assets/images/vignesh_ramanathan.jpeg", 
             "name": "Vignesh Ramanathan", 
             "organization": "Meta AI",
             "website": "https://ai.facebook.com/people/vignesh-ramanathan"
         },
         {
-            "img_url": "https://xai4cv.github.io/assets/images/jun_xie.jpeg", 
+            "img_url": "assets/images/jun_xie.jpeg", 
             "name": "Jun Xie", 
             "organization": "Meta AI",
             "website": "https://www.linkedin.com/in/junxie19"
