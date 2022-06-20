@@ -267,6 +267,18 @@ class WorkshopSchedule extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
                                                 <b>02:00 PM - 02:30 PM: </b> Invited Talk - <b>Trevor Darrell</b> (UC Berkeley)
                                             </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b><i>From Explainable to Advisable Learning</i></b>
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <i>Explainable AI can augment or interpret existing AI models to allow them to be more transparent to human users and/or developers.  This can lead to greater acceptance and understanding of an AI agent's actions and capabilities.  XAI techniques also can lead to more performant systems, when an inverse explanation process is employed to provide advice to an AI agent.  In this talk I'll review recent progress towards explainable and advisable systems, including continual learning methods that learn to "remember for the right reasons", methods for dealing with heavily biased datasets based on attention advice, and recent work on language-based advice for visual classification.  By developing AI systems that can explain themselves, we find that we can use those same mechanisms to teach them to become better at what they need to do.</i>
+                                                </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
