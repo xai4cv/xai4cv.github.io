@@ -167,6 +167,12 @@ class WorkshopSchedule extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
                                                 <b>10:30 AM - 11:00 AM: </b> Invited Talk - <b>Antonio Torralba</b> (MIT)
                                             </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b><i>Interpreting and editing networks</i></b>
+                                                </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
