@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import People from './People';
 import Speakers from './Speakers';
 import Link from '@material-ui/core/Link';
+import VideoIcon from '@material-ui/icons/VideoLibrary';
 
 
 const styles = theme => ({
@@ -300,7 +301,8 @@ class Workshop extends React.Component {
                                             variant="body1"
                                             align="left"
                                             >
-                                            Detailed schedule available at <Link target="_blank" rel="noopener" href="./workshop-schedule"><b>xai4cv.github.io/workshop-schedule</b></Link>.
+                                            Detailed schedule available at <Link target="_blank" rel="noopener" href="./workshop-schedule"><b>xai4cv.github.io/workshop-schedule</b></Link>. <br />
+                                            Video recordings for all sessions available on <Link target="_blank" rel="noopener" href="https://youtube.com/playlist?list=PLmTZeha8o7E9cRtwmOOuVBzpSsAN0smk1"><b><VideoIcon fontSize="inherit"/> YouTube</b></Link>.
                                         </Typography>
                                     </Grid>
 

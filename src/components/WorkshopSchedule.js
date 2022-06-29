@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import Speakers from './Speakers';
 import Link from '@material-ui/core/Link';
 import PDFIcon from '@material-ui/icons/PictureAsPdf';
+import VideoIcon from '@material-ui/icons/VideoLibrary';
 import People from './People';
 
 
@@ -104,7 +105,11 @@ class WorkshopSchedule extends React.Component {
                                         >
                                             <b>Date:</b> Monday, June 20, 2022 <br />
                                             <b>Venue:</b> New Orleans Ernest N. Morial Convention Center, New Orleans, Louisiana <br />
-                                            <b>Location:</b> 208-210 <br />
+                                            <b>Location:</b> 208-210 <br /><br />
+                                        </Typography>
+
+                                        <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Link target="_blank" rel="noopener" href="https://youtube.com/playlist?list=PLmTZeha8o7E9cRtwmOOuVBzpSsAN0smk1"><b><VideoIcon fontSize="inherit"/> Video Recordings for all Sessions</b></Link>
                                         </Typography>
                                     </Grid>
 
@@ -116,6 +121,12 @@ class WorkshopSchedule extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
                                                 <b>09:00 AM - 09:10 AM: </b> Opening Remarks - <b>Filip Radenovic</b> (Meta AI)
                                             </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/_FhGrL3Fm2o"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
+                                                </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
@@ -126,10 +137,16 @@ class WorkshopSchedule extends React.Component {
                                             </Typography>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <li>ID 06: <b>HIVE: Evaluating the Human Interpretability of Visual Explanations.</b> Sunnie S. Y. Kim, Nicole Meister, Vikram V. Ramaswamy, Ruth C Fong, Olga Russakovsky.</li>
-                                                    <li>ID 11: <b>Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic Filter Attention.</b> Yu Yang, Seungbae Kim, Jungseock Joo.</li>
-                                                    <li>ID 17: <b>Causality for Inherently Explainable Transformers: CAT-XPLAIN.</b> Subash Khanal, Benjamin Brodie, Xin Xing, Ai-Ling Lin, Nathan Jacobs.</li>
-                                                    <li>ID 20: <b>Do learned representations respect causal relationships?</b> Lan Wang, Vishnu Boddeti.</li>
+                                                    <li>S 06: <b>HIVE: Evaluating the Human Interpretability of Visual Explanations.</b> Sunnie S. Y. Kim, Nicole Meister, Vikram V. Ramaswamy, Ruth C Fong, Olga Russakovsky.</li>
+                                                    <li>S 11: <b>Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic Filter Attention.</b> Yu Yang, Seungbae Kim, Jungseock Joo.</li>
+                                                    <li>S 17: <b>Causality for Inherently Explainable Transformers: CAT-XPLAIN.</b> Subash Khanal, Benjamin Brodie, Xin Xing, Ai-Ling Lin, Nathan Jacobs.</li>
+                                                    <li>S 20: <b>Do learned representations respect causal relationships?</b> Lan Wang, Vishnu Boddeti.</li>
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/7uysq-qAtr4"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
                                                 </ul>
                                             </Typography>
                                         </Grid>
@@ -171,6 +188,12 @@ class WorkshopSchedule extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
                                                     <b><i>Interpreting and editing networks</i></b>
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/opNPswunmfY"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
                                                 </ul>
                                             </Typography>
                                         </Grid>
@@ -221,6 +244,12 @@ class WorkshopSchedule extends React.Component {
                                                     <i>Most interpretable machine learning methods depend on models trained with linear regression, decision lists, rules, or trees.  However it is possible to train interpretable models with DNNs by restricting the architecture to learn components that have reduced complexity and thus are easy to explain.  In this presentation I’ll review NAMs --- Neural Additive Models --- where deep learning is used to train neural nets that are inherently interpretable yet highly accurate on tabular data.  Although these glassbox models are not designed for vision, I’ll briefly discuss how they might be used to improve the intelligibility of some vision systems.</i>
                                                 </ul>
                                             </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/cxc0zY0Btf4"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
+                                                </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
@@ -239,10 +268,16 @@ class WorkshopSchedule extends React.Component {
                                             </Typography>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
-                                                    <li>ID 27: <b>A Deeper Dive Into What Deep Spatiotemporal Networks Encode: Quantifying Static vs. Dynamic Information.</b> Matthew Kowal, Mennatullah Siam, Md Amirul Islam, Neil Bruce, Rick Wildes, Konstantinos G Derpanis.</li>
-                                                    <li>ID 31: <b>Consistent Explanations by Contrastive Learning.</b> Vipin Pillai, Soroush Abbasi Koohpayegani, Ashley Ouligian, Dennis Fong, Hamed Pirsiavash.</li>
-                                                    <li>ID 35: <b>OccAM's Laser: Occlusion-based Attribution Maps for 3D Object Detectors on LiDAR Data.</b> David Schinagl, Georg Krispel, Horst Possegger, Peter M. Roth, Horst Bischof.</li>
-                                                    <li>ID 54: <b>B-cos Networks: Alignment is All We Need for Interpretability.</b> Moritz Böhle, Mario Fritz, Bernt Schiele.</li>
+                                                    <li>S 27: <b>A Deeper Dive Into What Deep Spatiotemporal Networks Encode: Quantifying Static vs. Dynamic Information.</b> Matthew Kowal, Mennatullah Siam, Md Amirul Islam, Neil Bruce, Rick Wildes, Konstantinos G Derpanis.</li>
+                                                    <li>S 31: <b>Consistent Explanations by Contrastive Learning.</b> Vipin Pillai, Soroush Abbasi Koohpayegani, Ashley Ouligian, Dennis Fong, Hamed Pirsiavash.</li>
+                                                    <li>S 35: <b>OccAM's Laser: Occlusion-based Attribution Maps for 3D Object Detectors on LiDAR Data.</b> David Schinagl, Georg Krispel, Horst Possegger, Peter M. Roth, Horst Bischof.</li>
+                                                    <li>S 54: <b>B-cos Networks: Alignment is All We Need for Interpretability.</b> Moritz Böhle, Mario Fritz, Bernt Schiele.</li>
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/KnMFDeMk9Us"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
                                                 </ul>
                                             </Typography>
                                         </Grid>
@@ -265,6 +300,12 @@ class WorkshopSchedule extends React.Component {
                                                     <i>Machines and humans are likely to understand the world differently. They may share some of their representational spaces, but not all. Bridging the gap between the two representational spaces is the key for the future ML in both developing and understanding them. While there have been many advances in bridging this gap in vision, there are unique challenges that we should keep in mind as we go forward. On the other hand, vision may offer unique (perhaps the only) ways for us to understand machine concepts. I will discuss some of our recent work that will help us discuss these topics.</i>
                                                 </ul>
                                             </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/bKpxteeXSh4"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
+                                                </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
@@ -283,6 +324,12 @@ class WorkshopSchedule extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
                                                     <i>Explainable AI can augment or interpret existing AI models to allow them to be more transparent to human users and/or developers.  This can lead to greater acceptance and understanding of an AI agent's actions and capabilities.  XAI techniques also can lead to more performant systems, when an inverse explanation process is employed to provide advice to an AI agent.  In this talk I'll review recent progress towards explainable and advisable systems, including continual learning methods that learn to "remember for the right reasons", methods for dealing with heavily biased datasets based on attention advice, and recent work on language-based advice for visual classification.  By developing AI systems that can explain themselves, we find that we can use those same mechanisms to teach them to become better at what they need to do.</i>
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/74TE4NRiuaQ"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
                                                 </ul>
                                             </Typography>
                                         </Grid>
@@ -332,6 +379,12 @@ class WorkshopSchedule extends React.Component {
                                                     <i>Objective criteria to evaluate explanations of machine learning models are a critical ingredient in bringing greater rigor to the field of explainable artificial intelligence. We discuss three such criteria that each target different classes of explanations. In the first, targeted at real-valued feature importance explanations, we define a class of “infidelity” measures that capture how well the explanations match the ML models. We show that instances of such infidelity minimizing explanations correspond to many popular recently proposed explanations and, moreover, can be shown to satisfy well-known game-theoretic axiomatic properties. In the second, targeted to feature set explanations, we define a robustness analysis-based criterion and show that deriving explainable feature sets based on the robustness criterion yields more qualitatively impressive explanations. Lastly, for sample explanations, we provide a decomposition-based representer criterion that allows us to provide very scalable and compelling classes of sample-based explanations. Joint with Chih-Kuan Yeh.</i>
                                                 </ul>
                                             </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/lBiuROaEvnw"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
+                                                </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
@@ -352,6 +405,12 @@ class WorkshopSchedule extends React.Component {
                                                     <i>The COVID-19 pandemic and needs that arose were a test for real-world application of computer vision models in healthcare. In this talk I will first discuss how computer vision models that were developed during the pandemic fared, including with respect to explainability. I will then discuss learning cross-modal representation spaces towards explainability, in the context of medical imaging. Finally I will discuss work on more generally investigating the structure of cross-modal representation spaces, in particular the phenomenon of modality gap, and its implications.</i>
                                                 </ul>
                                             </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/aPoDbpnpC7I"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
+                                                </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
@@ -359,6 +418,18 @@ class WorkshopSchedule extends React.Component {
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
                                                 <b>04:10 PM - 04:40 PM: </b> Invited Talk - <b>Hima Lakkaraju</b> (Harvard University)
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <b><i>Bringing Order to the Chaos: Probing the Disagreement Problem in XAI</i></b>
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/8ptuYPxxRbk"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
+                                                </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -392,6 +463,12 @@ class WorkshopSchedule extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
                                                 <ul>
                                                     <i><b>Discussion lead by: </b> Filip Radenovic, Deepti Ghardiyaram, Devi Parikh.</i>
+                                                </ul>
+                                            </Typography>
+
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                <ul>
+                                                    <Link target="_blank" rel="noopener" href="https://youtu.be/wGPNW_H_z5w"><b><VideoIcon fontSize="inherit"/> Video Recording</b></Link>
                                                 </ul>
                                             </Typography>
                                         </Grid>
