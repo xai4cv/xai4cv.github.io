@@ -22,10 +22,10 @@ class App extends React.Component {
 
             <div>
               <Route path="/" exact component={Home} />
-              <Route path="/xai4cv_cvpr22" exact component={Workshop_CVPR22} />
-              <Route path="/xai4cv_cvpr22/"><Redirect to="/xai4cv_cvpr22" /></Route>
-              <Route path="/xai4cv_cvpr23" exact component={Workshop_CVPR23} />
-              <Route path="/xai4cv_cvpr23/"><Redirect to="/xai4cv_cvpr23" /></Route>
+              <Route path="/workshop_cvpr22" exact component={Workshop_CVPR22} />
+              <Route path="/workshop_cvpr22/"><Redirect to="/workshop_cvpr22" /></Route>
+              <Route path="/workshop_cvpr23" exact component={Workshop_CVPR23} />
+              <Route path="/workshop_cvpr23/"><Redirect to="/workshop_cvpr23" /></Route>
             </div>
 
           </div>
