@@ -2,7 +2,7 @@ import React from 'react';
 import Link from '@material-ui/core/Link';
 
 import { withStyles, Typography } from "@material-ui/core";
-import * as speakers from '../speakers_list_cvpr22.json';
+import * as people from '../people_list_cvpr23.json';
 import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
 
@@ -17,20 +17,20 @@ const styles = (theme) => ({
     }
 });
 
-const Speakers = (props) => {
-    let selectedSpeakers = []
-    let lgSize = 3;
-    if (props.speakers) {
-        selectedSpeakers = props.speakers;
+const People = (props) => {
+    let selectedPeople = []
+    let lgSize = 4;
+    if (props.people) {
+        selectedPeople = props.people;
     } else {
-        selectedSpeakers = speakers.speakers;
+        selectedPeople = people.people;
     }
 
     if (props.lgSize) {
         lgSize = props.lgSize;
     }
 
-    const speakersJSX = selectedSpeakers.map((person) => {
+    const peopleJSX = selectedPeople.map((person) => {
         const key = Math.random();
         return (
             <Grid item key={key} xs={12} sm={8} md={6} lg={lgSize}>
@@ -56,10 +56,10 @@ const Speakers = (props) => {
             justify="center"
             alignItems="flex-start"
         >
-            {speakersJSX}
+            {peopleJSX}
         </Grid>
     )
 };
 
 
-export default withStyles(styles)(Speakers);
+export default withStyles(styles)(People);

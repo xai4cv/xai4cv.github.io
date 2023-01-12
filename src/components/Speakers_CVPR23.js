@@ -2,7 +2,7 @@ import React from 'react';
 import Link from '@material-ui/core/Link';
 
 import { withStyles, Typography } from "@material-ui/core";
-import * as speakers from '../speakers_list_cvpr22.json';
+import * as speakers from '../speakers_list_cvpr23.json';
 import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
 
@@ -19,7 +19,7 @@ const styles = (theme) => ({
 
 const Speakers = (props) => {
     let selectedSpeakers = []
-    let lgSize = 3;
+    let lgSize = 4;
     if (props.speakers) {
         selectedSpeakers = props.speakers;
     } else {
