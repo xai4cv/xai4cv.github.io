@@ -7,8 +7,8 @@ import theme from './styles';
 
 import Header from './components/Header';
 import Home from './components/Home';
-import Workshop from './components/Workshop';
-import WorkshopSchedule from './components/WorkshopSchedule';
+import Workshop_CVPR22 from './components/Workshop_CVPR22';
+import Workshop_CVPR23 from './components/Workshop_CVPR23';
 
 class App extends React.Component {
   render() {
@@ -22,10 +22,10 @@ class App extends React.Component {
 
             <div>
               <Route path="/" exact component={Home} />
-              <Route path="/workshop" exact component={Workshop} />
-              <Route path="/workshop-schedule" exact component={WorkshopSchedule} />
-              <Route path="/workshop/"><Redirect to="/workshop" /></Route>
-              <Route path="/workshop-schedule/"><Redirect to="/workshop-schedule" /></Route>
+              <Route path="/xai4cv_cvpr22" exact component={Workshop_CVPR22} />
+              <Route path="/xai4cv_cvpr22/"><Redirect to="/xai4cv_cvpr22" /></Route>
+              <Route path="/xai4cv_cvpr23" exact component={Workshop_CVPR23} />
+              <Route path="/xai4cv_cvpr23/"><Redirect to="/xai4cv_cvpr23" /></Route>
             </div>
 
           </div>
