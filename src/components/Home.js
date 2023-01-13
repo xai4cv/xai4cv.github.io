@@ -61,15 +61,7 @@ class Home extends React.Component {
                                                 gutterBottom
                                                 align="left"
                                                 >
-                                                Explainable Artificial Intelligence for Computer Vision (XAI4CV)
-                                            </Typography>
-                                            <Typography
-                                                className={classes.SectionHeader}
-                                                variant="h6"
-                                                gutterBottom
-                                                align="left"
-                                            >
-                                                Meta AI
+                                                Explainable AI for Computer Vision (XAI4CV)
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -82,13 +74,13 @@ class Home extends React.Component {
                                             variant="h5"
                                             align="left"
                                             >
-                                            Workshops
+                                            Upcoming workshop
                                         </Typography>
                                     </Grid>
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <Link href="./workshop"><b>XAI4CV at CVPR 2022</b></Link>
+                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
+                                                <Link href="./workshop_cvpr23"><b>The 2nd XAI4CV Workshop at CVPR 2023</b></Link>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -101,16 +93,25 @@ class Home extends React.Component {
                                             variant="h5"
                                             align="left"
                                             >
-                                            Contact
+                                            Previous workshop
                                         </Typography>
                                     </Grid>
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                Email: <Link href="mailto:filipradenovic@fb.com">filipradenovic@fb.com</Link>
+                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
+                                                <Link href="./workshop_cvpr22"><b>The 1st XAI4CV Workshop at CVPR 2022</b></Link>
                                             </Typography>
                                         </Grid>
                                     </Grid>
+
+                                    <div className={classes.container}/>
+
+                                    <Grid container justify="flex-start">
+                                      <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                      <img className="img-fluid" width="100%" alt="CVPR 2022 Workshop" src="assets/images/xai4cv_cvpr22.jpeg"/>
+                                      </Grid>
+                                    </Grid>
+
                                 </Grid>
                             </Grid>
                         </Grid>

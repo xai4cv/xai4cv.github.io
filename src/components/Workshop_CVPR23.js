@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import People from './People';
-import Speakers from './Speakers';
+import People from './People_CVPR23';
+import Speakers from './Speakers_CVPR23';
 import Link from '@material-ui/core/Link';
 import VideoIcon from '@material-ui/icons/VideoLibrary';
 
@@ -46,15 +46,15 @@ class Workshop extends React.Component {
 
         return (
             <div className={classes.root}>
-                <Grid 
-                    container 
-                    justify="center" 
+                <Grid
+                    container
+                    justify="center"
                     alignContent="center"
                 >
-                    <Grid 
-                        item 
-                        xs={10} 
-                        md={9} 
+                    <Grid
+                        item
+                        xs={10}
+                        md={9}
                         lg={9}
                         className={classes.content}
                     >
@@ -68,22 +68,10 @@ class Workshop extends React.Component {
                                             gutterBottom
                                             align="center"
                                             >
-                                            XAI4CV: Explainable Artificial Intelligence for Computer Vision
+                                            The 2nd Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2023
                                         </Typography>
                                     </Grid>
 
-                                    <Grid item xs={12} md={12} lg={12} className={classes.gridItem}>
-                                        <Typography
-                                            className={classes.sectionHeader}
-                                            variant="h5"
-                                            gutterBottom
-                                            align="center"
-                                            >
-                                            Workshop at CVPR 2022
-                                        </Typography>
-                                    </Grid>
-
-                                    <div className={classes.container}/>
                                     <div className={classes.container}/>
 
                                     <Grid item xs={12} className={classes.gridItem}>
@@ -92,10 +80,8 @@ class Workshop extends React.Component {
                                             variant="subtitle1"
                                             align="left"
                                         >
-                                            <b>Date:</b> Monday, June 20, 2022 <br />
-                                            <b>Venue:</b> New Orleans Ernest N. Morial Convention Center, New Orleans, Louisiana <br />
-                                            <b>Location:</b> 208-210 <br /><br />
-                                            <b>Motivation:</b> Provide a common forum for both computer vision practitioners in the industry and academia to initiate discussions and propose best ways to build explainable models that can benefit the global community. 
+                                            <b>Date:</b> Monday, June 19, 2023 <br />
+                                            <b>Venue:</b> Vancouver Convention Center, Vancouver, BC, Canada <br />
                                         </Typography>
                                     </Grid>
 
@@ -109,7 +95,7 @@ class Workshop extends React.Component {
                                             variant="h5"
                                             align="left"
                                             >
-                                            Abstract
+                                            Motivation
                                         </Typography>
                                     </Grid>
 
@@ -119,15 +105,11 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                            Computer vision (CV) models are often used to improve applications and products and are very successful. 
-                                            However, these models are usually black-box in nature and do not provide explanations for their predictions, which sometimes leads to confusing behaviour. 
-                                            The current lack of transparency in CV models is one of the biggest barriers in building trust among consumers, often resulting in severe backlash when models make embarrassing mistakes.
-                                            Trust in the models can be improved by making them fair, easily understandable for everyone, and correctable if necessary. 
-                                            The need for trustworthiness has prompted recent clauses in GDPR regulations that require models to also explain their results in a way a naive consumer can understand. 
+                                            Computer vision (CV) systems are ubiquitous: from unlocking our phones with face identification, to monitoring traffic in busy roads, to assisting radiologists with automated medical image analysis. These systems are typically black boxes and do not provide explanations of their outputs. However, explainability of these systems is critical for people to effectively use, interact, and achieve best outcomes with them. Recognizing this need, the recent European GDPR regulations even identify a new "right to explanation" for individuals whose legal status is affected by a solely-automated decision, and require explainability and transparency of automated systems.
                                             <br /><br />
-                                            With socio-political implications of AI in mind, this workshop aims to motivate proactive adaptation of explainability in computer vision systems. 
-                                            Specifically, our aim is to spark healthy conversations that address building top-performing explainable computer vision systems that not only identify "what" and "where" different visual entities occur in an image, but also provide a human-like reasoning of "why" the model made those predictions. 
-                                            Furthermore, such systems should allow a user to provide feedback and thereby correct potentially harmful mispredictions with minimal effort.
+                                            In line with the growing recognition of the importance of explainability, hundreds of explainable AI (XAI) methods have been proposed in recent years. Yet, XAI research for computer vision systems is currently in a nascent stage where most of the work is in developing post-hoc explanation methods that indicate input features (e.g., pixels) that led to a certain output.  These methods are typically used by developers for debugging and improving their systems, however, the utility of explanations provided by these methods have been called into question in recent works. Furthermore, little is understood about whether existing XAI explanations are understandable and useful to end-users of these systems who often have little to no background in AI or CV.
+                                            <br /><br />
+                                            In this workshop, we seek to provide a forum for researchers and practitioners to discuss the unique challenges and opportunities in XAI for CV, and contribute to pushing the frontiers of the field.
                                         </Typography>
                                     </Grid>
 
@@ -142,7 +124,7 @@ class Workshop extends React.Component {
                                             align="left"
                                             id="call_for_papers"
                                             >
-                                            Call for Papers
+                                            Call for Papers & Demos
                                         </Typography>
                                     </Grid>
 
@@ -153,14 +135,26 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                        We welcome 2 page (including references) extended abstract submissions that showcase successful application of XAI methods on popular computer vision tasks, 
-                                        helping users better understand the results of a model.
-                                        Moreover, we also welcome the submission of novel XAI for CV techniques, visualizations, and practical libraries. 
-                                        <br /> <br />
-                                        Finally, we encourage submitting papers accepted in the CVPR 2022 main program, or in a relevant 2022 conference, in which case authors do not need to prepare extended abstract, 
-                                        but simply submit the camera-ready version of the accepted paper.
-                                        <br /> <br />
-                                        Note that, accepted extended abstracts will not be published in conjunction with the CVPR 2022 proceedings.
+                                        We welcome paper and demo submissions.
+                                        <ul>
+                                          <li>
+                                            <b>Papers</b> should describe high-quality, original research. Contributions can include novel XAI methods; applications of existing methods on new domains, models, and tasks; evaluation or analysis of existing methods; and practical toolboxes.
+                                          </li>
+                                          <li>
+                                            <b>Demos</b> should consist of static or interactive presentations of XAI for CV models and tasks, accompanied by a description. Contributions can include visualizations, explanations, and explorations of novel XAI systems; novel visualizations, explanations, and explorations of existing XAI systems; studies of how different  visualizations, explanations, and explorations of XAI systems are perceived by people; among others.
+                                          </li>
+                                        </ul>
+
+                                        We have two tracks of submissions.
+                                        <ul>
+                                          <li>
+                                            <b>Proceedings track:</b> We welcome <b>4-page</b> submissions of papers and demos. Submissions accepted to this track <b>will be published</b> in the CVPR 2023 workshop proceedings.
+                                          </li>
+                                          <li>
+                                            <b>Non-proceedings track:</b> We welcome <b>2-page</b> submissions (commonly referred to as "extended abstracts") of papers and demos. For the non-proceedings track, we encourage submissions of published or accepted work (e.g., papers and demos accepted to the CVPR 2023 main program). Submissions accepted to this track <b>will <i>not</i> be published</b> in the CVPR 2023 workshop proceedings.
+                                          </li>
+                                        </ul>
+
                                         </Typography>
                                     </Grid>
 
@@ -179,10 +173,10 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                        CMT portal opens on <b>Feb 2, 2022</b>. <br/>
-                                        Submissions until <b>May 18, 2022</b>. <br/>
-                                        Rolling acceptances from <b>May 1, 2022</b> until <b>May 20, 2022</b>. <br/>
-                                        Spotlight / Poster decisions on <b>May 23, 2022</b>.
+                                        CMT portal opens on <b>Feb 28, 2023</b>. <br/>
+                                        Submissions until <b>March 14, 2023</b>. <br/>
+                                        Decisions on <b>April 1, 2023</b>. <br/>
+                                        Camera-ready due on <b>April 8, 2023</b>.
                                         </Typography>
                                     </Grid>
 
@@ -201,13 +195,7 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                        <b>Extended Abstracts: </b> All submissions should be in the anonymized CVPR 2022 format, and submissions will be subjected to the double-blind review process. 
-                                        Submitted extended abstracts will be reviewed by 1-2 reviewers, with the organizing team serving as a program committee.
-                                        <br /><br />
-                                        <b>Papers accepted in a relevant 2022 conference: </b> Authors of papers accepted in the CVPR 2022 main program, or in a relevant 2022 conference, are encouraged to submit the camera-ready version and present their work at our workshop.
-                                        Organizing team will review the relevance of submitted papers to the XAI4CV workshop.
-                                        <br /><br />
-                                        <b>Submissions</b> can be done at <Link target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2022"><b>https://cmt3.research.microsoft.com/XAI4CV2022</b></Link>.
+                                        All submissions should be in the anonymized CVPR 2023 format, and submissions will be subjected to the double-blind review process. Submissions can be done at <Link target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2023"><b>https://cmt3.research.microsoft.com/XAI4CV2023</b></Link> (to open on Feb 28, 2023).
                                         </Typography>
                                     </Grid>
 
@@ -218,7 +206,7 @@ class Workshop extends React.Component {
                                             variant="subtitle1"
                                             align="left"
                                             >
-                                            <b>Attendance</b>
+                                            <b>Attendance & Presentation</b>
                                         </Typography>
                                         <br/>
                                         <Typography
@@ -229,10 +217,10 @@ class Workshop extends React.Component {
                                         <b>Posters: </b> All accepted submissions will be invited to participate in an <b>in-person</b> poster session at our workshop.
                                         Additionally, the authors will be asked to upload their posters which will be hosted on our webpage.
                                         <br /><br />
-                                        <b>Spotlights: </b> We will pick the best 6 papers from among the submissions / main conference to be presented as spotlights.
+                                        <b>Spotlights: </b> We will pick 6-8 works among the submissions to be presented as spotlights.
                                         Presentations can either be <b>in-person</b> or <b>pre-recorded</b>.
                                         <br /><br />
-                                        Abiding by the <Link target="_blank" rel="noopener" href="https://cvpr2022.thecvf.com/registration"><b>CVPR guidelines</b></Link>, all accepted papers <b>must be presented by one of the authors</b>.
+                                        Abiding by the <Link target="_blank" rel="noopener" href="https://cvpr2023.thecvf.com/Conferences/2023/Pricing2"><b>CVPR guidelines</b></Link>, all accepted papers <b>must be presented by one of the authors</b>.
                                         </Typography>
                                     </Grid>
 
@@ -250,23 +238,17 @@ class Workshop extends React.Component {
                                             align="left"
                                         >
                                         <ul>
-                                            <li> Building inherently interpretable CV models,</li>
-                                            <li> Black-box CV model explanations visualized on test images and / or presented in a human interpretable language,</li>
-                                            <li> Object classification / detection / segmentation model explanations,</li>
-                                            <li> Action detection model explanations,</li>
-                                            <li> VQA model explanations,</li>
-                                            <li> Medical imaging model explanations,</li>
-                                            <li> Human intervention and correctability in computer vision,</li>
-                                            <li> Machine teaching via explanations,</li>
-                                            <li> Constructing datasets for benchmarking explainability,</li>
-                                            <li> Offline and online evaluation methods for explanations,</li>
-                                            <li> Building practical libraries for explainable computer vision, and their integration with popular CV libraries.</li>
+                                          <li>Interpretable-by-design computer vision (CV) models</li>
+                                          <li>Post-hoc explanation methods for CV models</li>
+                                          <li>Multimodal XAI, including both multimodal explanations of CV models and (unimodal) explanations of multimodal models</li>
+                                          <li>Evaluation and analysis of XAI methods</li>
+                                          <li>Datasets for XAI method development and evaluation</li>
+                                          <li>Open-source toolboxes for XAI</li>
+                                          <li>Human-centered XAI (e.g., human evaluations, qualitative studies)</li>
+                                          <li>Explainability's relationship to other constructs (e.g., fairness, transparency, interpretability, trust)</li>
                                         </ul>
                                         </Typography>
                                     </Grid>
-
-
-                                    <div className={classes.container}/>
 
 
                                     <Grid item xs={12} className={classes.gridItem}>
@@ -281,9 +263,7 @@ class Workshop extends React.Component {
 
                                     <Speakers/>
 
-
                                     <div className={classes.container}/>
-
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography
@@ -291,25 +271,14 @@ class Workshop extends React.Component {
                                             variant="h5"
                                             align="left"
                                             >
-                                            Schedule
-                                        </Typography>
-                                    </Grid>
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography
-                                            className={classes.sectionHeader}
-                                            variant="body1"
-                                            align="left"
-                                            >
-                                            Detailed schedule available at <Link target="_blank" rel="noopener" href="./workshop-schedule"><b>xai4cv.github.io/workshop-schedule</b></Link>. <br />
-                                            Video recordings for all sessions available on <Link target="_blank" rel="noopener" href="https://youtube.com/playlist?list=PLmTZeha8o7E9cRtwmOOuVBzpSsAN0smk1"><b><VideoIcon fontSize="inherit"/> YouTube</b></Link>.
+                                            Tentative Schedule
                                         </Typography>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>09:00 AM - 09:10 AM: </b> Opening Remarks
+                                                The schedule is in local time (PDT).
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -317,7 +286,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>09:10 AM - 09:50 AM: </b> Spotlight Session 1
+                                                <b>09:15 AM - 09:30 AM: </b> Opening Remarks
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -325,7 +294,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>09:50 AM - 10:30 AM: </b> Coffee Break + Poster Session 1
+                                                <b>09:30 AM - 10:00 AM: </b> Invited Talk 1
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -333,7 +302,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>10:30 AM - 11:00 AM: </b> Invited Talk - Antonio Torralba
+                                                <b>10:00 AM - 10:30 AM: </b> Invited Talk 2
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -341,7 +310,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>11:00 AM - 11:30 AM: </b> Invited Talk - Yixin Wang
+                                                <b>10:30 AM - 11:00 AM: </b> Spotlight Session 1
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -349,7 +318,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>11:30 AM - 12:00 PM: </b> Invited Talk - Rich Caruana
+                                                <b>11:00 AM - 12:00 PM: </b> Poster Session 1
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -357,7 +326,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>12:00 PM - 12:50 PM: </b> Lunch Break
+                                                <b>12:00 AM - 01:30 PM: </b> Lunch Social
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -365,7 +334,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>12:50 PM - 01:30 PM: </b> Spotlight Session 2
+                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk 3
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -373,7 +342,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk - Been Kim
+                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk 4
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -381,7 +350,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk - Trevor Darrell
+                                                <b>02:30 PM - 03:00 PM: </b> Spotlight Session 2
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -389,15 +358,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>02:30 PM - 03:10 PM: </b> Coffee Break + Poster Session 2
-                                            </Typography>
-                                        </Grid>
-                                    </Grid>
-                                    
-                                    <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>03:10 PM - 03:40 PM: </b> Invited Talk - Pradeep Ravikumar
+                                                <b>03:00 PM - 04:00 PM: </b> Poster Session 2
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -405,7 +366,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>03:40 PM - 04:10 PM: </b> Invited Talk - Serena Yeung
+                                                <b>04:00 PM - 04:30 PM: </b> Invited Talk 5
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -413,7 +374,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>04:10 PM - 04:40 PM: </b> Invited Talk - Hima Lakkaraju
+                                                <b>04:30 PM - 05:00 PM: </b> Invited Talk 6
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -421,30 +382,12 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>04:40 PM - 04:50 PM: </b> Break
+                                                <b>05:00 PM - 05:15 PM: </b> Closing Remarks
                                             </Typography>
                                         </Grid>
                                     </Grid>
-
-                                    <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>04:50 PM - 05:50 PM: </b> Panel Discussion
-                                            </Typography>
-                                        </Grid>
-                                    </Grid>
-                                    
-                                    <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>05:50 PM - 06:00 PM: </b> Closing Remarks
-                                            </Typography>
-                                        </Grid>
-                                    </Grid>
-
 
                                     <div className={classes.container}/>
-
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography
@@ -458,9 +401,31 @@ class Workshop extends React.Component {
 
                                     <People/>
 
-
                                     <div className={classes.container}/>
 
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography
+                                            className={classes.sectionHeader}
+                                            variant="h5"
+                                            align="left"
+                                            >
+                                            Contact
+                                        </Typography>
+                                    </Grid>
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                                Email: <Link href="mailto:sunniesuhyoung@princeton.edu">sunniesuhyoung@princeton.edu</Link>
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <div className={classes.container}/>
+                                    <div className={classes.container}/>
+                                    <div className={classes.container}/>
+                                    <div className={classes.container}/>
+                                    <div className={classes.container}/>
+                                    <div className={classes.container}/>
 
                                 </Grid>
                             </Grid>

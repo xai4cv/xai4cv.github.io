@@ -2,7 +2,7 @@ import React from 'react';
 import Link from '@material-ui/core/Link';
 
 import { withStyles, Typography } from "@material-ui/core";
-import * as speakers from '../speakers_list.json';
+import * as speakers from '../speakers_list_cvpr22.json';
 import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
 
