@@ -174,7 +174,7 @@ class Workshop extends React.Component {
                                             align="left"
                                         >
                                         CMT portal opens on <b>Feb 28, 2023</b>. <br/>
-                                        Submissions until <b>March 14, 2023</b>. <br/>
+                                        Submissions due <b>March 14, 2023</b>. <br/>
                                         Decisions on <b>April 1, 2023</b>. <br/>
                                         Camera-ready due on <b>April 8, 2023</b>.
                                         </Typography>
