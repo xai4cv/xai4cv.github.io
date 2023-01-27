@@ -173,7 +173,6 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                        CMT portal opens on <b>Feb 28, 2023</b>. <br/>
                                         Submissions due <b>March 14, 2023</b>. <br/>
                                         Decisions on <b>April 1, 2023</b>. <br/>
                                         Camera-ready due on <b>April 8, 2023</b>.
@@ -195,7 +194,7 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                        All submissions should be in the anonymized CVPR 2023 format, and submissions will be subjected to the double-blind review process. Submissions can be done at <Link target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2023"><b>https://cmt3.research.microsoft.com/XAI4CV2023</b></Link> (to open on Feb 28, 2023).
+                                        All submissions should be in the anonymized CVPR 2023 format, and submissions will be subjected to the double-blind review process. Submissions can be done at <Link target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2023"><b>https://cmt3.research.microsoft.com/XAI4CV2023</b></Link>.
                                         </Typography>
                                     </Grid>
 
@@ -238,14 +237,15 @@ class Workshop extends React.Component {
                                             align="left"
                                         >
                                         <ul>
-                                          <li>Interpretable-by-design computer vision (CV) models</li>
+                                          <li>Interpretable-by-design CV models</li>
                                           <li>Post-hoc explanation methods for CV models</li>
+                                          <li>Methods for new interactions with CV models (e.g., debugging, editing)</li>
+                                          <li>Evaluation and analysis of XAI for CV</li>
                                           <li>Multimodal XAI, including both multimodal explanations of CV models and (unimodal) explanations of multimodal models</li>
-                                          <li>Evaluation and analysis of XAI methods</li>
-                                          <li>Datasets for XAI method development and evaluation</li>
-                                          <li>Open-source toolboxes for XAI</li>
-                                          <li>Human-centered XAI (e.g., human evaluations, qualitative studies)</li>
-                                          <li>Explainability's relationship to other constructs (e.g., fairness, transparency, interpretability, trust)</li>
+                                          <li>Datasets for developing and evaluating XAI for CV</li>
+                                          <li>Visualizations and toolboxes for XAI for CV</li>
+                                          <li>Human-centered XAI for CV (e.g., human evaluations, qualitative studies)</li>
+                                          <li>Studies of XAI for CV and related topics (e.g., fairness, transparency, interpretability, trust)</li>
                                         </ul>
                                         </Typography>
                                     </Grid>
@@ -415,7 +415,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                Email: <Link href="mailto:sunniesuhyoung@princeton.edu">sunniesuhyoung@princeton.edu</Link>
+                                                Email: <Link href="mailto:xai4cv2023@googlegroups.com">xai4cv2023@googlegroups.com</Link>
                                             </Typography>
                                         </Grid>
                                     </Grid>
