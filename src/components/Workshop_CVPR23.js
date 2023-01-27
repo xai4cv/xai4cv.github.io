@@ -238,9 +238,10 @@ class Workshop extends React.Component {
                                         >
                                         <ul>
                                           <li>Interpretable-by-design CV models</li>
-                                          <li>Post-hoc explanation methods for CV models</li>
-                                          <li>Methods for new interactions with CV models (e.g., debugging, editing)</li>
+                                          <li>Post-hoc explanations of CV models</li>
                                           <li>Evaluation and analysis of XAI for CV</li>
+                                          <li>Applications of XAI for CV</li>
+                                          <li>Methods for new interactions with CV models (e.g., debugging, editing)</li>
                                           <li>Multimodal XAI, including both multimodal explanations of CV models and (unimodal) explanations of multimodal models</li>
                                           <li>Datasets for developing and evaluating XAI for CV</li>
                                           <li>Visualizations and toolboxes for XAI for CV</li>
