@@ -173,9 +173,16 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                        Submissions due <b>March 14, 2023</b>. <br/>
+                                        <b>Proceedings track</b> <br/>
+                                        Max 4-page submissions due <b>March 14, 2023</b>. <br/>
                                         Decisions on <b>April 1, 2023</b>. <br/>
                                         Camera-ready due on <b>April 8, 2023</b>.
+                                        <br/>
+                                        <br/>
+                                        <b>Non-proceedings track</b> <br/>
+                                        Max 2-page submissions due <b>May 19, 2023</b>. <br/>
+                                        Rolling decisions from <b>May 1, 2023</b> to <b>May 25, 2023</b>. <br/>
+                                        Camera-ready due on <b>June 8, 2023</b>.
                                         </Typography>
                                     </Grid>
 
