@@ -29,6 +29,12 @@
             "name": "Alice Xiang",
             "organization": "Sony AI",
             "website": "https://ai.sony/people/Alice-Xiang/"
+        },
+        {
+            "img_url": "assets/images/david_bau.png",
+            "name": "David Bau",
+            "organization": "Northwestern University",
+            "website": "https://baulab.info/"
         }
 
     ]
