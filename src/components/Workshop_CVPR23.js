@@ -148,10 +148,10 @@ class Workshop extends React.Component {
                                         We have two tracks of submissions.
                                         <ul>
                                           <li>
-                                            <b>Proceedings track:</b> We welcome <b>4-page</b> submissions of papers and demos. Submissions accepted to this track <b>will be published</b> in the CVPR 2023 workshop proceedings.
+                                            <b>Proceedings track:</b> We welcome <b>max 4-page</b> submissions of papers and demos. Submissions accepted to this track <b>will be published</b> in the CVPR 2023 workshop proceedings.
                                           </li>
                                           <li>
-                                            <b>Non-proceedings track:</b> We welcome <b>2-page</b> submissions (commonly referred to as "extended abstracts") of papers and demos. For the non-proceedings track, we encourage submissions of published or accepted work (e.g., papers and demos accepted to the CVPR 2023 main program). Submissions accepted to this track <b>will <i>not</i> be published</b> in the CVPR 2023 workshop proceedings.
+                                            <b>Non-proceedings track:</b> We welcome <b>max 2-page</b> submissions (commonly referred to as "extended abstracts") of papers and demos. For the non-proceedings track, we encourage submissions of published or accepted work (e.g., papers and demos accepted to the CVPR 2023 main program). Submissions accepted to this track <b>will <i>not</i> be published</b> in the CVPR 2023 workshop proceedings.
                                           </li>
                                         </ul>
 
@@ -174,13 +174,13 @@ class Workshop extends React.Component {
                                             align="left"
                                         >
                                         <b>Proceedings track</b> <br/>
-                                        Max 4-page submissions due <b>March 14, 2023</b>. <br/>
+                                        Submissions due <b>March 14, 2023</b>. <br/>
                                         Decisions on <b>April 1, 2023</b>. <br/>
                                         Camera-ready due on <b>April 8, 2023</b>.
                                         <br/>
                                         <br/>
                                         <b>Non-proceedings track</b> <br/>
-                                        Max 2-page submissions due <b>May 19, 2023</b>. <br/>
+                                        Submissions due <b>May 19, 2023</b>. <br/>
                                         Rolling decisions from <b>May 1, 2023</b> to <b>May 25, 2023</b>. <br/>
                                         Camera-ready due on <b>June 8, 2023</b>.
                                         </Typography>
@@ -201,7 +201,11 @@ class Workshop extends React.Component {
                                             variant="body2"
                                             align="left"
                                         >
-                                        All submissions should be in the anonymized CVPR 2023 format, and submissions will be subjected to the double-blind review process. Submissions can be done at <Link target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2023"><b>https://cmt3.research.microsoft.com/XAI4CV2023</b></Link>.
+                                        All submissions should be in the <b>anonymized</b> CVPR 2023 format available at <a target="_blank" rel="noopener" href="https://cvpr.thecvf.com/Conferences/2023/AuthorGuidelines"><b>https://cvpr.thecvf.com/Conferences/2023/AuthorGuidelines</b></a>.
+                                        <br/>
+                                        The page limits <b>do not</b> include references.
+                                        <br/>
+                                        Submissions can be done at <a target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2023"><b>https://cmt3.research.microsoft.com/XAI4CV2023</b></a>.
                                         </Typography>
                                     </Grid>
 
@@ -226,7 +230,7 @@ class Workshop extends React.Component {
                                         <b>Spotlights: </b> We will pick 6-8 works among the submissions to be presented as spotlights.
                                         Presentations can either be <b>in-person</b> or <b>pre-recorded</b>.
                                         <br /><br />
-                                        Abiding by the <Link target="_blank" rel="noopener" href="https://cvpr2023.thecvf.com/Conferences/2023/Pricing2"><b>CVPR guidelines</b></Link>, all accepted papers <b>must be presented by one of the authors</b>.
+                                        Abiding by the <a target="_blank" rel="noopener" href="https://cvpr2023.thecvf.com/Conferences/2023/Pricing2"><b>CVPR guidelines</b></a>, all accepted papers <b>must be presented by one of the authors</b>.
                                         </Typography>
                                     </Grid>
 
