@@ -174,15 +174,15 @@ class Workshop extends React.Component {
                                             align="left"
                                         >
                                         <b>Proceedings track</b> <br/>
-                                        Submissions due <b>March 14, 2023</b>. <br/>
+                                        Submissions due <b>March 14, 2023 (5pm PT)</b>. <br/>
                                         Decisions on <b>April 1, 2023</b>. <br/>
-                                        Camera-ready due on <b>April 8, 2023</b>.
+                                        Camera-ready due on <b>April 8, 2023 (5pm PT)</b>.
                                         <br/>
                                         <br/>
                                         <b>Non-proceedings track</b> <br/>
-                                        Submissions due <b>May 19, 2023</b>. <br/>
+                                        Submissions due <b>May 19, 2023 (5pm PT)</b>. <br/>
                                         Rolling decisions from <b>May 1, 2023</b> to <b>May 25, 2023</b>. <br/>
-                                        Camera-ready due on <b>June 8, 2023</b>.
+                                        Camera-ready due on <b>June 8, 2023 (5pm PT)</b>.
                                         </Typography>
                                     </Grid>
 
