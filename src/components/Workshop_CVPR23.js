@@ -174,7 +174,7 @@ class Workshop extends React.Component {
                                             align="left"
                                         >
                                         <b>Proceedings track</b> <br/>
-                                        Submissions due <b>March 14, 2023 (5pm PT)</b>. <br/>
+                                        Submissions due <b><strike>March 14, 2023 (5pm PT)</strike> March 17, 2023 (5pm PT)</b>. <br/>
                                         Decisions on <b>April 1, 2023</b>. <br/>
                                         Camera-ready due on <b>April 8, 2023 (5pm PT)</b>.
                                         <br/>
