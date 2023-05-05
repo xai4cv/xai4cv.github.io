@@ -306,7 +306,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>09:30 AM - 10:00 AM: </b> Invited Talk 1
+                                                <b>09:30 AM - 10:00 AM: </b> Invited Talk 1: Marina M.-C. Höhne (née Vidovic)
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -314,7 +314,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>10:00 AM - 10:30 AM: </b> Invited Talk 2
+                                                <b>10:00 AM - 10:30 AM: </b> Invited Talk 2: Arvind Satyanarayan
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -346,7 +346,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk 3
+                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk 3: Q. Vera Liao
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -354,7 +354,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk 4
+                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk 4: Alice Xiang
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -378,7 +378,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>04:00 PM - 04:30 PM: </b> Invited Talk 5
+                                                <b>04:00 PM - 04:30 PM: </b> Invited Talk 5: David Bau
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -386,7 +386,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>04:30 PM - 05:00 PM: </b> Invited Talk 6
+                                                <b>04:30 PM - 05:00 PM: </b> Invited Talk 6: Mohit Bansal
                                             </Typography>
                                         </Grid>
                                     </Grid>
