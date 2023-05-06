@@ -369,6 +369,17 @@ class Workshop extends React.Component {
                                         </Typography>
                                     </Grid>
 
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Non-roceedings Track</b>
+                                        </Typography>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        <ul>
+                                          <li>To be updated</li>
+                                        </ul>
+                                        </Typography>
+                                    </Grid>
+
                                     <div className={classes.container}/>
 
                                     <Grid item xs={12} className={classes.gridItem}>
@@ -378,6 +389,29 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <People/>
+
+                                    <div className={classes.container}/>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="h5" align="left">
+                                            Program Committee
+                                        </Typography>
+                                    </Grid>
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <b>We thank our wonderful program committee members who are making this workshop possible!</b>
+                                            <br/><br/>
+                                            Abhimanyu Dubey, Andrew Elliott, Angelina Wang, Anirban Sarkar, Anmol Kalia, Arijit Ray,
+                                            Chenyang Zhao, Chhavi Yadav, Chirag Agarwal, David Schinagl, Deepti Ghadiyaram, Devon Ulrich,
+                                            Donald Honeycutt, Eunji Kim, Filip Radenovic, Giang Nguyen, Haofan Wang, Hubert Baniecki,
+                                            Indu Panigrahi, Itana Bulatovic, Jae Myung Kim, Jihoon Chung, Jonathan Donnelly,
+                                            Joseph Paul Cohen, Julien Colin, Kira Vinogradova, Lan Wang, Matthew Kowal, Mehdi Nourelahi,
+                                            Mert Yuksekgonul, Moritz Böhle, Peter Hase, Qi Li, Rama Kovvuri, Ruth Fong, Satyapriya Krishna,
+                                            Sunnie S. Y. Kim, Thomas Fel, Vikram V. Ramaswamy, Vipin Pillai, William Wang, Xinran Liang
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
 
                                     <div className={classes.container}/>
 
