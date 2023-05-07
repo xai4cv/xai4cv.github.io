@@ -375,7 +375,7 @@ class Workshop extends React.Component {
                                         </Typography>
                                         <Typography className={classes.sectionHeader} variant="body2" align="left">
                                         <ul>
-                                          <li>To be updated</li>
+                                          <li>We are receiving submissions until <b>May 19, 2023 (5pm PT)</b>!</li>
                                         </ul>
                                         </Typography>
                                     </Grid>
