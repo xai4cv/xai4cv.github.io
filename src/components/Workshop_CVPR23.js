@@ -371,7 +371,7 @@ class Workshop extends React.Component {
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
-                                            <b>Non-roceedings Track</b>
+                                            <b>Non-proceedings Track</b>
                                         </Typography>
                                         <Typography className={classes.sectionHeader} variant="body2" align="left">
                                         <ul>
