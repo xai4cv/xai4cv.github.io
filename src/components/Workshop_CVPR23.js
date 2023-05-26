@@ -97,123 +97,6 @@ class Workshop extends React.Component {
                                         </Typography>
                                     </Grid>
 
-
-                                    <div className={classes.container}/>
-
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="h5" align="left">
-                                            Call for Papers & Demos
-                                        </Typography>
-                                    </Grid>
-
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                        We welcome paper and demo submissions.
-                                        <ul>
-                                          <li>
-                                            <b>Papers</b> should describe high-quality, original research. Contributions can include novel XAI methods; applications of existing methods on new domains, models, and tasks; evaluation or analysis of existing methods; and practical toolboxes.
-                                          </li>
-                                          <li>
-                                            <b>Demos</b> should consist of static or interactive presentations of XAI for CV models and tasks, accompanied by a description. Contributions can include visualizations, explanations, and explorations of novel XAI systems; novel visualizations, explanations, and explorations of existing XAI systems; studies of how different  visualizations, explanations, and explorations of XAI systems are perceived by people; among others.
-                                          </li>
-                                        </ul>
-
-                                        We have two tracks of submissions.
-                                        <ul>
-                                          <li>
-                                            <b>Proceedings track:</b> We welcome <b>max 4-page</b> submissions of papers and demos. Submissions accepted to this track <b>will be published</b> in the CVPR 2023 workshop proceedings.
-                                          </li>
-                                          <li>
-                                            <b>Non-proceedings track:</b> We welcome <b>max 2-page</b> submissions (commonly referred to as "extended abstracts") of papers and demos. For the non-proceedings track, we encourage submissions of published or accepted work (e.g., papers and demos accepted to the CVPR 2023 main program). Submissions accepted to this track <b>will <i>not</i> be published</b> in the CVPR 2023 workshop proceedings.
-                                          </li>
-                                        </ul>
-
-                                        </Typography>
-                                    </Grid>
-
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
-                                            <b>Timeline</b>
-                                        </Typography>
-                                        <br/>
-                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                        <b>Proceedings track</b> <br/>
-                                        Submissions due <b><strike>March 14, 2023 (5pm PT)</strike> March 17, 2023 (5pm PT)</b>. <br/>
-                                        Decisions on <b><strike>April 1, 2023</strike> April 4, 2023</b>. <br/>
-                                        Camera-ready due on <b><strike>April 8, 2023 (5pm PT)</strike> April 13, 2023 (5pm PT)</b>.
-                                        <br/>
-                                        <br/>
-                                        <b>Non-proceedings track</b> <br/>
-                                        Submissions due <b>May 19, 2023 (5pm PT)</b>. <br/>
-                                        Rolling decisions from <b>May 1, 2023</b> to <b>May 25, 2023</b>. <br/>
-                                        Camera-ready due on <b>June 8, 2023 (5pm PT)</b>.
-                                        </Typography>
-                                    </Grid>
-
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
-                                            <b>Submission instructions</b>
-                                        </Typography>
-                                        <br/>
-                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                        All submissions should be in the <b>anonymized</b> CVPR 2023 format available at <a target="_blank" rel="noopener" href="https://cvpr.thecvf.com/Conferences/2023/AuthorGuidelines"><b>https://cvpr.thecvf.com/Conferences/2023/AuthorGuidelines</b></a>.
-                                        <br/>
-                                        The page limits <b>do not</b> include references.
-                                        <br/>
-                                        Submissions can be done at <a target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2023"><b>https://cmt3.research.microsoft.com/XAI4CV2023</b></a>.
-                                        </Typography>
-                                    </Grid>
-
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
-                                            <b>Attendance & Presentation</b>
-                                        </Typography>
-                                        <br/>
-                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                        <b>Posters: </b> All accepted submissions will be invited to participate in an <b>in-person</b> poster session at our workshop.
-                                        Additionally, the authors will be asked to upload their posters which will be hosted on our webpage.
-                                        <br /><br />
-                                        <b>Spotlights: </b> We will pick 6-8 works among the submissions to be presented as spotlights.
-                                        Presentations can either be <b>in-person</b> or <b>pre-recorded</b>.
-                                        <br /><br />
-                                        Abiding by the <a target="_blank" rel="noopener" href="https://cvpr2023.thecvf.com/Conferences/2023/Pricing2"><b>CVPR guidelines</b></a>, all accepted papers <b>must be presented by one of the authors</b>.
-                                        </Typography>
-                                    </Grid>
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
-                                            <b>Topics</b>
-                                        </Typography>
-                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                        <ul>
-                                          <li>Interpretable-by-design CV models</li>
-                                          <li>Post-hoc explanations of CV models</li>
-                                          <li>Evaluation and analysis of XAI for CV</li>
-                                          <li>Applications of XAI for CV</li>
-                                          <li>Methods for new interactions with CV models (e.g., debugging, editing)</li>
-                                          <li>Multimodal XAI, including both multimodal explanations of CV models and (unimodal) explanations of multimodal models</li>
-                                          <li>Datasets for developing and evaluating XAI for CV</li>
-                                          <li>Visualizations and toolboxes for XAI for CV</li>
-                                          <li>Human-centered XAI for CV (e.g., human evaluations, qualitative studies)</li>
-                                          <li>Studies of XAI for CV and related topics (e.g., fairness, transparency, interpretability, trust)</li>
-                                        </ul>
-                                        </Typography>
-                                    </Grid>
-
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="h5" align="left">
-                                            Invited Speakers
-                                        </Typography>
-                                    </Grid>
-
-                                    <Speakers/>
-
                                     <div className={classes.container}/>
 
                                     <Grid item xs={12} className={classes.gridItem}>
@@ -338,6 +221,16 @@ class Workshop extends React.Component {
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="h5" align="left">
+                                            Invited Speakers
+                                        </Typography>
+                                    </Grid>
+
+                                    <Speakers/>
+
+                                    <div className={classes.container}/>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="h5" align="left">
                                             Accepted Papers
                                         </Typography>
                                     </Grid>
@@ -375,7 +268,11 @@ class Workshop extends React.Component {
                                         </Typography>
                                         <Typography className={classes.sectionHeader} variant="body2" align="left">
                                         <ul>
-                                          <li>We are receiving submissions until <b>May 19, 2023 (5pm PT)</b>!</li>
+                                          <li><Link target="_blank" rel="noopener" href="./"><b><PDFIcon fontSize="inherit"/> P18</b></Link> <b>The Effect of Counterfactuals on Reading Chest X-rays.</b> Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew Lungren, Akshay Chaudhari.</li>
+                                          <li><Link target="_blank" rel="noopener" href="./"><b><PDFIcon fontSize="inherit"/> P19</b></Link> <b>Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability.</b> E. Zhixuan Zeng, Hayden Gunraj, Sheldon Fernandez, Alexander Wong.</li>
+                                          <li><Link target="_blank" rel="noopener" href="./"><b><PDFIcon fontSize="inherit"/> P20</b></Link> <b>PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
+                                          <li><Link target="_blank" rel="noopener" href="./"><b><PDFIcon fontSize="inherit"/> P21</b></Link> <b>CRAFT: Concept Recursive Activation FacTorization for Explainability.</b> Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, Thomas Serre.</li>
+                                          <li><Link target="_blank" rel="noopener" href="./"><b><PDFIcon fontSize="inherit"/> P22</b></Link> <b>Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization.</b> Thomas Fel, Thibaut Boissin, Victor Boutin, Agustin Picard, Paul Novello, Julien Colin, Drew Linsley, Tom Rousseau, Rémi Cadène, Laurent Gardes, Thomas Serre.</li>
                                         </ul>
                                         </Typography>
                                     </Grid>
@@ -427,6 +324,112 @@ class Workshop extends React.Component {
                                             </Typography>
                                         </Grid>
                                     </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="h5" align="left">
+                                            (Closed) Call for Papers & Demos
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        We welcome paper and demo submissions.
+                                        <ul>
+                                          <li>
+                                            <b>Papers</b> should describe high-quality, original research. Contributions can include novel XAI methods; applications of existing methods on new domains, models, and tasks; evaluation or analysis of existing methods; and practical toolboxes.
+                                          </li>
+                                          <li>
+                                            <b>Demos</b> should consist of static or interactive presentations of XAI for CV models and tasks, accompanied by a description. Contributions can include visualizations, explanations, and explorations of novel XAI systems; novel visualizations, explanations, and explorations of existing XAI systems; studies of how different  visualizations, explanations, and explorations of XAI systems are perceived by people; among others.
+                                          </li>
+                                        </ul>
+
+                                        We have two tracks of submissions.
+                                        <ul>
+                                          <li>
+                                            <b>Proceedings track:</b> We welcome <b>max 4-page</b> submissions of papers and demos. Submissions accepted to this track <b>will be published</b> in the CVPR 2023 workshop proceedings.
+                                          </li>
+                                          <li>
+                                            <b>Non-proceedings track:</b> We welcome <b>max 2-page</b> submissions (commonly referred to as "extended abstracts") of papers and demos. For the non-proceedings track, we encourage submissions of published or accepted work (e.g., papers and demos accepted to the CVPR 2023 main program). Submissions accepted to this track <b>will <i>not</i> be published</b> in the CVPR 2023 workshop proceedings.
+                                          </li>
+                                        </ul>
+
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Timeline</b>
+                                        </Typography>
+                                        <br/>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        <b>Proceedings track</b> <br/>
+                                        Submissions due <b><strike>March 14, 2023 (5pm PT)</strike> March 17, 2023 (5pm PT)</b>. <br/>
+                                        Decisions on <b><strike>April 1, 2023</strike> April 4, 2023</b>. <br/>
+                                        Camera-ready due on <b><strike>April 8, 2023 (5pm PT)</strike> April 13, 2023 (5pm PT)</b>.
+                                        <br/>
+                                        <br/>
+                                        <b>Non-proceedings track</b> <br/>
+                                        Submissions due <b>May 19, 2023 (5pm PT)</b>. <br/>
+                                        Rolling decisions from <b>May 1, 2023</b> to <b>May 25, 2023</b>. <br/>
+                                        Camera-ready due on <b>June 8, 2023 (5pm PT)</b>.
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Submission instructions</b>
+                                        </Typography>
+                                        <br/>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        All submissions should be in the <b>anonymized</b> CVPR 2023 format available at <a target="_blank" rel="noopener" href="https://cvpr.thecvf.com/Conferences/2023/AuthorGuidelines"><b>https://cvpr.thecvf.com/Conferences/2023/AuthorGuidelines</b></a>.
+                                        <br/>
+                                        The page limits <b>do not</b> include references.
+                                        <br/>
+                                        Submissions can be done at <a target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2023"><b>https://cmt3.research.microsoft.com/XAI4CV2023</b></a>.
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Attendance & Presentation</b>
+                                        </Typography>
+                                        <br/>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        <b>Posters: </b> All accepted submissions will be invited to participate in an <b>in-person</b> poster session at our workshop.
+                                        Additionally, the authors will be asked to upload their posters which will be hosted on our webpage.
+                                        <br /><br />
+                                        <b>Spotlights: </b> We will pick 6-8 works among the submissions to be presented as spotlights.
+                                        Presentations can either be <b>in-person</b> or <b>pre-recorded</b>.
+                                        <br /><br />
+                                        Abiding by the <a target="_blank" rel="noopener" href="https://cvpr2023.thecvf.com/Conferences/2023/Pricing2"><b>CVPR guidelines</b></a>, all accepted papers <b>must be presented by one of the authors</b>.
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Topics</b>
+                                        </Typography>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        <ul>
+                                          <li>Interpretable-by-design CV models</li>
+                                          <li>Post-hoc explanations of CV models</li>
+                                          <li>Evaluation and analysis of XAI for CV</li>
+                                          <li>Applications of XAI for CV</li>
+                                          <li>Methods for new interactions with CV models (e.g., debugging, editing)</li>
+                                          <li>Multimodal XAI, including both multimodal explanations of CV models and (unimodal) explanations of multimodal models</li>
+                                          <li>Datasets for developing and evaluating XAI for CV</li>
+                                          <li>Visualizations and toolboxes for XAI for CV</li>
+                                          <li>Human-centered XAI for CV (e.g., human evaluations, qualitative studies)</li>
+                                          <li>Studies of XAI for CV and related topics (e.g., fairness, transparency, interpretability, trust)</li>
+                                        </ul>
+                                        </Typography>
+                                    </Grid>
+
 
                                     <div className={classes.container}/>
                                     <div className={classes.container}/>
