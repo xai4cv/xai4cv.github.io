@@ -73,7 +73,7 @@ class Workshop extends React.Component {
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
                                             <b>Date:</b> Monday, June 19, 2023 <br />
-                                            <b>Venue:</b> Vancouver Convention Center, Vancouver, BC, Canada <br />
+                                            <b>Venue:</b> West 121-122, Vancouver Convention Center, Vancouver, BC, Canada <br />
                                         </Typography>
                                     </Grid>
 
@@ -101,7 +101,7 @@ class Workshop extends React.Component {
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="h5" align="left">
-                                            Tentative Schedule
+                                            Schedule
                                         </Typography>
                                     </Grid>
 
@@ -268,11 +268,11 @@ class Workshop extends React.Component {
                                         </Typography>
                                         <Typography className={classes.sectionHeader} variant="body2" align="left">
                                         <ul>
-                                          <li><Link target="_blank" rel="noopener" href="./"><b><PDFIcon fontSize="inherit"/> P18</b></Link> <b>The Effect of Counterfactuals on Reading Chest X-rays.</b> Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew Lungren, Akshay Chaudhari.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./"><b><PDFIcon fontSize="inherit"/> P19</b></Link> <b>Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability.</b> E. Zhixuan Zeng, Hayden Gunraj, Sheldon Fernandez, Alexander Wong.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./"><b><PDFIcon fontSize="inherit"/> P20</b></Link> <b>PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./"><b><PDFIcon fontSize="inherit"/> P21</b></Link> <b>CRAFT: Concept Recursive Activation FacTorization for Explainability.</b> Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, Thomas Serre.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./"><b><PDFIcon fontSize="inherit"/> P22</b></Link> <b>Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization.</b> Thomas Fel, Thibaut Boissin, Victor Boutin, Agustin Picard, Paul Novello, Julien Colin, Drew Linsley, Tom Rousseau, Rémi Cadène, Laurent Gardes, Thomas Serre.</li>
+                                          <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P18</b></Link> <b>The Effect of Counterfactuals on Reading Chest X-rays.</b> Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew Lungren, Akshay Chaudhari.</li>
+                                          <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P19</b></Link> <b>Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability.</b> E. Zhixuan Zeng, Hayden Gunraj, Sheldon Fernandez, Alexander Wong.</li>
+                                          <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P20</b></Link> <b>PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
+                                          <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P21</b></Link> <b>CRAFT: Concept Recursive Activation FacTorization for Explainability.</b> Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, Thomas Serre.</li>
+                                          <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P22</b></Link> <b>Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization.</b> Thomas Fel, Thibaut Boissin, Victor Boutin, Agustin Picard, Paul Novello, Julien Colin, Drew Linsley, Tom Rousseau, Rémi Cadène, Laurent Gardes, Thomas Serre.</li>
                                         </ul>
                                         </Typography>
                                     </Grid>
@@ -325,6 +325,8 @@ class Workshop extends React.Component {
                                         </Grid>
                                     </Grid>
 
+                                    <div className={classes.container}/>
+                                    <div className={classes.container}/>
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="h5" align="left">
