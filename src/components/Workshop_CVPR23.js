@@ -68,12 +68,10 @@ class Workshop extends React.Component {
                                         </Typography>
                                     </Grid>
 
-                                    <div className={classes.container}/>
-
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
                                             <b>Date:</b> Monday, June 19, 2023 <br />
-                                            <b>Venue:</b> West 121-122, Vancouver Convention Center, Vancouver, BC, Canada <br />
+                                            <b>Location:</b> West 121-122, Vancouver Convention Center, Vancouver, BC, Canada <br />
                                         </Typography>
                                     </Grid>
 
@@ -89,11 +87,11 @@ class Workshop extends React.Component {
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                            Computer vision (CV) systems are ubiquitous: from unlocking our phones with face identification, to monitoring traffic in busy roads, to assisting radiologists with automated medical image analysis. These systems are typically black boxes and do not provide explanations of their outputs. However, explainability of these systems is critical for people to effectively use, interact, and achieve best outcomes with them. Recognizing this need, the recent European GDPR regulations even identify a new "right to explanation" for individuals whose legal status is affected by a solely-automated decision, and require explainability and transparency of automated systems.
-                                            <br /><br />
-                                            In line with the growing recognition of the importance of explainability, hundreds of explainable AI (XAI) methods have been proposed in recent years. Yet, XAI research for computer vision systems is currently in a nascent stage where most of the work is in developing post-hoc explanation methods that indicate input features (e.g., pixels) that led to a certain output.  These methods are typically used by developers for debugging and improving their systems, however, the utility of explanations provided by these methods have been called into question in recent works. Furthermore, little is understood about whether existing XAI explanations are understandable and useful to end-users of these systems who often have little to no background in AI or CV.
-                                            <br /><br />
-                                            In this workshop, we seek to provide a forum for researchers and practitioners to discuss the unique challenges and opportunities in XAI for CV, and push the frontiers of the field.
+                                            Explainability of computer vision systems is critical for people to effectively use and interact with them.
+                                            This workshop seeks to contribute to the development of more explainable CV systems by:
+                                            (1) initiating discussions across researchers and practitioners in academia and industry to identify successes, failures, and priorities in current XAI work;
+                                            (2) examining the strengths, weaknesses, and underlying assumptions of proposed XAI methods and establish best practices in evaluation of these methods;
+                                            and (3) discussing the various nuances of explainability and brainstorm ways to build explainable CV systems that benefit all involved stakeholders.
                                         </Typography>
                                     </Grid>
 
@@ -115,7 +113,7 @@ class Workshop extends React.Component {
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>09:15 AM - 09:30 AM: </b> Opening Remarks
                                             </Typography>
                                         </Grid>
@@ -123,7 +121,7 @@ class Workshop extends React.Component {
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>09:30 AM - 10:00 AM: </b> Invited Talk 1: <a target="_blank" rel="noopener" href="https://www.atb-potsdam.de/en/about-us/team/staff-members/person/marina-hohne">Marina M.-C. Höhne (née Vidovic)</a>
                                             </Typography>
                                         </Grid>
@@ -131,7 +129,7 @@ class Workshop extends React.Component {
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>10:00 AM - 10:30 AM: </b> Invited Talk 2: <a target="_blank" rel="noopener" href="https://arvindsatya.com/">Arvind Satyanarayan</a>
                                             </Typography>
                                         </Grid>
@@ -139,23 +137,45 @@ class Workshop extends React.Component {
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>10:30 AM - 11:00 AM: </b> Spotlight Session 1
                                             </Typography>
-                                        </Grid>
-                                    </Grid>
-
-                                    <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>11:00 AM - 12:00 PM: </b> Poster Session 1
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P03_ManifoldHypothesis.pdf"><b><PDFIcon fontSize="inherit"/> P03</b></Link> <b>The Manifold Hypothesis for Gradient-Based Explanations.</b> Sebastian Bordt, Uddeshya Upadhyay, Zeynep Akata, Ulrike von Luxburg.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P04_HierarchicalExplanations.pdf"><b><PDFIcon fontSize="inherit"/> P04</b></Link> <b>Hierarchical Explanations for Video Action Recognition.</b> Sadaf Gulshad, Teng Long, Nanne van Noord.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P09_SegXResCAM.pdf"><b><PDFIcon fontSize="inherit"/> P09</b></Link> <b>Seg-XRes-CAM: Explaining Spatially Local Regions in Image Segmentation.</b> Syed Nouman Hasany, Caroline Petitjean, Fabrice Mériaudeau.</li>
+                                            </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
+                                                <b>11:00 AM - 12:00 PM: </b> Poster Session 1
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P01_ODSmoothGrad.pdf"><b><PDFIcon fontSize="inherit"/> P01</b></Link> <b>ODSmoothGrad: Generating Saliency Maps for Object Detectors.</b> Chul Gwon, Steven C. Howell.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P02_SanityChecks.pdf"><b><PDFIcon fontSize="inherit"/> P02</b></Link> <b>Sanity Checks for Patch Visualisation in Prototype-based Image Classification.</b> Romain Xu-Darme, Georges Quénot, Zakaria Chihani, Marie-Christine Rousset.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P03_ManifoldHypothesis.pdf"><b><PDFIcon fontSize="inherit"/> P03</b></Link> <b>The Manifold Hypothesis for Gradient-Based Explanations.</b> Sebastian Bordt, Uddeshya Upadhyay, Zeynep Akata, Ulrike von Luxburg.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P04_HierarchicalExplanations.pdf"><b><PDFIcon fontSize="inherit"/> P04</b></Link> <b>Hierarchical Explanations for Video Action Recognition.</b> Sadaf Gulshad, Teng Long, Nanne van Noord.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P05_ConfusionMatrix.pdf"><b><PDFIcon fontSize="inherit"/> P05</b></Link> <b>A Confusion Matrix for Evaluating Feature Attribution Methods.</b> Anna Arias-Duart, Ettore Mariotti, Dario Garcia-Gasulla, Jose Maria Alonso-Moral.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P06_Robustness.pdf"><b><PDFIcon fontSize="inherit"/> P06</b></Link> <b>Robustness of Visual Explanations to Common Data Augmentation Methods.</b> Lenka Tětková, Lars Kai Hansen.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P07_ShortcutRemoval.pdf"><b><PDFIcon fontSize="inherit"/> P07</b></Link> <b>Localized Shortcut Removal.</b> Nicolas M. Müller*, Jochen Jacobs*, Jennifer Williams, Konstantin Böttinger.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P08_MedicalImaging.pdf"><b><PDFIcon fontSize="inherit"/> P08</b></Link> <b>Towards Evaluating Explanations of Vision Transformers for Medical Imaging.</b> Piotr Komorowski, Hubert Baniecki, Przemyslaw Biecek.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P09_SegXResCAM.pdf"><b><PDFIcon fontSize="inherit"/> P09</b></Link> <b>Seg-XRes-CAM: Explaining Spatially Local Regions in Image Segmentation.</b> Syed Nouman Hasany, Caroline Petitjean, Fabrice Mériaudeau.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P10_MonocularCriteria.pdf"><b><PDFIcon fontSize="inherit"/> P10</b></Link> <b>Analyzing Results of Depth Estimation Models with Monocular Criteria.</b> Jonas Theiner, Nils Nommensen, Jim Rhotert, Matthias Springstein, Eric Müller-Budack, Ralph Ewerth.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P11_Text2Concept.pdf"><b><PDFIcon fontSize="inherit"/> P11</b></Link> <b>Text2Concept: Concept Activation Vectors Directly From Text.</b> Mazda Moayeri, Keivan Rezaei, Maziar Sanjabi, Soheil Feizi.</li>
+                                            </ul>
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>12:00 AM - 01:30 PM: </b> Lunch Social
                                             </Typography>
                                         </Grid>
@@ -163,7 +183,7 @@ class Workshop extends React.Component {
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>01:30 PM - 02:00 PM: </b> Invited Talk 3: <a target="_blank" rel="noopener" href="https://ai.sony/people/Alice-Xiang/">Alice Xiang</a>
                                             </Typography>
                                         </Grid>
@@ -171,7 +191,7 @@ class Workshop extends React.Component {
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>02:00 PM - 02:30 PM: </b> Invited Talk 4: <a target="_blank" rel="noopener" href="http://qveraliao.com/">Q. Vera Liao</a>
                                             </Typography>
                                         </Grid>
@@ -179,23 +199,45 @@ class Workshop extends React.Component {
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>02:30 PM - 03:00 PM: </b> Spotlight Session 2
                                             </Typography>
-                                        </Grid>
-                                    </Grid>
-
-                                    <Grid container justify="flex-start">
-                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                                <b>03:00 PM - 04:00 PM: </b> Poster Session 2
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI.pdf"><b><PDFIcon fontSize="inherit"/> P12</b></Link> <b>CAVLI - Using Image Associations to Produce Local Concept-based Explanations.</b> Pushkar Shukla, Sushil Bharati, Matthew Turk.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P16_SharedInterestSometimes.pdf"><b><PDFIcon fontSize="inherit"/> P16</b></Link> <b>Shared Interest...Sometimes: Understanding the Alignment between Human Perception, Vision Architectures, and Saliency Map Techniques.</b> Katelyn Morrison, Ankita Mehra, Adam Perer.</li>
+                                              <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P20</b></Link> <b>PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
+                                            </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
+                                                <b>03:00 PM - 04:00 PM: </b> Poster Session 2
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI.pdf"><b><PDFIcon fontSize="inherit"/> P12</b></Link> <b>CAVLI - Using Image Associations to Produce Local Concept-based Explanations.</b> Pushkar Shukla, Sushil Bharati, Matthew Turk.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P13_VisionDiffMask.pdf"><b><PDFIcon fontSize="inherit"/> P13</b></Link> <b>Vision DiffMask: Faithful Interpretation of Vision Transformers with Differentiable Patch Masking.</b> Angelos Nalmpantis*, Apostolos Panagiotopoulos*, John Gkountouras*, Konstantinos Papakostas, Wilker Aziz.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P14_TaskAgnostic.pdf"><b><PDFIcon fontSize="inherit"/> P14</b></Link> <b>Ante-Hoc Generation of Task-Agnostic Interpretation Maps.</b> Akash Guna R T, Raul Benitez, Sikha O K.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P15_Disentangling.pdf"><b><PDFIcon fontSize="inherit"/> P15</b></Link> <b>Disentangling Neuron Representations with Concept Vectors.</b> Laura O'Mahony, Vincent Andrearczyk, Henning Müller, Mara Graziani.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P16_SharedInterestSometimes.pdf"><b><PDFIcon fontSize="inherit"/> P16</b></Link> <b>Shared Interest...Sometimes: Understanding the Alignment between Human Perception, Vision Architectures, and Saliency Map Techniques.</b> Katelyn Morrison, Ankita Mehra, Adam Perer.</li>
+                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P17_ZEBRA.pdf"><b><PDFIcon fontSize="inherit"/> P17</b></Link> <b>ZEBRA: Explaining Rare Cases through Outlying Interpretable Concepts.</b> Pedro Madeira, André Carreiro, Alex Gaudio, Luís Rosado, Filipe Soares, Asim Smailagic.</li>
+                                              <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P18</b></Link> <b>The Effect of Counterfactuals on Reading Chest X-rays.</b> Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew Lungren, Akshay Chaudhari.</li>
+                                              <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P19</b></Link> <b>Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability.</b> E. Zhixuan Zeng, Hayden Gunraj, Sheldon Fernandez, Alexander Wong.</li>
+                                              <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P20</b></Link> <b>PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
+                                              <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P21</b></Link> <b>CRAFT: Concept Recursive Activation FacTorization for Explainability.</b> Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, Thomas Serre.</li>
+                                              <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P22</b></Link> <b>Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization.</b> Thomas Fel, Thibaut Boissin, Victor Boutin, Agustin Picard, Paul Novello, Julien Colin, Drew Linsley, Tom Rousseau, Rémi Cadène, Laurent Gardes, Thomas Serre.</li>
+                                            </ul>
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={12} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>04:00 PM - 04:30 PM: </b> Invited Talk 5: <a target="_blank" rel="noopener" href="https://baulab.info/">David Bau</a>
                                             </Typography>
                                         </Grid>
@@ -203,7 +245,7 @@ class Workshop extends React.Component {
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>04:30 PM - 05:00 PM: </b> Invited Talk 6: <a target="_blank" rel="noopener" href="https://www.cs.unc.edu/~mbansal/">Mohit Bansal</a>
                                             </Typography>
                                         </Grid>
@@ -211,7 +253,7 @@ class Workshop extends React.Component {
 
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
-                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>05:00 PM - 05:15 PM: </b> Closing Remarks
                                             </Typography>
                                         </Grid>
@@ -297,7 +339,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body2" align="left">
-                                            <b>We thank our wonderful program committee members who are making this workshop possible!</b>
+                                            <b>We thank our wonderful program committee members who made this workshop possible!</b>
                                             <br/><br/>
                                             Abhimanyu Dubey, Andrew Elliott, Angelina Wang, Anirban Sarkar, Anmol Kalia, Arijit Ray,
                                             Chenyang Zhao, Chhavi Yadav, Chirag Agarwal, David Schinagl, Deepti Ghadiyaram, Devon Ulrich,
