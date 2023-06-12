@@ -184,7 +184,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk 3: <a target="_blank" rel="noopener" href="https://ai.sony/people/Alice-Xiang/">Alice Xiang</a>
+                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk 3: <a target="_blank" rel="noopener" href="https://www.cs.unc.edu/~mbansal/">Mohit Bansal</a>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -246,7 +246,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>04:30 PM - 05:00 PM: </b> Invited Talk 6: <a target="_blank" rel="noopener" href="https://www.cs.unc.edu/~mbansal/">Mohit Bansal</a>
+                                                <b>04:30 PM - 05:00 PM: </b> Invited Talk 6: <a target="_blank" rel="noopener" href="https://ai.sony/people/Alice-Xiang/">Alice Xiang</a>
                                             </Typography>
                                         </Grid>
                                     </Grid>
