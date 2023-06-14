@@ -124,6 +124,12 @@ class Workshop extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>09:30 AM - 10:00 AM: </b> Invited Talk 1: <a target="_blank" rel="noopener" href="https://www.atb-potsdam.de/en/about-us/team/staff-members/person/marina-hohne">Marina M.-C. Höhne (née Vidovic)</a>
                                             </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul><li>
+                                              <b>How much can I trust you? Towards Understanding Neural Networks</b>:
+                                              In my presentation I will talk about the need to understand the AI models, which are often referred to as black box models. Due to correlations in the training data, the models might have learned artifacts, which lead to undesired behavior and might pose a risk especially in safety-critical applications. I will present DORA, a framework to automatically detect neurons that have learned spurious concepts, such as Clever Hans artifacts. Furthermore, I will show how we can improve local and global explanation methods by incorporating the uncertainty knowledge from Bayesian neural networks (BNN) into the explanations and how to quantitatively evaluate your explanations by using Quantus.
+                                            </li></ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
@@ -131,6 +137,12 @@ class Workshop extends React.Component {
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>10:00 AM - 10:30 AM: </b> Invited Talk 2: <a target="_blank" rel="noopener" href="https://arvindsatya.com/">Arvind Satyanarayan</a>
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul><li>
+                                              <b>Model Saliency is an Abstraction of Model Behavior</b>:
+                                              Saliency methods are a commonly used class of interpretability techniques that calculate how important each input feature is to a model's output. However, a growing body of evaluative work questions how faithfully saliency methods represent model behavior, and the degree to which we should rely on them to explain model reasoning. In this talk, I will instead frame saliency maps as computational abstractions: views into model behavior that selectively preserve and necessarily sacrifice information in service of human-centric goals. With this framing, we can think of individual methods as lying in a broader "design space"—a common research methodology from HCI and Visualization that allows us to systematically analyze tradeoffs. In doing so, downstream users can now make informed decisions, choosing a saliency method best suited for their specific needs and context. Moreover, we are able to identify gaps in the current landscape and opportunities for future research (e.g., task-specific methods, new evaluative metrics, etc.).
+                                            </li></ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -176,7 +188,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>12:00 AM - 01:30 PM: </b> Lunch Social
+                                                <b>12:00 PM - 01:30 PM: </b> Lunch Social
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -193,6 +205,12 @@ class Workshop extends React.Component {
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>02:00 PM - 02:30 PM: </b> Invited Talk 4: <a target="_blank" rel="noopener" href="http://qveraliao.com/">Q. Vera Liao</a>
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul><li>
+                                              <b>Towards Human-Compatible Explainable AI</b>:
+                                              While a vast collection of explainable AI (XAI) techniques have been developed in recent years, human-computer interaction (HCI) studies have found mixed results of their effectiveness, even pitfalls, in helping people work with AI systems. There is often a lack of compatibility with, and to begin with, a lack of understanding of, how people process and make use of explanations. In this talk, I will first draw on our own work and the broader HCI research to provide a more principled understanding of how people use AI explanations, focusing on the context of AI-assisted decision support. I will then suggest a path to more human-compatible XAI by drawing inspiration from human explanation behaviors, and encourage the community to pay more attention to the communication of explanations.
+                                            </li></ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -247,6 +265,12 @@ class Workshop extends React.Component {
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>04:30 PM - 05:00 PM: </b> Invited Talk 6: <a target="_blank" rel="noopener" href="https://ai.sony/people/Alice-Xiang/">Alice Xiang</a>
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul><li>
+                                              <b>Being 'Seen' vs. 'Mis-Seen': Tensions between Privacy and Fairness in Computer Vision</b>:
+                                              The rise of facial recognition and related computer vision technologies has been met with growing anxiety over the potential for AI to create mass surveillance systems and further entrench societal biases. These concerns have led to calls for greater privacy protections and fairer, less biased algorithms. An under-appreciated tension, however, is that privacy protections and bias mitigation efforts can sometimes conflict in the context of AI. Reducing bias in human-centric computer vision systems (“HCCV”), including facial recognition, can involve collecting large, diverse, and candid image datasets, which can run counter to privacy protections. In this talk, I discuss this tension between privacy and fairness in the context of algorithmic bias mitigation for HCCV, review the strategies proposed for resolving this tension, and examine the implications of a right not to be disproportionately “mis-seen” by AI, in contrast to regulations around what data should remain “unseen.” De-tethering these notions (being seen versus unseen versus mis-seen) can help clarify what rights relevant laws and policies should seek to protect.
+                                            </li></ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -310,11 +334,11 @@ class Workshop extends React.Component {
                                         </Typography>
                                         <Typography className={classes.sectionHeader} variant="body2" align="left">
                                         <ul>
-                                          <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P18</b></Link> <b>The Effect of Counterfactuals on Reading Chest X-rays.</b> Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew Lungren, Akshay Chaudhari.</li>
-                                          <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P19</b></Link> <b>Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability.</b> E. Zhixuan Zeng, Hayden Gunraj, Sheldon Fernandez, Alexander Wong.</li>
-                                          <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P20</b></Link> <b>PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
-                                          <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P21</b></Link> <b>CRAFT: Concept Recursive Activation FacTorization for Explainability.</b> Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, Thomas Serre.</li>
-                                          <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P22</b></Link> <b>Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization.</b> Thomas Fel, Thibaut Boissin, Victor Boutin, Agustin Picard, Paul Novello, Julien Colin, Drew Linsley, Tom Rousseau, Rémi Cadène, Laurent Gardes, Thomas Serre.</li>
+                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P18_ChestXray.pdf"><b><PDFIcon fontSize="inherit"/> P18</b></Link> <b>The Effect of Counterfactuals on Reading Chest X-rays.</b> Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew Lungren, Akshay Chaudhari.</li>
+                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P19_SOXAI.pdf"><b><PDFIcon fontSize="inherit"/> P19</b></Link> <b>Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability.</b> E. Zhixuan Zeng, Hayden Gunraj, Sheldon Fernandez, Alexander Wong.</li>
+                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P20_PIPNet.pdf"><b><PDFIcon fontSize="inherit"/> P20</b></Link> <b>PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
+                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P21_CRAFT.pdf"><b><PDFIcon fontSize="inherit"/> P21</b></Link> <b>CRAFT: Concept Recursive Activation FacTorization for Explainability.</b> Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, Thomas Serre.</li>
+                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P22_MACO.pdf"><b><PDFIcon fontSize="inherit"/> P22</b></Link> <b>Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization.</b> Thomas Fel, Thibaut Boissin, Victor Boutin, Agustin Picard, Paul Novello, Julien Colin, Drew Linsley, Tom Rousseau, Rémi Cadène, Laurent Gardes, Thomas Serre.</li>
                                         </ul>
                                         </Typography>
                                     </Grid>
