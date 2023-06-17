@@ -8,6 +8,8 @@ import Speakers from './Speakers_CVPR23';
 import Link from '@material-ui/core/Link';
 import PDFIcon from '@material-ui/icons/PictureAsPdf';
 import VideoIcon from '@material-ui/icons/VideoLibrary';
+import PhotoSizeSelectActualIcon from '@material-ui/icons/PhotoSizeSelectActual';
+import MovieIcon from '@material-ui/icons/Movie';
 
 
 const styles = theme => ({
@@ -127,7 +129,7 @@ class Workshop extends React.Component {
                                             </Typography>
                                             <Typography className={classes.sectionHeader} variant="body2" align="left">
                                             <ul><li>
-                                              <b>How much can I trust you? Towards Understanding Neural Networks</b>:
+                                              <b>How Much Can I Trust You? Towards Understanding Neural Networks</b>:
                                               In my presentation I will talk about the need to understand the AI models, which are often referred to as black box models. Due to correlations in the training data, the models might have learned artifacts, which lead to undesired behavior and might pose a risk especially in safety-critical applications. I will present DORA, a framework to automatically detect neurons that have learned spurious concepts, such as Clever Hans artifacts. Furthermore, I will show how we can improve local and global explanation methods by incorporating the uncertainty knowledge from Bayesian neural networks (BNN) into the explanations and how to quantitatively evaluate your explanations by using Quantus.
                                             </li></ul>
                                             </Typography>
@@ -155,9 +157,18 @@ class Workshop extends React.Component {
                                             </Typography>
                                             <Typography className={classes.sectionHeader} variant="body2" align="left">
                                             <ul>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P03_ManifoldHypothesis.pdf"><b><PDFIcon fontSize="inherit"/> P03</b></Link> <b>The Manifold Hypothesis for Gradient-Based Explanations.</b> Sebastian Bordt, Uddeshya Upadhyay, Zeynep Akata, Ulrike von Luxburg.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P04_HierarchicalExplanations.pdf"><b><PDFIcon fontSize="inherit"/> P04</b></Link> <b>Hierarchical Explanations for Video Action Recognition.</b> Sadaf Gulshad, Teng Long, Nanne van Noord.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P09_SegXResCAM.pdf"><b><PDFIcon fontSize="inherit"/> P09</b></Link> <b>Seg-XRes-CAM: Explaining Spatially Local Regions in Image Segmentation.</b> Syed Nouman Hasany, Caroline Petitjean, Fabrice Mériaudeau.</li>
+                                            <li><b>P03</b>
+                                              <Link target="_blank" rel="noopener" href="./assets/papers2023/P03_ManifoldHypothesis.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                              <b> The Manifold Hypothesis for Gradient-Based Explanations.</b> Sebastian Bordt, Uddeshya Upadhyay, Zeynep Akata, Ulrike von Luxburg.</li>
+                                            <li><b>P04</b>
+                                              <Link target="_blank" rel="noopener" href="./assets/papers2023/P04_HierarchicalExplanations.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                              <Link target="_blank" rel="noopener" href="https://youtu.be/Cic0IWWnSnA"> <VideoIcon fontSize="inherit"/></Link>
+                                              <Link target="_blank" rel="noopener" href="https://youtu.be/DzO-1Pc2NQ4"> <MovieIcon fontSize="inherit"/></Link>
+                                              <b> Hierarchical Explanations for Video Action Recognition.</b> Sadaf Gulshad, Teng Long, Nanne van Noord.</li>
+                                              <li><b>P09</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P09_SegXResCAM.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/QsxcVJQ2cmI"> <MovieIcon fontSize="inherit"/></Link>
+                                                <b> Seg-XRes-CAM: Explaining Spatially Local Regions in Image Segmentation.</b> Syed Nouman Hasany, Caroline Petitjean, Fabrice Mériaudeau.</li>
                                             </ul>
                                             </Typography>
                                         </Grid>
@@ -170,17 +181,51 @@ class Workshop extends React.Component {
                                             </Typography>
                                             <Typography className={classes.sectionHeader} variant="body2" align="left">
                                             <ul>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P01_ODSmoothGrad.pdf"><b><PDFIcon fontSize="inherit"/> P01</b></Link> <b>ODSmoothGrad: Generating Saliency Maps for Object Detectors.</b> Chul Gwon, Steven C. Howell.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P02_SanityChecks.pdf"><b><PDFIcon fontSize="inherit"/> P02</b></Link> <b>Sanity Checks for Patch Visualisation in Prototype-based Image Classification.</b> Romain Xu-Darme, Georges Quénot, Zakaria Chihani, Marie-Christine Rousset.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P03_ManifoldHypothesis.pdf"><b><PDFIcon fontSize="inherit"/> P03</b></Link> <b>The Manifold Hypothesis for Gradient-Based Explanations.</b> Sebastian Bordt, Uddeshya Upadhyay, Zeynep Akata, Ulrike von Luxburg.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P04_HierarchicalExplanations.pdf"><b><PDFIcon fontSize="inherit"/> P04</b></Link> <b>Hierarchical Explanations for Video Action Recognition.</b> Sadaf Gulshad, Teng Long, Nanne van Noord.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P05_ConfusionMatrix.pdf"><b><PDFIcon fontSize="inherit"/> P05</b></Link> <b>A Confusion Matrix for Evaluating Feature Attribution Methods.</b> Anna Arias-Duart, Ettore Mariotti, Dario Garcia-Gasulla, Jose Maria Alonso-Moral.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P06_Robustness.pdf"><b><PDFIcon fontSize="inherit"/> P06</b></Link> <b>Robustness of Visual Explanations to Common Data Augmentation Methods.</b> Lenka Tětková, Lars Kai Hansen.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P07_ShortcutRemoval.pdf"><b><PDFIcon fontSize="inherit"/> P07</b></Link> <b>Localized Shortcut Removal.</b> Nicolas M. Müller*, Jochen Jacobs*, Jennifer Williams, Konstantin Böttinger.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P08_MedicalImaging.pdf"><b><PDFIcon fontSize="inherit"/> P08</b></Link> <b>Towards Evaluating Explanations of Vision Transformers for Medical Imaging.</b> Piotr Komorowski, Hubert Baniecki, Przemyslaw Biecek.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P09_SegXResCAM.pdf"><b><PDFIcon fontSize="inherit"/> P09</b></Link> <b>Seg-XRes-CAM: Explaining Spatially Local Regions in Image Segmentation.</b> Syed Nouman Hasany, Caroline Petitjean, Fabrice Mériaudeau.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P10_MonocularCriteria.pdf"><b><PDFIcon fontSize="inherit"/> P10</b></Link> <b>Analyzing Results of Depth Estimation Models with Monocular Criteria.</b> Jonas Theiner, Nils Nommensen, Jim Rhotert, Matthias Springstein, Eric Müller-Budack, Ralph Ewerth.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P11_Text2Concept.pdf"><b><PDFIcon fontSize="inherit"/> P11</b></Link> <b>Text2Concept: Concept Activation Vectors Directly From Text.</b> Mazda Moayeri, Keivan Rezaei, Maziar Sanjabi, Soheil Feizi.</li>
+                                              <li><b>P01</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P01_ODSmoothGrad.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/mifgW9vzfgQ"> <VideoIcon fontSize="inherit"/></Link>
+                                                <b> ODSmoothGrad: Generating Saliency Maps for Object Detectors.</b> Chul Gwon, Steven C. Howell. </li>
+                                              <li><b>P02</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P02_SanityChecks.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/q5SwSM1Y_Tc"> <VideoIcon fontSize="inherit"/></Link>
+                                                <b> Sanity Checks for Patch Visualisation in Prototype-based Image Classification.</b> Romain Xu-Darme, Georges Quénot, Zakaria Chihani, Marie-Christine Rousset.</li>
+                                              <li><b>P03</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P03_ManifoldHypothesis.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <b> The Manifold Hypothesis for Gradient-Based Explanations.</b> Sebastian Bordt, Uddeshya Upadhyay, Zeynep Akata, Ulrike von Luxburg.</li>
+                                              <li><b>P04</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P04_HierarchicalExplanations.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/Cic0IWWnSnA"> <VideoIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/DzO-1Pc2NQ4"> <MovieIcon fontSize="inherit"/></Link>
+                                                <b> Hierarchical Explanations for Video Action Recognition.</b> Sadaf Gulshad, Teng Long, Nanne van Noord.</li>
+                                              <li><b>P05</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P05_ConfusionMatrix.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/nlZwTpZ8wdI"> <VideoIcon fontSize="inherit"/></Link>
+                                                <b>A Confusion Matrix for Evaluating Feature Attribution Methods.</b> Anna Arias-Duart, Ettore Mariotti, Dario Garcia-Gasulla, Jose Maria Alonso-Moral.</li>
+                                              <li><b>P06</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P06_Robustness.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/J1dyxo9eZpM"> <VideoIcon fontSize="inherit"/></Link>
+                                                <b> Robustness of Visual Explanations to Common Data Augmentation Methods.</b> Lenka Tětková, Lars Kai Hansen.</li>
+                                              <li><b>P07</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P07_ShortcutRemoval.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/hfA4yE4Z0Qo"> <VideoIcon fontSize="inherit"/></Link>
+                                                <b> Localized Shortcut Removal.</b> Nicolas M. Müller*, Jochen Jacobs*, Jennifer Williams, Konstantin Böttinger.</li>
+                                              <li><b>P08</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P08_MedicalImaging.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/sk3WLuUY3ho"> <VideoIcon fontSize="inherit"/></Link>
+                                                <b> Towards Evaluating Explanations of Vision Transformers for Medical Imaging.</b> Piotr Komorowski, Hubert Baniecki, Przemyslaw Biecek.</li>
+                                              <li><b>P09</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P09_SegXResCAM.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/QsxcVJQ2cmI"> <MovieIcon fontSize="inherit"/></Link>
+                                                <b> Seg-XRes-CAM: Explaining Spatially Local Regions in Image Segmentation.</b> Syed Nouman Hasany, Caroline Petitjean, Fabrice Mériaudeau.</li>
+                                              <li><b>P10</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P10_MonocularCriteria.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/HvFCZLBOVg4"> <VideoIcon fontSize="inherit"/></Link>
+                                                <b> Analyzing Results of Depth Estimation Models with Monocular Criteria.</b> Jonas Theiner, Nils Nommensen, Jim Rhotert, Matthias Springstein, Eric Müller-Budack, Ralph Ewerth.</li>
+                                              <li><b>P11</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P11_Text2Concept.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/_70P9hBB-Fs"> <VideoIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P11_Text2Concept_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
+                                                <b> Text2Concept: Concept Activation Vectors Directly From Text.</b> Mazda Moayeri, Keivan Rezaei, Maziar Sanjabi, Soheil Feizi.</li>
                                             </ul>
                                             </Typography>
                                         </Grid>
@@ -223,9 +268,19 @@ class Workshop extends React.Component {
                                             </Typography>
                                             <Typography className={classes.sectionHeader} variant="body2" align="left">
                                             <ul>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI.pdf"><b><PDFIcon fontSize="inherit"/> P12</b></Link> <b>CAVLI - Using Image Associations to Produce Local Concept-based Explanations.</b> Pushkar Shukla, Sushil Bharati, Matthew Turk.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P16_SharedInterestSometimes.pdf"><b><PDFIcon fontSize="inherit"/> P16</b></Link> <b>Shared Interest...Sometimes: Understanding the Alignment between Human Perception, Vision Architectures, and Saliency Map Techniques.</b> Katelyn Morrison, Ankita Mehra, Adam Perer.</li>
-                                              <li><Link target="_blank" rel="noopener" href="."><b><PDFIcon fontSize="inherit"/> P20</b></Link> <b>PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
+                                              <li><b>P12</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/D0a7gRyjCeU"> <MovieIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
+                                                <b> CAVLI - Using Image Associations to Produce Local Concept-based Explanations.</b> Pushkar Shukla, Sushil Bharati, Matthew Turk.</li>
+                                              <li><b>P16</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P16_SharedInterestSometimes.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/C180ttgD-18"> <MovieIcon fontSize="inherit"/></Link>
+                                              <b> Shared Interest...Sometimes: Understanding the Alignment between Human Perception, Vision Architectures, and Saliency Map Techniques.</b> Katelyn Morrison, Ankita Mehra, Adam Perer.</li>
+                                              <li><b>P20</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P20_PIPNet.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/GfQQFQ62SLU"> <VideoIcon fontSize="inherit"/></Link>
+                                              <b> PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
                                             </ul>
                                             </Typography>
                                         </Grid>
@@ -238,17 +293,48 @@ class Workshop extends React.Component {
                                             </Typography>
                                             <Typography className={classes.sectionHeader} variant="body2" align="left">
                                             <ul>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI.pdf"><b><PDFIcon fontSize="inherit"/> P12</b></Link> <b>CAVLI - Using Image Associations to Produce Local Concept-based Explanations.</b> Pushkar Shukla, Sushil Bharati, Matthew Turk.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P13_VisionDiffMask.pdf"><b><PDFIcon fontSize="inherit"/> P13</b></Link> <b>Vision DiffMask: Faithful Interpretation of Vision Transformers with Differentiable Patch Masking.</b> Angelos Nalmpantis*, Apostolos Panagiotopoulos*, John Gkountouras*, Konstantinos Papakostas, Wilker Aziz.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P14_TaskAgnostic.pdf"><b><PDFIcon fontSize="inherit"/> P14</b></Link> <b>Ante-Hoc Generation of Task-Agnostic Interpretation Maps.</b> Akash Guna R T, Raul Benitez, Sikha O K.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P15_Disentangling.pdf"><b><PDFIcon fontSize="inherit"/> P15</b></Link> <b>Disentangling Neuron Representations with Concept Vectors.</b> Laura O'Mahony, Vincent Andrearczyk, Henning Müller, Mara Graziani.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P16_SharedInterestSometimes.pdf"><b><PDFIcon fontSize="inherit"/> P16</b></Link> <b>Shared Interest...Sometimes: Understanding the Alignment between Human Perception, Vision Architectures, and Saliency Map Techniques.</b> Katelyn Morrison, Ankita Mehra, Adam Perer.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P17_ZEBRA.pdf"><b><PDFIcon fontSize="inherit"/> P17</b></Link> <b>ZEBRA: Explaining Rare Cases through Outlying Interpretable Concepts.</b> Pedro Madeira, André Carreiro, Alex Gaudio, Luís Rosado, Filipe Soares, Asim Smailagic.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P18_ChestXray.pdf"><b><PDFIcon fontSize="inherit"/> P18</b></Link> <b>The Effect of Counterfactuals on Reading Chest X-rays.</b> Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew Lungren, Akshay Chaudhari.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P19_SOXAI.pdf"><b><PDFIcon fontSize="inherit"/> P19</b></Link> <b>Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability.</b> E. Zhixuan Zeng, Hayden Gunraj, Sheldon Fernandez, Alexander Wong.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P20_PIPNet.pdf"><b><PDFIcon fontSize="inherit"/> P20</b></Link> <b>PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P21_CRAFT.pdf"><b><PDFIcon fontSize="inherit"/> P21</b></Link> <b>CRAFT: Concept Recursive Activation FacTorization for Explainability.</b> Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, Thomas Serre.</li>
-                                              <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P22_MACO.pdf"><b><PDFIcon fontSize="inherit"/> P22</b></Link> <b>Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization.</b> Thomas Fel, Thibaut Boissin, Victor Boutin, Agustin Picard, Paul Novello, Julien Colin, Drew Linsley, Tom Rousseau, Rémi Cadène, Laurent Gardes, Thomas Serre.</li>
+                                              <li><b>P12</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/D0a7gRyjCeU"> <MovieIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
+                                              <b> CAVLI - Using Image Associations to Produce Local Concept-based Explanations.</b> Pushkar Shukla, Sushil Bharati, Matthew Turk.</li>
+                                              <li><b>P13</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P13_VisionDiffMask.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/YVtpcq6ceVI"> <VideoIcon fontSize="inherit"/></Link>
+                                              <b> Vision DiffMask: Faithful Interpretation of Vision Transformers with Differentiable Patch Masking.</b> Angelos Nalmpantis*, Apostolos Panagiotopoulos*, John Gkountouras*, Konstantinos Papakostas, Wilker Aziz.</li>
+                                              <li><b>P14</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P14_TaskAgnostic.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/9zagQAm4krs"> <VideoIcon fontSize="inherit"/></Link>
+                                              <b> Ante-Hoc Generation of Task-Agnostic Interpretation Maps.</b> Akash Guna R T, Raul Benitez, Sikha O K.</li>
+                                              <li><b>P15</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P15_Disentangling.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/wOWUfS11HV8"> <VideoIcon fontSize="inherit"/></Link>
+                                              <b> Disentangling Neuron Representations with Concept Vectors.</b> Laura O'Mahony, Vincent Andrearczyk, Henning Müller, Mara Graziani.</li>
+                                              <li><b>P16</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P16_SharedInterestSometimes.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/C180ttgD-18"> <MovieIcon fontSize="inherit"/></Link>
+                                              <b> Shared Interest...Sometimes: Understanding the Alignment between Human Perception, Vision Architectures, and Saliency Map Techniques.</b> Katelyn Morrison, Ankita Mehra, Adam Perer.</li>
+                                              <li><b>P17</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P17_ZEBRA.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/u_m2tos100A"> <VideoIcon fontSize="inherit"/></Link>
+                                              <b> ZEBRA: Explaining Rare Cases through Outlying Interpretable Concepts.</b> Pedro Madeira, André Carreiro, Alex Gaudio, Luís Rosado, Filipe Soares, Asim Smailagic.</li>
+                                              <li><b>P18</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P18_ChestXray.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/iT90lH14g4Y"> <VideoIcon fontSize="inherit"/></Link>
+                                              <b> The Effect of Counterfactuals on Reading Chest X-rays.</b> Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew Lungren, Akshay Chaudhari.</li>
+                                              <li><b>P19</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P19_SOXAI.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                              <b> Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability.</b> E. Zhixuan Zeng, Hayden Gunraj, Sheldon Fernandez, Alexander Wong.</li>
+                                              <li><b>P20</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P20_PIPNet.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/GfQQFQ62SLU"> <VideoIcon fontSize="inherit"/></Link>
+                                              <b> PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
+                                              <li><b>P21</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P21_CRAFT.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                              <b> CRAFT: Concept Recursive Activation FacTorization for Explainability.</b> Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, Thomas Serre.</li>
+                                              <li><b>P22</b>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2023/P22_MACO.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                              <b> Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization.</b> Thomas Fel, Thibaut Boissin, Victor Boutin, Agustin Picard, Paul Novello, Julien Colin, Drew Linsley, Tom Rousseau, Rémi Cadène, Laurent Gardes, Thomas Serre.</li>
                                             </ul>
                                             </Typography>
                                         </Grid>
@@ -258,6 +344,12 @@ class Workshop extends React.Component {
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>04:00 PM - 04:30 PM: </b> Invited Talk 5: <a target="_blank" rel="noopener" href="https://baulab.info/">David Bau</a>
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul><li>
+                                              <b>Causal Explanations</b>:
+                                              If every explanation of a neural network is just an approximation to the actual network, then what makes a good explanation? I will talk about the role of causal models, mechanistic interpretability, and model editing, and I will talk about how a good explanation is falsifiable.  Then I will share a story about a recent piece of research where we missed a key part of the explanation, and another researcher used the same causal methods to find a better explanation for the same network.
+                                            </li></ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -308,23 +400,76 @@ class Workshop extends React.Component {
                                         </Typography>
                                         <Typography className={classes.sectionHeader} variant="body2" align="left">
                                         <ul>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P01_ODSmoothGrad.pdf"><b><PDFIcon fontSize="inherit"/> P01</b></Link> <b>ODSmoothGrad: Generating Saliency Maps for Object Detectors.</b> Chul Gwon, Steven C. Howell.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P02_SanityChecks.pdf"><b><PDFIcon fontSize="inherit"/> P02</b></Link> <b>Sanity Checks for Patch Visualisation in Prototype-based Image Classification.</b> Romain Xu-Darme, Georges Quénot, Zakaria Chihani, Marie-Christine Rousset.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P03_ManifoldHypothesis.pdf"><b><PDFIcon fontSize="inherit"/> P03</b></Link> <b>The Manifold Hypothesis for Gradient-Based Explanations.</b> Sebastian Bordt, Uddeshya Upadhyay, Zeynep Akata, Ulrike von Luxburg.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P04_HierarchicalExplanations.pdf"><b><PDFIcon fontSize="inherit"/> P04</b></Link> <b>Hierarchical Explanations for Video Action Recognition.</b> Sadaf Gulshad, Teng Long, Nanne van Noord.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P05_ConfusionMatrix.pdf"><b><PDFIcon fontSize="inherit"/> P05</b></Link> <b>A Confusion Matrix for Evaluating Feature Attribution Methods.</b> Anna Arias-Duart, Ettore Mariotti, Dario Garcia-Gasulla, Jose Maria Alonso-Moral.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P06_Robustness.pdf"><b><PDFIcon fontSize="inherit"/> P06</b></Link> <b>Robustness of Visual Explanations to Common Data Augmentation Methods.</b> Lenka Tětková, Lars Kai Hansen.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P07_ShortcutRemoval.pdf"><b><PDFIcon fontSize="inherit"/> P07</b></Link> <b>Localized Shortcut Removal.</b> Nicolas M. Müller*, Jochen Jacobs*, Jennifer Williams, Konstantin Böttinger.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P08_MedicalImaging.pdf"><b><PDFIcon fontSize="inherit"/> P08</b></Link> <b>Towards Evaluating Explanations of Vision Transformers for Medical Imaging.</b> Piotr Komorowski, Hubert Baniecki, Przemyslaw Biecek.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P09_SegXResCAM.pdf"><b><PDFIcon fontSize="inherit"/> P09</b></Link> <b>Seg-XRes-CAM: Explaining Spatially Local Regions in Image Segmentation.</b> Syed Nouman Hasany, Caroline Petitjean, Fabrice Mériaudeau.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P10_MonocularCriteria.pdf"><b><PDFIcon fontSize="inherit"/> P10</b></Link> <b>Analyzing Results of Depth Estimation Models with Monocular Criteria.</b> Jonas Theiner, Nils Nommensen, Jim Rhotert, Matthias Springstein, Eric Müller-Budack, Ralph Ewerth.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P11_Text2Concept.pdf"><b><PDFIcon fontSize="inherit"/> P11</b></Link> <b>Text2Concept: Concept Activation Vectors Directly From Text.</b> Mazda Moayeri, Keivan Rezaei, Maziar Sanjabi, Soheil Feizi.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI.pdf"><b><PDFIcon fontSize="inherit"/> P12</b></Link> <b>CAVLI - Using Image Associations to Produce Local Concept-based Explanations.</b> Pushkar Shukla, Sushil Bharati, Matthew Turk.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P13_VisionDiffMask.pdf"><b><PDFIcon fontSize="inherit"/> P13</b></Link> <b>Vision DiffMask: Faithful Interpretation of Vision Transformers with Differentiable Patch Masking.</b> Angelos Nalmpantis*, Apostolos Panagiotopoulos*, John Gkountouras*, Konstantinos Papakostas, Wilker Aziz.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P14_TaskAgnostic.pdf"><b><PDFIcon fontSize="inherit"/> P14</b></Link> <b>Ante-Hoc Generation of Task-Agnostic Interpretation Maps.</b> Akash Guna R T, Raul Benitez, Sikha O K.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P15_Disentangling.pdf"><b><PDFIcon fontSize="inherit"/> P15</b></Link> <b>Disentangling Neuron Representations with Concept Vectors.</b> Laura O'Mahony, Vincent Andrearczyk, Henning Müller, Mara Graziani.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P16_SharedInterestSometimes.pdf"><b><PDFIcon fontSize="inherit"/> P16</b></Link> <b>Shared Interest...Sometimes: Understanding the Alignment between Human Perception, Vision Architectures, and Saliency Map Techniques.</b> Katelyn Morrison, Ankita Mehra, Adam Perer.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P17_ZEBRA.pdf"><b><PDFIcon fontSize="inherit"/> P17</b></Link> <b>ZEBRA: Explaining Rare Cases through Outlying Interpretable Concepts.</b> Pedro Madeira, André Carreiro, Alex Gaudio, Luís Rosado, Filipe Soares, Asim Smailagic.</li>
+                                          <li><b>P01</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P01_ODSmoothGrad.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/mifgW9vzfgQ"> <VideoIcon fontSize="inherit"/></Link>
+                                            <b> ODSmoothGrad: Generating Saliency Maps for Object Detectors.</b> Chul Gwon, Steven C. Howell. </li>
+                                          <li><b>P02</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P02_SanityChecks.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/q5SwSM1Y_Tc"> <VideoIcon fontSize="inherit"/></Link>
+                                            <b> Sanity Checks for Patch Visualisation in Prototype-based Image Classification.</b> Romain Xu-Darme, Georges Quénot, Zakaria Chihani, Marie-Christine Rousset.</li>
+                                          <li><b>P03</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P03_ManifoldHypothesis.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <b> The Manifold Hypothesis for Gradient-Based Explanations.</b> Sebastian Bordt, Uddeshya Upadhyay, Zeynep Akata, Ulrike von Luxburg.</li>
+                                          <li><b>P04</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P04_HierarchicalExplanations.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/Cic0IWWnSnA"> <VideoIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/DzO-1Pc2NQ4"> <MovieIcon fontSize="inherit"/></Link>
+                                            <b> Hierarchical Explanations for Video Action Recognition.</b> Sadaf Gulshad, Teng Long, Nanne van Noord.</li>
+                                          <li><b>P05</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P05_ConfusionMatrix.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/nlZwTpZ8wdI"> <VideoIcon fontSize="inherit"/></Link>
+                                            <b>A Confusion Matrix for Evaluating Feature Attribution Methods.</b> Anna Arias-Duart, Ettore Mariotti, Dario Garcia-Gasulla, Jose Maria Alonso-Moral.</li>
+                                          <li><b>P06</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P06_Robustness.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/J1dyxo9eZpM"> <VideoIcon fontSize="inherit"/></Link>
+                                            <b> Robustness of Visual Explanations to Common Data Augmentation Methods.</b> Lenka Tětková, Lars Kai Hansen.</li>
+                                          <li><b>P07</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P07_ShortcutRemoval.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/hfA4yE4Z0Qo"> <VideoIcon fontSize="inherit"/></Link>
+                                            <b> Localized Shortcut Removal.</b> Nicolas M. Müller*, Jochen Jacobs*, Jennifer Williams, Konstantin Böttinger.</li>
+                                          <li><b>P08</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P08_MedicalImaging.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/sk3WLuUY3ho"> <VideoIcon fontSize="inherit"/></Link>
+                                            <b> Towards Evaluating Explanations of Vision Transformers for Medical Imaging.</b> Piotr Komorowski, Hubert Baniecki, Przemyslaw Biecek.</li>
+                                          <li><b>P09</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P09_SegXResCAM.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/QsxcVJQ2cmI"> <MovieIcon fontSize="inherit"/></Link>
+                                            <b> Seg-XRes-CAM: Explaining Spatially Local Regions in Image Segmentation.</b> Syed Nouman Hasany, Caroline Petitjean, Fabrice Mériaudeau.</li>
+                                          <li><b>P10</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P10_MonocularCriteria.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/HvFCZLBOVg4"> <VideoIcon fontSize="inherit"/></Link>
+                                            <b> Analyzing Results of Depth Estimation Models with Monocular Criteria.</b> Jonas Theiner, Nils Nommensen, Jim Rhotert, Matthias Springstein, Eric Müller-Budack, Ralph Ewerth.</li>
+                                          <li><b>P11</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P11_Text2Concept.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/_70P9hBB-Fs"> <VideoIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P11_Text2Concept_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
+                                            <b> Text2Concept: Concept Activation Vectors Directly From Text.</b> Mazda Moayeri, Keivan Rezaei, Maziar Sanjabi, Soheil Feizi.</li>
+                                          <li><b>P12</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/D0a7gRyjCeU"> <MovieIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P12_CAVLI_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
+                                          <b> CAVLI - Using Image Associations to Produce Local Concept-based Explanations.</b> Pushkar Shukla, Sushil Bharati, Matthew Turk.</li>
+                                          <li><b>P13</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P13_VisionDiffMask.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/YVtpcq6ceVI"> <VideoIcon fontSize="inherit"/></Link>
+                                          <b> Vision DiffMask: Faithful Interpretation of Vision Transformers with Differentiable Patch Masking.</b> Angelos Nalmpantis*, Apostolos Panagiotopoulos*, John Gkountouras*, Konstantinos Papakostas, Wilker Aziz.</li>
+                                          <li><b>P14</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P14_TaskAgnostic.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/9zagQAm4krs"> <VideoIcon fontSize="inherit"/></Link>
+                                          <b> Ante-Hoc Generation of Task-Agnostic Interpretation Maps.</b> Akash Guna R T, Raul Benitez, Sikha O K.</li>
+                                          <li><b>P15</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P15_Disentangling.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/wOWUfS11HV8"> <VideoIcon fontSize="inherit"/></Link>
+                                          <b> Disentangling Neuron Representations with Concept Vectors.</b> Laura O'Mahony, Vincent Andrearczyk, Henning Müller, Mara Graziani.</li>
+                                          <li><b>P16</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P16_SharedInterestSometimes.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/C180ttgD-18"> <MovieIcon fontSize="inherit"/></Link>
+                                          <b> Shared Interest...Sometimes: Understanding the Alignment between Human Perception, Vision Architectures, and Saliency Map Techniques.</b> Katelyn Morrison, Ankita Mehra, Adam Perer.</li>
+                                          <li><b>P17</b>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2023/P17_ZEBRA.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/u_m2tos100A"> <VideoIcon fontSize="inherit"/></Link>
+                                          <b> ZEBRA: Explaining Rare Cases through Outlying Interpretable Concepts.</b> Pedro Madeira, André Carreiro, Alex Gaudio, Luís Rosado, Filipe Soares, Asim Smailagic.</li>
                                         </ul>
                                         </Typography>
                                     </Grid>
@@ -335,11 +480,23 @@ class Workshop extends React.Component {
                                         </Typography>
                                         <Typography className={classes.sectionHeader} variant="body2" align="left">
                                         <ul>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P18_ChestXray.pdf"><b><PDFIcon fontSize="inherit"/> P18</b></Link> <b>The Effect of Counterfactuals on Reading Chest X-rays.</b> Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew Lungren, Akshay Chaudhari.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P19_SOXAI.pdf"><b><PDFIcon fontSize="inherit"/> P19</b></Link> <b>Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability.</b> E. Zhixuan Zeng, Hayden Gunraj, Sheldon Fernandez, Alexander Wong.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P20_PIPNet.pdf"><b><PDFIcon fontSize="inherit"/> P20</b></Link> <b>PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P21_CRAFT.pdf"><b><PDFIcon fontSize="inherit"/> P21</b></Link> <b>CRAFT: Concept Recursive Activation FacTorization for Explainability.</b> Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, Thomas Serre.</li>
-                                          <li><Link target="_blank" rel="noopener" href="./assets/papers2023/P22_MACO.pdf"><b><PDFIcon fontSize="inherit"/> P22</b></Link> <b>Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization.</b> Thomas Fel, Thibaut Boissin, Victor Boutin, Agustin Picard, Paul Novello, Julien Colin, Drew Linsley, Tom Rousseau, Rémi Cadène, Laurent Gardes, Thomas Serre.</li>
+                                        <li><b>P18</b>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2023/P18_ChestXray.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                          <Link target="_blank" rel="noopener" href="https://youtu.be/iT90lH14g4Y"> <VideoIcon fontSize="inherit"/></Link>
+                                        <b> The Effect of Counterfactuals on Reading Chest X-rays.</b> Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew Lungren, Akshay Chaudhari.</li>
+                                        <li><b>P19</b>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2023/P19_SOXAI.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                        <b> Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability.</b> E. Zhixuan Zeng, Hayden Gunraj, Sheldon Fernandez, Alexander Wong.</li>
+                                        <li><b>P20</b>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2023/P20_PIPNet.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                          <Link target="_blank" rel="noopener" href="https://youtu.be/GfQQFQ62SLU"> <VideoIcon fontSize="inherit"/></Link>
+                                        <b> PIP-Net: Patch-Based Intuitive Prototypes for Interpretable Image Classification.</b> Meike Nauta, Jörg Schlötterer, Maurice Van Keulen, Christin Seifert.</li>
+                                        <li><b>P21</b>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2023/P21_CRAFT.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                        <b> CRAFT: Concept Recursive Activation FacTorization for Explainability.</b> Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, Thomas Serre.</li>
+                                        <li><b>P22</b>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2023/P22_MACO.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                        <b> Unlocking Feature Visualization for Deeper Networks with MAgnitude Constrained Optimization.</b> Thomas Fel, Thibaut Boissin, Victor Boutin, Agustin Picard, Paul Novello, Julien Colin, Drew Linsley, Tom Rousseau, Rémi Cadène, Laurent Gardes, Thomas Serre.</li>
                                         </ul>
                                         </Typography>
                                     </Grid>
