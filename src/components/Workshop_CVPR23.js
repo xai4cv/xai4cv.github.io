@@ -244,6 +244,12 @@ class Workshop extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>01:30 PM - 02:00 PM: </b> Invited Talk 3: <a target="_blank" rel="noopener" href="https://www.cs.unc.edu/~mbansal/">Mohit Bansal</a>
                                             </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul><li>
+                                              <b>Interpretable Image Generation+Evaluation and Right-for-the-Right-Reason Explanation Supervision</b>:
+                                              In this talk, we will first discuss interpretable visual programming frameworks for text-to-image (T2I) generation and evaluation. VPGen decomposes T2I generation into three steps: object/count generation, layout generation, and image generation, providing stronger counts/spatial relations/scales control than end-to-end models and leveraging the world knowledge of pretrained LMs to go beyond predefined object classes. Next, VPEval produces evaluation programs that invoke a set of visual modules that are experts in different skills, and also provides visual+textual explanations of the evaluation results, resulting in a more human-correlated evaluation. In the second part of the talk, we will discuss how to make model explanation supervision 'meaningfully' improve VQA model accuracy as well as performance on several Right-for-the-Right-Reason (RRR) metrics by optimizing for four key model objectives: sufficiency, uncertainty, invariance, and plausibility. While past work suggests that the mechanism for improved accuracy is through improved explanation plausibility, we show that this relationship depends crucially on explanation faithfulness (i.e., whether explanations truly represent the model's internal reasoning).
+                                            </li></ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
