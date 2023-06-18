@@ -177,7 +177,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>11:00 AM - 12:00 PM: </b> Poster Session 1 (In-person only at West Exhibit Hall boards 202 - 241)
+                                                <b>11:00 AM - 12:00 PM: </b> Poster Session 1 @ West Exhibit Hall #203 - #241
                                             </Typography>
                                             <Typography className={classes.sectionHeader} variant="body2" align="left">
                                             <ul>
@@ -234,7 +234,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>12:00 PM - 01:30 PM: </b> Lunch Social
+                                                <b>12:00 PM - 01:30 PM: </b> Lunch Social @ West Ballrooms
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -289,7 +289,7 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>03:00 PM - 04:00 PM: </b> Poster Session 2 (In-person only at West Exhibit Hall boards 203 - 241)
+                                                <b>03:00 PM - 04:00 PM: </b> Poster Session 2 @ West Exhibit Hall #203 - #241
                                             </Typography>
                                             <Typography className={classes.sectionHeader} variant="body2" align="left">
                                             <ul>
@@ -529,7 +529,7 @@ class Workshop extends React.Component {
                                             Indu Panigrahi, Itana Bulatovic, Jae Myung Kim, Jihoon Chung, Jonathan Donnelly,
                                             Joseph Paul Cohen, Julien Colin, Kira Vinogradova, Lan Wang, Matthew Kowal, Mehdi Nourelahi,
                                             Mert Yuksekgonul, Moritz Böhle, Peter Hase, Qi Li, Rama Kovvuri, Ruth Fong, Satyapriya Krishna,
-                                            Sunnie S. Y. Kim, Thomas Fel, Vikram V. Ramaswamy, Vipin Pillai, William Wang, Xinran Liang
+                                            Sunnie S. Y. Kim, Thomas Fel, Vikram V. Ramaswamy, Vipin Pillai, William Yang, Xinran Liang
                                             </Typography>
                                         </Grid>
                                     </Grid>
