@@ -80,7 +80,8 @@ class Home extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <a href="./workshop_cvpr23"><b>The 2nd XAI4CV Workshop at CVPR 2023</b></a>
+                                                Interested in organizing the next workshop?
+                                                Let us know at <a href="https://tinyurl.com/XAI4CVatCVPR2023">https://tinyurl.com/XAI4CVatCVPR2023</a>.
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -93,8 +94,15 @@ class Home extends React.Component {
                                             variant="h5"
                                             align="left"
                                             >
-                                            Previous workshop
+                                            Previous workshops
                                         </Typography>
+                                    </Grid>
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
+                                                <a href="./workshop_cvpr23"><b>The 2nd XAI4CV Workshop at CVPR 2023</b></a>
+                                            </Typography>
+                                        </Grid>
                                     </Grid>
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
