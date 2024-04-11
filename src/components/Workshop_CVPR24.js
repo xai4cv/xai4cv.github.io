@@ -141,14 +141,14 @@ class Workshop extends React.Component {
                                         <br/>
                                         <Typography className={classes.sectionHeader} variant="body2" align="left">
                                         <b>Proceedings track</b> <br/>
-                                        Submission deadline: <b>March 17, 2024 (5pm PT)</b> <br/>
-                                        Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b> <br/>
+                                        <s>Submission deadline: <b>March 17, 2024 (5pm PT)</b></s> <br/>
+                                        <s>Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b></s> <br/>
                                         Camera-ready hard deadline: <b>April 14, 2024 (11:59pm PT)</b>
                                         <br/>
                                         <br/>
                                         <b>Non-proceedings track</b> <br/>
-                                        Submissions deadline (to be considered for spotlights): <b>March 17, 2024 (5pm PT)</b> <br/>
-                                        Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b> <br/>
+                                        <s>Submissions deadline (to be considered for spotlights): <b>March 17, 2024 (5pm PT)</b></s> <br/>
+                                        <s>Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b></s> <br/>
                                         Rolling submissions and notifications (accept as poster or reject): <b>Until April 22, 2024</b> <br/>
                                         Camera-ready deadline: <b>May 8, 2024 (5pm PT)</b>.
                                         </Typography>
