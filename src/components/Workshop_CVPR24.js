@@ -143,14 +143,14 @@ class Workshop extends React.Component {
                                         <b>Proceedings track</b> <br/>
                                         <s>Submission deadline: <b>March 17, 2024 (5pm PT)</b></s> <br/>
                                         <s>Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b></s> <br/>
-                                        Camera-ready hard deadline: <b>April 14, 2024 (11:59pm PT)</b>
+                                        <s>Camera-ready hard deadline: <b>April 14, 2024 (11:59pm PT)</b></s>
                                         <br/>
                                         <br/>
                                         <b>Non-proceedings track</b> <br/>
                                         <s>Submissions deadline (to be considered for spotlights): <b>March 17, 2024 (5pm PT)</b></s> <br/>
                                         <s>Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b></s> <br/>
-                                        Rolling submissions and notifications (accept as poster or reject): <b>Until April 22, 2024</b> <br/>
-                                        Camera-ready deadline: <b>May 8, 2024 (5pm PT)</b>.
+                                        <s>Rolling submissions and notifications (accept as poster or reject): <b>Until April 22, 2024</b></s> <br/>
+                                        Camera-ready deadline: <s><b>May 8, 2024 (5pm PT)</b></s> <b>To be announced</b>.
                                         </Typography>
                                     </Grid>
 
@@ -348,6 +348,28 @@ class Workshop extends React.Component {
                                     <People/>
 
                                     <div className={classes.container}/>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="h5" align="left">
+                                            Program Committee
+                                        </Typography>
+                                    </Grid>
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <b>We thank our wonderful program committee members who made this workshop possible!</b>
+                                            <br/><br/>
+                                            Aditya Chattopadhyay, Aditya Chinchure, Amin Parchami-Araghi, Angelos Nalmpantis,
+                                            Anirban Sarkar, Anmol Kalia, Chenyang Zhao, Chirag Shukla, Deepti Ghadiyaram, Dhruv Srikanth, Eunji Kim,
+                                            Gaurav Bhatt, Hubert Baniecki, Indu	Panigrahi, Jawad Tayyub, John Gkountouras, Jonathan Donnelly,
+                                            Joseph Paul Cohen, Julien Colin, Katelyn Morrison, Kwan Ho Ryan Chan, Lan Wang, Laura O'Mahony, Lenka Tětková,
+                                            Manxi Lin, Matthew Kowal, Muhammad Sarmad, Navdeeppal Singh, Nhi Pham, Nina Weng,
+                                            Piotr Komorowski, Pushkar Shukla, Robin Hesse, Romain	Xu-Darme, Sadaf Gulshad, Satyapriya Krishna,
+                                            Sebastian	Bordt, Simone Schaub-Meyer, Stefan Kolek, Sukrut Rao, Sunnie S. Y. Kim, Sweta Mahajan, Syed Nouman Hasany,
+                                            Teresa Dorszewski, Tobias Labarta, Vikram V. Ramaswamy, Vipin Pillai.
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
 
                                     <div className={classes.container}/>
 
