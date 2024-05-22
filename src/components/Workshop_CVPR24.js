@@ -150,7 +150,7 @@ class Workshop extends React.Component {
                                         <s>Submissions deadline (to be considered for spotlights): <b>March 17, 2024 (5pm PT)</b></s> <br/>
                                         <s>Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b></s> <br/>
                                         <s>Rolling submissions and notifications (accept as poster or reject): <b>Until April 22, 2024</b></s> <br/>
-                                        Camera-ready deadline: <s><b>May 8, 2024 (5pm PT)</b></s> <b>To be announced</b>.
+                                        Camera-ready deadline: <s><b>May 8, 2024 (5pm PT)</b></s> <b>June 14, 2024 (5pm PT)</b>.
                                         </Typography>
                                     </Grid>
 
