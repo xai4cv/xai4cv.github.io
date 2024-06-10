@@ -234,7 +234,8 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>09:30 AM - 10:00 AM: </b> Invited Talk 1
+                                                <b>09:30 AM - 10:00 AM: </b> Invited Talk 1:
+                                                &nbsp;<a target="_blank" rel="noopener" href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele">Bernt Schiele</a>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -242,7 +243,8 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>10:00 AM - 10:30 AM: </b> Invited Talk 2
+                                                <b>10:00 AM - 10:30 AM: </b> Invited Talk 2:
+                                                &nbsp;<a target="_blank" rel="noopener" href="https://ml-research.github.io/people/kkersting/">Kristian Kersting</a>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -251,6 +253,19 @@ class Workshop extends React.Component {
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>10:30 AM - 11:00 AM: </b> Spotlight Session 1
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li><b>P26.</b>
+                                              <b> Recent Trends, Challenges, and Limitations of Explainable AI in Remote Sensing.</b>
+                                              Adrian Höhl, Ivica Obadic, Miguel-Ángel Fernández-Torres, Dario Augusto Borges Oliveira, Xiaoxiang Zhu.</li>
+                                              <li><b>P13.</b>
+                                              <b> Spatial Sensitive Grad-CAM++: Improved Visual Explanation for Object Detectors via Weighted Combination of Gradient Map.</b>
+                                              Toshinori Yamauchi.</li>
+                                              <li><b>P15.</b>
+                                              <b> Exploring Explainability in Video Action Recognition.</b>
+                                              Avinab Saha, Shashank Gupta, Sravan Ankireddy, Karl Chahine, Joydeep Ghosh.</li>
+                                            </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -274,7 +289,8 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk 3
+                                                <b>01:30 PM - 02:00 PM: </b> Invited Talk 3:
+                                                &nbsp;<a target="_blank" rel="noopener" href="https://eecs.uq.edu.au/profile/9477/tim-miller">Tim Miller</a>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -282,7 +298,8 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk 4
+                                                <b>02:00 PM - 02:30 PM: </b> Invited Talk 4:
+                                                &nbsp;<a target="_blank" rel="noopener" href="https://aims.cs.washington.edu/su-in-lee">Su-In Lee</a>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -291,6 +308,19 @@ class Workshop extends React.Component {
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>02:30 PM - 03:00 PM: </b> Spotlight Session 2
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li><b>P32.</b>
+                                              <b> PURE: Turning Polysemantic Neurons Into Pure Features by Identifying Relevant Circuits.</b>
+                                              Maximilian Dreyer, Erblina Purelku, Johanna Vielhaben, Wojciech Samek, Sebastian Lapuschkin.</li>
+                                              <li><b>P37.</b>
+                                              <b> Quantifying Explainability with Multi-Scale Gaussian Mixture Models.</b>
+                                              Anthony D Rhodes, Yali Bian, Ilke Demir.</li>
+                                              <li><b>P18.</b>
+                                              <b> LVLM-Intrepret: An Interpretability Tool for Large Vision-Language Models.</b>
+                                              Shao-Yen Tseng, Estelle Guez Aflalo, Gabriela Ben Melech Stan, Anahita Bhiwandiwalla, Raanan Y. Rohekar, Yaniv Gurwicz, Vasudev Lal, Nan Duan, Chenfei Wu, Matthew Olson.</li>
+                                            </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -314,7 +344,8 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>04:30 PM - 05:00 PM: </b> Invited Talk 6
+                                                <b>04:30 PM - 05:00 PM: </b> Invited Talk 6:
+                                                &nbsp;<a target="_blank" rel="noopener" href="https://people.iith.ac.in/vineethnb/">Vineeth N Balasubramanian</a>
                                             </Typography>
                                         </Grid>
                                     </Grid>
