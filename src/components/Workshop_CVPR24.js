@@ -101,112 +101,7 @@ class Workshop extends React.Component {
 
                                     <div className={classes.container}/>
 
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="h5" align="left">
-                                            Call for Papers & Demos
-                                        </Typography>
-                                    </Grid>
 
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                        We welcome paper and demo submissions.
-                                        <ul>
-                                          <li>
-                                            <b>Papers</b> should describe high-quality, original research. Contributions can include novel XAI methods; applications of existing methods on new domains, models, and tasks; evaluation or analysis of existing methods; and practical toolboxes.
-                                          </li>
-                                          <li>
-                                            <b>Demos</b> should consist of static or interactive presentations of XAI for CV models and tasks, accompanied by a description. Contributions can include visualizations, explanations, and explorations of novel XAI systems; novel visualizations, explanations, and explorations of existing XAI systems; studies of how different  visualizations, explanations, and explorations of XAI systems are perceived by people; among others.
-                                          </li>
-                                        </ul>
-
-                                        We have two tracks of submissions.
-                                        <ul>
-                                          <li>
-                                            <b>Proceedings track:</b> We welcome <b>max 4-page</b> submissions of papers and demos. Submissions accepted to this track <b>will be published</b> in the CVPR workshop proceedings.
-                                          </li>
-                                          <li>
-                                            <b>Non-proceedings track:</b> We welcome <b>max 2-page</b> submissions (commonly referred to as "extended abstracts") of papers and demos. For the non-proceedings track, we encourage submissions of published or accepted work (e.g., papers and demos accepted to the CVPR main program). Submissions accepted to this track <b>will <i>not</i> be published</b> in the CVPR workshop proceedings.
-                                          </li>
-                                        </ul>
-
-                                        </Typography>
-                                    </Grid>
-
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
-                                            <b>Timeline</b>
-                                        </Typography>
-                                        <br/>
-                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                        <b>Proceedings track</b> <br/>
-                                        <s>Submission deadline: <b>March 17, 2024 (5pm PT)</b></s> <br/>
-                                        <s>Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b></s> <br/>
-                                        <s>Camera-ready hard deadline: <b>April 14, 2024 (11:59pm PT)</b></s>
-                                        <br/>
-                                        <br/>
-                                        <b>Non-proceedings track</b> <br/>
-                                        <s>Submissions deadline (to be considered for spotlights): <b>March 17, 2024 (5pm PT)</b></s> <br/>
-                                        <s>Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b></s> <br/>
-                                        <s>Rolling submissions and notifications (accept as poster or reject): <b>Until April 22, 2024</b></s> <br/>
-                                        Camera-ready deadline: <s><b>May 8, 2024 (5pm PT)</b></s> <b>June 14, 2024 (5pm PT)</b>.
-                                        </Typography>
-                                    </Grid>
-
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
-                                            <b>Submission instructions</b>
-                                        </Typography>
-                                        <br/>
-                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                        All submissions should be in the <b>anonymized</b> CVPR 2024 format available at <a target="_blank" rel="noopener" href="https://cvpr.thecvf.com/Conferences/2024/AuthorGuidelines"><b>https://cvpr.thecvf.com/Conferences/2024/AuthorGuidelines</b></a>.
-                                        <br/>
-                                        The page limits <b>do not</b> include references.
-                                        <br/>
-                                        You may optionally upload supplementary material. Reviewers will be encouraged to look at it, but are not obligated to do so.
-                                        <br/>
-                                        Submissions can be done at <a target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2024"><b>https://cmt3.research.microsoft.com/XAI4CV2024</b></a>.
-                                        </Typography>
-                                    </Grid>
-
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
-                                            <b>Attendance & Presentation</b>
-                                        </Typography>
-                                        <br/>
-                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                        <b>Posters: </b> All accepted submissions will be invited to participate in an <b>in-person</b> poster session at our workshop.
-                                        Additionally, the authors will be asked to upload their posters which will be hosted on our webpage.
-                                        <br /><br />
-                                        <b>Spotlights: </b> We will pick 6-8 works among the submissions to be presented as spotlights.
-                                        Presentations can either be <b>in-person</b> or <b>pre-recorded</b>.
-                                        <br /><br />
-                                        Abiding by the <a target="_blank" rel="noopener" href="https://cvpr.thecvf.com/Conferences/2024/Pricing2"><b>CVPR guidelines</b></a>, all accepted papers <b>must be presented by one of the authors</b>.
-                                        </Typography>
-                                    </Grid>
-
-                                    <Grid item xs={12} className={classes.gridItem}>
-                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
-                                            <b>Topics</b>
-                                        </Typography>
-                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
-                                        <ul>
-                                          <li>Interpretable-by-design CV models</li>
-                                          <li>Post-hoc explanations of CV models</li>
-                                          <li>Evaluation and analysis of XAI for CV</li>
-                                          <li>Applications of XAI for CV</li>
-                                          <li>Methods for new interactions with CV models (e.g., debugging, editing)</li>
-                                          <li>Multimodal XAI, including both multimodal explanations of CV models and (unimodal) explanations of multimodal models</li>
-                                          <li>Datasets for developing and evaluating XAI for CV</li>
-                                          <li>Visualizations and toolboxes for XAI for CV</li>
-                                          <li>Human-centered XAI for CV (e.g., human evaluations, qualitative studies)</li>
-                                          <li>Studies of XAI for CV and related topics (e.g., fairness, transparency, interpretability, trust)</li>
-                                        </ul>
-                                        </Typography>
-                                    </Grid>
 
 
                                     <Grid item xs={12} className={classes.gridItem}>
@@ -236,6 +131,13 @@ class Workshop extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>09:30 AM - 10:00 AM: </b> Invited Talk 1:
                                                 &nbsp;<a target="_blank" rel="noopener" href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele">Bernt Schiele</a>
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li>
+                                              <b>Inherent Interpretability for Deep Learning in Computer Vision</b>: Computer Vision has been revolutionized by Machine Learning and in particular Deep Learning. End-to-end trainable models often allow to achieve top performance across a wide range of computer vision tasks and settings. While recent progress is remarkable, current deep learning models are hard to interpret. In this talk discuss a new class of neural networks which are performant image classifiers with a high degree of inherent interpretability. In particular, these novel networks perform classification through a series of input-dependent linear transformations, that outperform existing attribution methods both quantitatively as well as qualitatively.
+                                              </li>
+                                            </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -292,6 +194,13 @@ class Workshop extends React.Component {
                                                 <b>01:30 PM - 02:00 PM: </b> Invited Talk 3:
                                                 &nbsp;<a target="_blank" rel="noopener" href="https://eecs.uq.edu.au/profile/9477/tim-miller">Tim Miller</a>
                                             </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li>
+                                              <b>Human-Centered Counterfactual Explanations for Image Classification</b>: In this talk, I’ll discuss some foundations of explainable AI based on social science research, with a particular focus on contrastive and counterfactual explanations. I will discuss some work in applying these ideas to image classification, in which we use concept-based explainers to generate counterfactuals orders of magnitude more quickly than existing image counterfactuals explanations, while also improving the interpretability/understandability of these.
+                                              </li>
+                                            </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
@@ -300,6 +209,13 @@ class Workshop extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>02:00 PM - 02:30 PM: </b> Invited Talk 4:
                                                 &nbsp;<a target="_blank" rel="noopener" href="https://aims.cs.washington.edu/su-in-lee">Su-In Lee</a>
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li>
+                                              <b>Explainable AI for Clinical AI Auditing</b>
+                                              </li>
+                                            </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -336,7 +252,15 @@ class Workshop extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
-                                                <b>04:00 PM - 04:30 PM: </b> Invited Talk 5
+                                                <b>04:00 PM - 04:30 PM: </b> Invited Talk 5:
+                                                &nbsp;<a target="_blank" rel="noopener" href="https://www.cs.ubc.ca/~lsigal/">Leonid Signal</a>
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li>
+                                              <b>Understanding, Control and Debiasing of Text-to-Image Models</b>: Text-to-image (TTI) diffusion models, such as Latent Diffusion, have emerged as a powerful class of generative models capable of generating stunning visuals conditioned on a text specification of the intended content. However, the quality of the textual prompts provided to these models ultimately determines the faithfulness of the generated content. Further, the “quality” of the prompt is both the function of the linguistic expression of the user’s desire and the (generally unknown) distribution over the text-image pairs which were used to train the model in the first place. To greatly simplify the task of “prompt engineering”, we propose an intuitive prompt inversion approach which allows optimization of the prompt that is most likely to lead to a given example visual. This enables much simpler generation and manipulation of image content by direct editing (or concatenation) of inverted text prompts. Secondarily, TTI models have also been shown to suffer from harmful biases, including exaggerated societal biases (e.g., gender, ethnicity), as well as incidental correlations that limit such model’s ability to generate more diverse imagery. I will subsequently talk about an approach we developed to study and quantify a broad spectrum of biases, for any TTI model and for any prompt, using counterfactual reasoning -- we call this framework TIBET. Our approach automatically identifies potential biases that might be relevant to the given prompt, and measures those biases. We show that our method is uniquely capable of explaining complex multi-dimensional biases through semantic concepts, as well as mitigating identified biases using existing approaches. This work is a collaboration between UBC, TTI-C, Carleton and UPenn.
+                                              </li>
+                                            </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -346,6 +270,13 @@ class Workshop extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>04:30 PM - 05:00 PM: </b> Invited Talk 6:
                                                 &nbsp;<a target="_blank" rel="noopener" href="https://people.iith.ac.in/vineethnb/">Vineeth N Balasubramanian</a>
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li>
+                                              <b>Moving beyond an Afterthought: Toward Learning via Explanations</b>: The growing demand for explainability  in AI and machine learning models has largely been addressed with post-hoc methods that explain a model trained a priori.  While these methods have been valuable, this talk advocates for a shift towards incorporating  explainability directly into the learning process. We will discuss our recent work towards this objective from two perspectives: (i) integrating interpretability during model training in popular vision models; and (ii) integrating and maintaining causal attributions using domain knowledge in neural network models during the training process.  Presented at prominent venues like CVPR and ICML, our work exemplifies our goal to advance explainable AI systems from prediction-based learning to explanation-based learning.
+                                              </li>
+                                            </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -418,6 +349,114 @@ class Workshop extends React.Component {
                                     </Grid>
 
                                     <div className={classes.container}/>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="h5" align="left">
+                                            (Closed) Call for Papers & Demos
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        We welcome paper and demo submissions.
+                                        <ul>
+                                          <li>
+                                            <b>Papers</b> should describe high-quality, original research. Contributions can include novel XAI methods; applications of existing methods on new domains, models, and tasks; evaluation or analysis of existing methods; and practical toolboxes.
+                                          </li>
+                                          <li>
+                                            <b>Demos</b> should consist of static or interactive presentations of XAI for CV models and tasks, accompanied by a description. Contributions can include visualizations, explanations, and explorations of novel XAI systems; novel visualizations, explanations, and explorations of existing XAI systems; studies of how different  visualizations, explanations, and explorations of XAI systems are perceived by people; among others.
+                                          </li>
+                                        </ul>
+
+                                        We have two tracks of submissions.
+                                        <ul>
+                                          <li>
+                                            <b>Proceedings track:</b> We welcome <b>max 4-page</b> submissions of papers and demos. Submissions accepted to this track <b>will be published</b> in the CVPR workshop proceedings.
+                                          </li>
+                                          <li>
+                                            <b>Non-proceedings track:</b> We welcome <b>max 2-page</b> submissions (commonly referred to as "extended abstracts") of papers and demos. For the non-proceedings track, we encourage submissions of published or accepted work (e.g., papers and demos accepted to the CVPR main program). Submissions accepted to this track <b>will <i>not</i> be published</b> in the CVPR workshop proceedings.
+                                          </li>
+                                        </ul>
+
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Timeline</b>
+                                        </Typography>
+                                        <br/>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        <b>Proceedings track</b> <br/>
+                                        <s>Submission deadline: <b>March 17, 2024 (5pm PT)</b></s> <br/>
+                                        <s>Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b></s> <br/>
+                                        <s>Camera-ready hard deadline: <b>April 14, 2024 (11:59pm PT)</b></s>
+                                        <br/>
+                                        <br/>
+                                        <b>Non-proceedings track</b> <br/>
+                                        <s>Submissions deadline (to be considered for spotlights): <b>March 17, 2024 (5pm PT)</b></s> <br/>
+                                        <s>Notification to authors (accept as spotlight, accept as poster, or reject): <b>April 6, 2024</b></s> <br/>
+                                        <s>Rolling submissions and notifications (accept as poster or reject): <b>Until April 22, 2024</b></s> <br/>
+                                        <s>Camera-ready deadline: <b>May 8, 2024 (5pm PT)</b> <b>June 14, 2024 (5pm PT)</b></s>
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Submission instructions</b>
+                                        </Typography>
+                                        <br/>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        All submissions should be in the <b>anonymized</b> CVPR 2024 format available at <a target="_blank" rel="noopener" href="https://cvpr.thecvf.com/Conferences/2024/AuthorGuidelines"><b>https://cvpr.thecvf.com/Conferences/2024/AuthorGuidelines</b></a>.
+                                        <br/>
+                                        The page limits <b>do not</b> include references.
+                                        <br/>
+                                        You may optionally upload supplementary material. Reviewers will be encouraged to look at it, but are not obligated to do so.
+                                        <br/>
+                                        Submissions can be done at <a target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2024"><b>https://cmt3.research.microsoft.com/XAI4CV2024</b></a>.
+                                        </Typography>
+                                    </Grid>
+
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Attendance & Presentation</b>
+                                        </Typography>
+                                        <br/>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        <b>Posters: </b> All accepted submissions will be invited to participate in an <b>in-person</b> poster session at our workshop.
+                                        Additionally, the authors will be asked to upload their posters which will be hosted on our webpage.
+                                        <br /><br />
+                                        <b>Spotlights: </b> We will pick 6-8 works among the submissions to be presented as spotlights.
+                                        Presentations can either be <b>in-person</b> or <b>pre-recorded</b>.
+                                        <br /><br />
+                                        Abiding by the <a target="_blank" rel="noopener" href="https://cvpr.thecvf.com/Conferences/2024/Pricing2"><b>CVPR guidelines</b></a>, all accepted papers <b>must be presented by one of the authors</b>.
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Topics</b>
+                                        </Typography>
+                                        <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                        <ul>
+                                          <li>Interpretable-by-design CV models</li>
+                                          <li>Post-hoc explanations of CV models</li>
+                                          <li>Evaluation and analysis of XAI for CV</li>
+                                          <li>Applications of XAI for CV</li>
+                                          <li>Methods for new interactions with CV models (e.g., debugging, editing)</li>
+                                          <li>Multimodal XAI, including both multimodal explanations of CV models and (unimodal) explanations of multimodal models</li>
+                                          <li>Datasets for developing and evaluating XAI for CV</li>
+                                          <li>Visualizations and toolboxes for XAI for CV</li>
+                                          <li>Human-centered XAI for CV (e.g., human evaluations, qualitative studies)</li>
+                                          <li>Studies of XAI for CV and related topics (e.g., fairness, transparency, interpretability, trust)</li>
+                                        </ul>
+                                        </Typography>
+                                    </Grid>
 
 
                                     <div className={classes.container}/>
