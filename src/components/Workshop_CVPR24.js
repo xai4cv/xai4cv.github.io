@@ -148,6 +148,13 @@ class Workshop extends React.Component {
                                                 <b>10:00 AM - 10:30 AM: </b> Invited Talk 2:
                                                 &nbsp;<a target="_blank" rel="noopener" href="https://ml-research.github.io/people/kkersting/">Kristian Kersting</a>
                                             </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                            <ul>
+                                              <li>
+                                              <b>Reasonable Artificial Intelligence</b>: To understand how to get (generative) AI right, we need to know how it can go wrong but also make assumptions on what is “right” and “wrong.” Consequently, I will argue that we need both explainable & interpretable AI and illustrate this using several examples.
+                                              </li>
+                                            </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
@@ -159,10 +166,10 @@ class Workshop extends React.Component {
                                             <Typography className={classes.sectionHeader} variant="body2" align="left">
                                             <ul>
                                               <li><b>P08</b>
-                                                <Link target="_blank" rel="noopener" href="./assets/papers2024/P08.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="assets/papers2024/P08.pdf"> <PDFIcon fontSize="inherit"/></Link>
                                                 <b> Recent Trends, Challenges, and Limitations of Explainable AI in Remote Sensing.</b> Adrian Höhl*, Ivica Obadic*, Miguel-Ángel Fernández-Torres, Dario Oliveira, Xiao Xiang Zhu.</li>
                                               <li><b>P02</b>
-                                                <Link target="_blank" rel="noopener" href="./assets/papers2024/P02.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="assets/papers2024/P02.pdf"> <PDFIcon fontSize="inherit"/></Link>
                                                 <b> Spatial Sensitive Grad-CAM++: Improved Visual Explanation for Object Detectors via Weighted Combination of Gradient Map.</b> Toshinori Yamauchi.</li>
                                               <li><b>P04</b>
                                                 <Link target="_blank" rel="noopener" href="./assets/papers2024/P04.pdf"> <PDFIcon fontSize="inherit"/></Link>
