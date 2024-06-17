@@ -73,7 +73,7 @@ class Workshop extends React.Component {
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
                                             <b>Date:</b> Tuesday, June 18, 2024 <br />
-                                            <b>Location:</b> Seattle Convention Center, Seattle, WA, USA <br />
+                                            <b>Location:</b> Arch 2A, Seattle Convention Center, Seattle, WA, USA <br />
                                         </Typography>
                                     </Grid>
 
