@@ -167,12 +167,16 @@ class Workshop extends React.Component {
                                             <ul>
                                               <li><b>P08</b>
                                                 <Link target="_blank" rel="noopener" href="assets/papers2024/P08.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2024/P08_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                                 <b> Recent Trends, Challenges, and Limitations of Explainable AI in Remote Sensing.</b> Adrian Höhl*, Ivica Obadic*, Miguel-Ángel Fernández-Torres, Dario Oliveira, Xiao Xiang Zhu.</li>
                                               <li><b>P02</b>
                                                 <Link target="_blank" rel="noopener" href="assets/papers2024/P02.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="https://youtu.be/R6WiiiCBbZY?si=Yjg9Yq9JYcviWjs-"> <VideoIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2024/P02_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                                 <b> Spatial Sensitive Grad-CAM++: Improved Visual Explanation for Object Detectors via Weighted Combination of Gradient Map.</b> Toshinori Yamauchi.</li>
                                               <li><b>P04</b>
                                                 <Link target="_blank" rel="noopener" href="./assets/papers2024/P04.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2024/P04_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                                 <b> Exploring Explainability in Video Action Recognition.</b> Avinab Saha*, Shashank Gupta*, Sravan Kumar Ankireddy*, Karl Chahine, Joydeep Ghosh.</li>
                                             </ul>
                                             </Typography>
@@ -236,13 +240,16 @@ class Workshop extends React.Component {
                                             <ul>
                                               <li><b>P11</b>
                                                 <Link target="_blank" rel="noopener" href="./assets/papers2024/P11.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2024/P11_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                                 <b> PURE: Turning Polysemantic Neurons Into Pure Features by Identifying Relevant Circuits.</b> Maximilian Dreyer, Erblina Purelku, Johanna Vielhaben, Wojciech Samek, Sebastian Lapuschkin.</li>
                                               <li><b>P13</b>
                                                 <Link target="_blank" rel="noopener" href="./assets/papers2024/P13.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2024/P13_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                                 <b> Quantifying Explainability with Multi-Scale Gaussian Mixture Models.</b> Anthony Rhodes, Yali Bian, Ilke Demir.</li>
                                               <li><b>P05</b>
                                                 <Link target="_blank" rel="noopener" href="./assets/papers2024/P05.pdf"> <PDFIcon fontSize="inherit"/></Link>
-                                                <b>LVLM-Intrepret: An Interpretability Tool for Large Vision-Language Models.</b> Gabriela Ben Melech Stan*, Estelle Aflalo*, Raanan Yehezkel Rohekar*, Anahita Bhiwandiwalla*, Shao-Yen Tseng*, Matthew Lyle Olson*, Yaniv Gurwicz*, Chenfei Wu, Nan Duan, Vasudev Lal.</li>
+                                                <Link target="_blank" rel="noopener" href="./assets/papers2024/P05_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
+                                                <b> LVLM-Intrepret: An Interpretability Tool for Large Vision-Language Models.</b> Gabriela Ben Melech Stan*, Estelle Aflalo*, Raanan Yehezkel Rohekar*, Anahita Bhiwandiwalla*, Shao-Yen Tseng*, Matthew Lyle Olson*, Yaniv Gurwicz*, Chenfei Wu, Nan Duan, Vasudev Lal.</li>
                                             </ul>
                                             </Typography>
                                         </Grid>
@@ -322,42 +329,61 @@ class Workshop extends React.Component {
                                         <ul>
                                           <li><b>P01</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P01.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P01_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> ReciproCAM: Lightweight Gradient-free Class Activation Map for Post-hoc Explanations.</b> Seok-Yong Byun, Wonju Lee. </li>
                                           <li><b>P02</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P02.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/R6WiiiCBbZY?si=Yjg9Yq9JYcviWjs-"> <VideoIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P02_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> Spatial Sensitive Grad-CAM++: Improved Visual Explanation for Object Detectors via Weighted Combination of Gradient Map.</b> Toshinori Yamauchi.</li>
                                           <li><b>P03</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P03.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/CBXNTmYLjJc?si=8Ij9lmzEZedNDANr"> <VideoIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P03_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> Allowing Humans to Interactively Guide Machines Where to Look Does Not Always Improve Human-AI Team’s Classification Accuracy.</b> Giang Nguyen*, Mohammad Reza Taesiri*, Sunnie S. Y. Kim, Anh Totti Nguyen.</li>
                                           <li><b>P04</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P04.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P04_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> Exploring Explainability in Video Action Recognition.</b> Avinab Saha*, Shashank Gupta*, Sravan Kumar Ankireddy*, Karl Chahine, Joydeep Ghosh.</li>
                                           <li><b>P05</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P05.pdf"> <PDFIcon fontSize="inherit"/></Link>
-                                            <b>LVLM-Intrepret: An Interpretability Tool for Large Vision-Language Models.</b> Gabriela Ben Melech Stan*, Estelle Aflalo*, Raanan Yehezkel Rohekar*, Anahita Bhiwandiwalla*, Shao-Yen Tseng*, Matthew Lyle Olson*, Yaniv Gurwicz*, Chenfei Wu, Nan Duan, Vasudev Lal.</li>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P05_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
+                                            <b> LVLM-Intrepret: An Interpretability Tool for Large Vision-Language Models.</b> Gabriela Ben Melech Stan*, Estelle Aflalo*, Raanan Yehezkel Rohekar*, Anahita Bhiwandiwalla*, Shao-Yen Tseng*, Matthew Lyle Olson*, Yaniv Gurwicz*, Chenfei Wu, Nan Duan, Vasudev Lal.</li>
                                           <li><b>P06</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P06.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P06_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> Interactive Visual Feature Search.</b> Devon Ulrich, Ruth Fong.</li>
                                           <li><b>P07</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P07.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/mCckSgctoCY?si=MP4GQBM_lohCwzQS"> <VideoIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P07_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> Explaining Models Relating Objects and Privacy.</b> Alessio Xompero, Myriam Bontonou, Jean-Michel Arbona, Emmanouil Benetos, Andrea Cavallaro.</li>
                                           <li><b>P08</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P08.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P08_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> Recent Trends, Challenges, and Limitations of Explainable AI in Remote Sensing.</b> Adrian Höhl*, Ivica Obadic*, Miguel-Ángel Fernández-Torres, Dario Oliveira, Xiao Xiang Zhu.</li>
                                           <li><b>P09</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P09.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/bEZp089HHAg?si=yeWG9AvB7OAlmzXs"> <VideoIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P09_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> CA-Stream: Attention-based Pooling for Interpretable Image Recognition.</b> Felipe Torres, Hanwei Zhang, Ronan Sicre, Stéphane Ayache, Yannis Avrithis.</li>
                                           <li><b>P10</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P10.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/PZpOPtXDDHo?si=XP2pIBfDGb8PGXI4"> <VideoIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P10_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> SUNY: A Visual Interpretation Framework for Convolutional Neural Networks from a Necessary and Sufficient Perspective.</b> Xiwei Xuan, Ziquan Deng, Hsuan-Tien Lin, Zhaodan Kong, Kwan-Liu Ma.</li>
                                           <li><b>P11</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P11.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P11_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> PURE: Turning Polysemantic Neurons Into Pure Features by Identifying Relevant Circuits.</b> Maximilian Dreyer, Erblina Purelku, Johanna Vielhaben, Wojciech Samek, Sebastian Lapuschkin.</li>
                                           <li><b>P12</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P12.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="https://youtu.be/Uz21yZ04gfE?si=SOh-uYizbjqvB5jl"> <VideoIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P12_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                           <b> Semantic Approach to Quantifying the Consistency of Diffusion Model Image Generation.</b> Brinnae Bent.</li>
                                           <li><b>P13</b>
                                             <Link target="_blank" rel="noopener" href="./assets/papers2024/P13.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                            <Link target="_blank" rel="noopener" href="./assets/papers2024/P13_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                             <b> Quantifying Explainability with Multi-Scale Gaussian Mixture Models.</b> Anthony Rhodes, Yali Bian, Ilke Demir.</li>
                                         </ul>
                                         </Typography>
@@ -371,27 +397,33 @@ class Workshop extends React.Component {
                                         <ul>
                                         <li><b>P14</b>
                                           <Link target="_blank" rel="noopener" href="./assets/papers2024/P14.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2024/P14_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                         <b> Identifying Spurious Correlations using Counterfactual Alignment.</b> Joseph Paul Cohen, Louis Blankemeier, Akshay Chaudhari.</li>
                                         <li><b>P15</b>
                                           <Link target="_blank" rel="noopener" href="./assets/papers2024/P15.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2024/P15_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                         <b> Visual Concept Connectome (VCC): Open World Concept Discovery and their Interlayer Connections in Deep Models.</b> Matthew Kowal, Richard P. Wildes, Konstantinos G. Derpanis.</li>
                                         <li><b>P16</b>
-                                          <Link target="_blank" rel="noopener" href="./assets/papers2024/P16.pdf"> <PDFIcon fontSize="inherit"/></Link>
                                         <b> Utility-Fairness Trade-Offs and How to Find Them.</b> </li>
                                         <li><b>P17</b>
-                                          <Link target="_blank" rel="noopener" href="./assets/papers2024/P17.pdf"> <PDFIcon fontSize="inherit"/></Link>
                                         <b> FairerCLIP: Debiasing Zero-Shot Predictions of CLIP in RKHSs.</b> </li>
                                         <li><b>P18</b>
                                           <Link target="_blank" rel="noopener" href="./assets/papers2024/P18.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                          <Link target="_blank" rel="noopener" href="https://youtu.be/hxR8nVGLbMU?si=qke2fa35arX1032A"> <VideoIcon fontSize="inherit"/></Link>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2024/P18_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                         <b> Connect, Collapse, Corrupt: Learning Cross-Modal Tasks with Uni-Modal Data.</b> Yuhui Zhang*, Elaine Sui*, Serena Yeung-Levy.</li>
                                         <li><b>P19</b>
                                           <Link target="_blank" rel="noopener" href="./assets/papers2024/P19.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2024/P19_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                         <b> Describe-and-Dissect: Interpreting Neurons in Vision Networks with Language Models.</b> Nicholas Bai*, Rahul Ajay Iyer*, Tuomas Oikarinen, Tsui-Wei Weng.</li>
                                         <li><b>P20</b>
                                           <Link target="_blank" rel="noopener" href="./assets/papers2024/P20.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2024/P20_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                         <b> An Image Patch Row-Column Ranking Method Using the Feature Accumulation Matrix to Explain Decisions of a Convolutional Neural Network.</b> Luna M. Zhang.</li>
                                         <li><b>P21</b>
                                           <Link target="_blank" rel="noopener" href="./assets/papers2024/P21.pdf"> <PDFIcon fontSize="inherit"/></Link>
+                                          <Link target="_blank" rel="noopener" href="https://youtu.be/ewYqahy-Pso?si=ls0cpBVo2M238xDJ"> <VideoIcon fontSize="inherit"/></Link>
+                                          <Link target="_blank" rel="noopener" href="./assets/papers2024/P21_poster.pdf"> <PhotoSizeSelectActualIcon fontSize="inherit"/></Link>
                                         <b> DiG-IN: Diffusion Guidance for Investigating Networks - Uncovering Classifier Differences, Neuron Visualisations, and Visual Counterfactual Explanations.</b> Maximilian Augustin, Yannic Neuhaus, Matthias Hein.</li>
                                         </ul>
                                         </Typography>
