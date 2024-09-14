@@ -72,6 +72,8 @@ class Workshop extends React.Component {
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Recording:</b> <Link target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=o2YmzPXtAgc&ab_channel=ComputerVisionFoundationVideos">https://www.youtube.com/watch?v=o2YmzPXtAgc&ab_channel=ComputerVisionFoundationVideos</Link><br />
+                                            <br />
                                             <b>Date:</b> Tuesday, June 18, 2024 <br />
                                             <b>Location:</b> Arch 2A, Seattle Convention Center, Seattle, WA, USA <br />
                                         </Typography>

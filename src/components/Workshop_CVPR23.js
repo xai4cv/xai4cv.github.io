@@ -73,7 +73,6 @@ class Workshop extends React.Component {
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
                                             <b>Recording:</b> <Link target="_blank" rel="noopener" href="https://cvpr.thecvf.com/virtual/2023/workshop/18445">https://cvpr.thecvf.com/virtual/2023/workshop/18445</Link><br />
-                                            <b>Feedback form:</b> <Link target="_blank" rel="noopener" href="https://tinyurl.com/XAI4CVatCVPR2023">https://tinyurl.com/XAI4CVatCVPR2023</Link><br />
                                             <br />
                                             <b>Date:</b> Monday, June 19, 2023 <br />
                                             <b>Location:</b> West 121-122, Vancouver Convention Center, Vancouver, BC, Canada <br />

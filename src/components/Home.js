@@ -80,7 +80,7 @@ class Home extends React.Component {
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="body1" align="left">
-                                                <a href="./workshop_cvpr24"><b>The 3rd XAI4CV Workshop at CVPR 2024</b></a>
+                                                TBD
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -95,6 +95,13 @@ class Home extends React.Component {
                                             >
                                             Previous workshops
                                         </Typography>
+                                    </Grid>
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="body1" align="left">
+                                                <a href="./workshop_cvpr24"><b>The 3rd XAI4CV Workshop at CVPR 2024</b></a>
+                                            </Typography>
+                                        </Grid>
                                     </Grid>
                                     <Grid container justify="flex-start">
                                         <Grid item xs={12} lg={9} className={classes.gridItem}>
