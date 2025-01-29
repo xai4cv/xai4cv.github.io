@@ -10,6 +10,7 @@ import Home from './components/Home';
 import Workshop_CVPR22 from './components/Workshop_CVPR22';
 import Workshop_CVPR23 from './components/Workshop_CVPR23';
 import Workshop_CVPR24 from './components/Workshop_CVPR24';
+import Workshop_CVPR25 from './components/Workshop_CVPR25';
 
 class App extends React.Component {
   render() {
@@ -29,6 +30,8 @@ class App extends React.Component {
               <Route path="/workshop_cvpr23/"><Redirect to="/workshop_cvpr23" /></Route>
               <Route path="/workshop_cvpr24" exact component={Workshop_CVPR24} />
               <Route path="/workshop_cvpr24/"><Redirect to="/workshop_cvpr24" /></Route>
+              <Route path="/workshop_cvpr25" exact component={Workshop_CVPR25} />
+              <Route path="/workshop_cvpr25/"><Redirect to="/workshop_cvpr25" /></Route>
             </div>
 
           </div>
