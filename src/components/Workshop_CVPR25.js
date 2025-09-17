@@ -72,9 +72,10 @@ class Workshop extends React.Component {
 
                                     <Grid item xs={12} className={classes.gridItem}>
                                         <Typography className={classes.sectionHeader} variant="subtitle1" align="left">
+                                            <b>Recording:</b> <Link target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Y47yian9rnY">https://www.youtube.com/watch?v=Y47yian9rnY</Link><br />
+                                            <br />
                                             <b>Date & Time:</b> June 11, 2025, 1pm - 5pm (CDT local time) <br />
                                             <b>Location:</b> 107 B, Music City Center, Nashville, TN, USA <br />
-                                            <b>Zoom link & QA:</b> <a target="_blank" rel="noopener" href="https://cvpr.thecvf.com/virtual/2025/workshop/32349">https://cvpr.thecvf.com/virtual/2025/workshop/32349</a> <br />
                                         </Typography>
                                     </Grid>
 
@@ -146,6 +147,13 @@ class Workshop extends React.Component {
                                                 <b>13:35 PM - 14:00 PM: </b> Invited Talk 2:
                                                 &nbsp;<a target="_blank" rel="noopener" href="https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/">Mihaela van der Schaar</a>
                                             </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                              <ul>
+                                                <li>
+                                                <b>The Road to Transparent AI: Lessons Learned</b>
+                                                </li>
+                                              </ul>
+                                            </Typography>
                                         </Grid>
                                     </Grid>
 
@@ -165,6 +173,13 @@ class Workshop extends React.Component {
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>14:25 PM - 14:50 PM: </b> Invited Talk 4:
                                                 &nbsp;<a target="_blank" rel="noopener" href="https://www.brookings.edu/people/chinasa-t-okolo/">Chinasa T. Okolo</a>
+                                            </Typography>
+                                            <Typography className={classes.sectionHeader} variant="body2" align="left">
+                                              <ul>
+                                                <li>
+                                                <b>AI Explainability in the Global Majority: Development and Policy Perspectives</b>
+                                                </li>
+                                              </ul>
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -398,6 +413,21 @@ class Workshop extends React.Component {
                                     <People/>
 
                                     <div className={classes.container}/>
+
+                                    <Grid item xs={12} className={classes.gridItem}>
+                                        <Typography className={classes.sectionHeader} variant="h5" align="left">
+                                            Program Committee
+                                        </Typography>
+                                    </Grid>
+                                    <Grid container justify="flex-start">
+                                        <Grid item xs={12} lg={9} className={classes.gridItem}>
+                                            <Typography className={classes.SectionHeader} variant="body2" align="left">
+                                            <b>We thank our wonderful program committee members who made this workshop possible!</b>
+                                            <br/><br/>
+                                            Ada Görgün, Adrian Höhl, Amin Parchami-Araghi, Anders Gjølbye, Angelos Nalmpantis, Anirban Sarkar, Anthony Rhodes, Avinab Saha, Bartlomiej Sobieski, Bor-Shiun Wang, Brinnae Bent, Chenyang Zhao, Dahye Kim, Eike Peterson, Elaine Sui, Elisa Nguyen, Fawaz Sammani, Frederic Jurie, Giang Nguyen, Guillaume Jeanneret, Hubert Baniecki, Indu Panigrahi, Ivica Obadic, Jinwoo Choi, John Gkountouras, Jonathan Donnelly, Joseph Paul Cohen, Lan Wang, Laura O'Mahony, Lenka Tětková, Luna Zhang, Manxi Lin, Marina Gavrilova, Matthew Olson, Mayank Singh, Miguel-Ángel Fernández-Torres, Nhi Pham, Nils Huetten, Nina Weng, Paraskevas Pegios, Pattarawat Chormai, Paul Gavrikov, Ping Xiong, Piotr Komorowski, Pushkar Shukla, Quentin Bouniot, Rajat Sahay, Romain Xu-Darme, Sadaf Gulshad, Satyapriya Krishna, Saurabh Pitre, Shashank Gupta, Simon Schrodi, Simone Schaub-Meyer, Sukrut Rao, Sunnie S. Y. Kim, Susu Sun, Sweta Mahajan, Teresa Dorszewski, Thea Brüsch, Tobias Labarta, Tobias Meisen, Vikram V. Ramaswamy, Vipin Pillai, Xiwei Xuan, Yuhui Zhang
+                                            </Typography>
+                                        </Grid>
+                                    </Grid>
 
 
                                     <div className={classes.container}/>
