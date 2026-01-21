@@ -129,7 +129,7 @@ class Workshop extends React.Component {
                                         <Grid item xs={12} lg={12} className={classes.gridItem}>
                                             <Typography className={classes.SectionHeader} variant="subtitle1" align="left">
                                                 <b>13:10 PM - 13:35 PM: </b> Invited Talk 1:
-                                                &nbsp;<a target="_blank" rel="noopener" href="https://lilyweng.github.io/">Tsui-Wei (Lily) Weng</a>
+                                                &nbsp;<a target="_blank" rel="noopener" href="https://lilywenglab.github.io/">Tsui-Wei (Lily) Weng</a>
                                             </Typography>
                                             <Typography className={classes.sectionHeader} variant="body2" align="left">
                                             <ul>
